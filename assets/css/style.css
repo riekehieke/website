@@ -64,6 +64,7 @@ a{
   width: 100%;
 }
 .thumbnail {
+  position: relative;
   width: 33%;
   z-index: 1;
 }
@@ -71,6 +72,7 @@ a{
   display: block;
   width: 100%;
   height: auto;
+  position: relative;
 }
 
 .overlay {
@@ -83,8 +85,7 @@ a{
   bottom: 0;
   left: 0;
   right: 0;
-  /*height: 100%;*/
-  width: 33%;
+  width: 100%;
   opacity: 0;
   transition: .5s ease;
 }
