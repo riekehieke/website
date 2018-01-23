@@ -147,7 +147,7 @@ a{
 }
 
 /* details-gallery */
-.fickdich {
+.galerie {
   width: 100%;
   margin: 0 1%;
   display: flex;
@@ -165,7 +165,7 @@ content: "";
     padding-top: 180%;
 }
 .quer-img {
-  width: 30%;
+  width: 35%;
   margin: 2% 2% 2% 0;
   background: url() center / cover no-repeat;
 }
