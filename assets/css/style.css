@@ -154,17 +154,23 @@ a{
   justify-content: flex-start;
   flex-wrap: wrap;
 }
-.detail-img {
-  width: 30%;
-  /* height: 100% */
+.hoch-img {
+  width: 10%;
   margin: 2% 2% 2% 0;
   background: url() center / cover no-repeat;
 }
-.detail-img::before {
+.hoch-img::before {
 content: "";
     display: block;
     padding-top: 180%;
 }
-.detail-img img {
-  width: 100%;
+.quer-img {
+  width: 30%;
+  margin: 2% 2% 2% 0;
+  background: url() center / cover no-repeat;
+}
+.quer-img::before {
+content: "";
+    display: block;
+    padding-top: 75%;
 }
