@@ -1,21 +1,17 @@
 /* basic-styling */
 html, body {
-  background: linear-gradient(270deg, #000000, #2f2f2f);
-background-size: 400% 400%;
-
--webkit-animation: Background 30s ease infinite;
--moz-animation: Background 30s ease infinite;
-animation: Background 30s ease infinite;
+background-color: #000000;
 font-family: Courier New, Courier, monospace;
 font-size: 16px;
 color: #fff;
+overflow-x: hidden;
 }
 
 .overflow {
   overflow: hidden;
 }
 
-/* Background Webkit */
+/* Background Webkit
 @-webkit-keyframes Background {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
@@ -31,7 +27,7 @@ color: #fff;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-
+*/
 /* font-styling */
 h1 {
   font-size: 1.7rem;
@@ -84,7 +80,7 @@ a{
 }
 .thumbnail {
   position: relative;
-  width: 33%;
+  width: 33.3%;
   z-index: 1;
 }
 .image {
@@ -148,4 +144,27 @@ a{
   width: 60%;
   height: 60%;
   margin: 0 1%;
+}
+
+/* details-gallery */
+.fickdich {
+  width: 100%;
+  margin: 0 1%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.detail-img {
+  width: 30%;
+  /* height: 100% */
+  margin: 2% 2% 2% 0;
+  background: url() center / cover no-repeat;
+}
+.detail-img::before {
+content: "";
+    display: block;
+    padding-top: 180%;
+}
+.detail-img img {
+  width: 100%;
 }
