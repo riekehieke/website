@@ -136,3 +136,16 @@ a{
 .portrait img {
   width: 15%;
 }
+/* details-page-styling */
+.details h1 {
+  margin: 3% 1%;
+}
+.details p {
+  width: 75%;
+  margin: 3% 1%;
+}
+.youtube {
+  width: 60%;
+  height: 60%;
+  margin: 0 1%;
+}
