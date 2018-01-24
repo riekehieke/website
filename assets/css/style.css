@@ -33,6 +33,10 @@ h1 {
   font-size: 1.7rem;
   font-weight: 400;
 }
+h2 {
+font-size: 1.5rem;
+font-weight: 400;
+}
 h3 {
   font-size: 1.3rem;
   font-weight: 400;
@@ -58,7 +62,16 @@ a{
 .header {
   display: flex;
   justify-content: space-between;
+  height: 35px;
 }
+.header h2 {
+  margin: 5px 0 5px 1%;
+  width: 100%;
+}
+.header h2:hover {
+  opacity: 0.7;
+}
+/* logo */
 .logo {
   width: 15%;
 }
