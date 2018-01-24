@@ -155,17 +155,27 @@ a{
   flex-wrap: wrap;
 }
 .hoch-img {
-  width: 10%;
+  width: 33%;
   margin: 2% 2% 2% 0;
   background: url() center / cover no-repeat;
 }
 .hoch-img::before {
 content: "";
     display: block;
+    padding-top: 150%;
+}
+.phone-img {
+  width: 10%;
+  margin: 2% 2% 2% 0;
+  background: url() center / cover no-repeat;
+}
+.phone-img::before {
+content: "";
+    display: block;
     padding-top: 180%;
 }
 .quer-img {
-  width: 35%;
+  width: 30%;
   margin: 2% 2% 2% 0;
   background: url() center / cover no-repeat;
 }
