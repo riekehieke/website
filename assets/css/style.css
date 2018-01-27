@@ -79,6 +79,10 @@ a{
   display: inherit;
   z-index: 99;
 }
+.menu a {
+  font-size: 1.3rem;
+  line-height: 3rem;
+}
 
 /* projects-page-styling */
 .projects {
