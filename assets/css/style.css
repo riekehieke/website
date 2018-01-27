@@ -10,24 +10,6 @@ overflow-x: hidden;
 .overflow {
   overflow: hidden;
 }
-
-/* Background Webkit
-@-webkit-keyframes Background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes Background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes Background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-*/
 /* font-styling */
 h1 {
   font-size: 1.7rem;
@@ -109,8 +91,18 @@ a{
   width: 33.3%;
   z-index: 1;
 }
+.thumbnail2 {
+  width: 33.3%;
+    position: relative;
+    background: url() 50% 50% no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    cursor: pointer;
+    z-index: 1;
+    display: block;
+}
 .image {
-  display: block;
+
   width: 100%;
   height: auto;
   position: relative;
@@ -131,6 +123,9 @@ a{
   transition: .5s ease;
 }
 .thumbnail:hover .overlay {
+  opacity: 1;
+}
+.thumbnail2:hover .overlay {
   opacity: 1;
 }
 .text {
@@ -205,7 +200,7 @@ content: "";
 content: "";
     display: block;
     padding-top: 180%;
-}*/
+}
 .img {
   width: 30%;
   margin: 2% 2% 2% 0;
@@ -217,7 +212,7 @@ content: "";
     padding-top: 75%;
 }
 .img_x {
-  width: 40%;
+  width: 30%;
   margin: 2% 2% 0 0;
   position: relative;
   flex-grow: 0.5;
@@ -225,4 +220,45 @@ content: "";
 .img_x img {
     width:100%;
     height: auto;
-}
+}*/
+
+/* Gallery wie in Portfolio Seite Lightbox */
+.galerie {
+    padding: 2% 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+.img {
+    width: 45%;
+    margin: 0 1vw 1vw 0;
+    position: relative;
+    background: url() 50% 50% no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    flex-grow: 0.5;
+  }
+  .img:before {
+    display: block;
+    content: "";
+    padding-top: 75%;
+  }
+  .img:last-child {
+    flex-grow: 0.07;
+  }
+  .hochformat {
+    width: 22.5%;
+    margin: 0 1vw 1vw 0;
+    position: relative;
+    background: url() 50% 50% no-repeat;
+    background-size: contain;
+    background-clip: content-box;
+    flex-grow: 0.5;
+    background-color: #282828;
+  }
+  .hochformat:before {
+    display: block;
+    content: "";
+    padding-top: 150%;
+  }
