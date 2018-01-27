@@ -222,10 +222,7 @@ a{
   /* Lightbox */
 
   .lightbox {
-	/** Default lightbox to hidden */
-	display: none;
-
-	/** Position and style */
+  display: none;
 	position: fixed;
 	z-index: 999;
 	width: 100%;
@@ -235,21 +232,13 @@ a{
   background: rgba(0,0,0,0.9);
   overflow: hidden;
 }
-
 .lightbox img {
-	/** Pad the lightbox image */
-  width: 80%;
+  height: 90%;
   top: 0;
   left: 0;
   margin: 50vh 0 0 50%;
   transform: translate(-50%, -50%);
-
 }
-
 .lightbox:target {
-	/** Remove default browser outline */
-	outline: none;
-
-	/** Unhide lightbox **/
-	display: block;
+  display: block;
 }
