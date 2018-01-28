@@ -1,4 +1,10 @@
 "use strict"
+$(document).ready(function () {
+  $("#load_start").on("click", function () {
+    $("#content").load("../html/start.html");
+    console.log('funktion läuft')
+  });
+});
 
 var hamburger = document.querySelector(".hamburger");
 hamburger.addEventListener("click", function () {
