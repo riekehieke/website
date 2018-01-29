@@ -299,6 +299,11 @@ a {
 .portrait img {
   width: 20%;
 }
+.youtube {
+  width: 74%;
+  height: 35%;
+  margin: 0 1%;
+}
 }
 @media screen and (max-width: 600px){
 .thumbnail {
