@@ -218,6 +218,20 @@ a {
     content: "";
     padding-top: 75%;
   }
+  .hochformat_last {
+    width: 22.5%;
+    margin: 0 1vw 1vw 0;
+    position: relative;
+    background: url() 50% 50% no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    flex-grow: 0.35;
+  }
+  .hochformat_last:before {
+    display: block;
+    content: "";
+    padding-top: 140%;
+  }
 /* hochformat */
   .hochformat {
     width: 22.5%;
@@ -227,7 +241,6 @@ a {
     background-size: cover;
     background-clip: content-box;
     flex-grow: 0.5;
-    background-color: #282828;
   }
   .hochformat:before {
     display: block;
