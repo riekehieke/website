@@ -15,26 +15,8 @@ img.addEventListener("click", function () {
   scrolling.classList.toggle("overflow");
 });
 
-var img_last = document.querySelector(".img_last");
-img_last.addEventListener("click", function () {
-  var scrolling = document.querySelector("body");
-  scrolling.classList.toggle("overflow");
-});
-
-var hochformat = document.querySelector(".hochformat");
-hochformat.addEventListener("click", function () {
-  var scrolling = document.querySelector("body");
-  scrolling.classList.toggle("overflow");
-});
-
-var hochformat_last = document.querySelector(".hochformat_last");
-hochformat_last.addEventListener("click", function () {
-  var scrolling = document.querySelector("body");
-  scrolling.classList.toggle("overflow");
-});
-
 var lightbox = document.querySelector(".lightbox");
 lightbox.addEventListener("click", function () {
-  var scrolling = document.querySelector("body");
-  scrolling.classList.toggle("overflow");
+  var body = document.querySelector("body");
+  body.classList.toggle("overflow");
 });

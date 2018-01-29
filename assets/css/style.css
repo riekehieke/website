@@ -73,6 +73,7 @@ a {
   text-align: center;
   text-decoration: none;
   background: inherit;
+  overflow: hidden;
 }
 .menu ul {
     list-style: none;
@@ -246,22 +247,6 @@ a {
     display: block;
     content: "";
     padding-top: 140%;
-  }
-/* phone screens */
-  .phone {
-    width: 22.5%;
-    margin: 0 1vw 1vw 0;
-    position: relative;
-    background: url() 50% 50% no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    background-color: #282828;
-  }
-
-  .phone:before {
-    display: block;
-    content: "";
-    padding-top: 175%;
   }
 
   /* Lightbox */
