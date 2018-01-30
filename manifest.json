@@ -1,8 +1,14 @@
 {
-  "name": "rieke helmers",
-  "short_name": "rieke helmers",
+  "name": "Rieke Helmers - Portfolio",
+  "short_name": "Portfolio",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#000",
-  "description": "the personal website of rieke helmers"
+  "description": "the personal website of rieke helmers",
+  "Icons": [
+    {
+      "src": "assets/img/icons/white_transparent_72.png",
+      "sizes": "73x73"
+    }
+  ]
 }
