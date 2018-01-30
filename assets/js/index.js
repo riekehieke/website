@@ -3,91 +3,59 @@
 // on page load start.html
 $(document).ready(function () {
   $(".content").load("assets/html/start.html");
-});
 
-// hamburger menu active
-$(document).ready(function () {
+
+  // hamburger menu active
   $(".hamburger").on("click", function () {
     $(".hamburger").toggleClass("is-active");
-    console.log('hamburger active');
     $(".menu").toggleClass("active");
-    console.log('menu active');
     $(".body").toggleClass("overflow");
   });
-});
-// load home on name click
-$(document).ready(function () {
+  // load home on name click
   $("#load_home").on("click", function () {
     $(".content").load("assets/html/start.html");
-  })
-});
-// menu click work
-$(document).ready(function () {
+  });
+  // menu click work
   $("#load_start").on("click", function () {
     $(".content").load("assets/html/start.html");
-    console.log('projects');
     $(".hamburger").toggleClass("is-active");
-    console.log('hamburger active');
     $(".menu").toggleClass("active");
-    console.log('menu active');
     $(".body").toggleClass("overflow");
   });
-});
 
-// menu click about
-$(document).ready(function () {
+  // menu click about
   $("#load_about").on("click", function () {
     $(".content").load("assets/html/about.html");
-    console.log('about');
     $(".hamburger").toggleClass("is-active");
-    console.log('hamburger active');
     $(".menu").toggleClass("active");
-    console.log('menu active');
     $(".body").toggleClass("overflow");
   });
-});
 
-// menu click cv
-$(document).ready(function () {
+  // menu click cv
   $("#load_cv").on("click", function () {
     $(".content").load("assets/html/cv.html");
-    console.log('cv');
     $(".hamburger").toggleClass("is-active");
-    console.log('hamburger active');
     $(".menu").toggleClass("active");
-    console.log('menu active');
     $(".body").toggleClass("overflow");
   });
-});
 
-// menu click contact
-$(document).ready(function () {
+  // menu click contact
   $("#load_contact").on("click", function () {
     $(".content").load("assets/html/contact.html");
-    console.log('cv');
     $(".hamburger").toggleClass("is-active");
-    console.log('hamburger active');
     $(".menu").toggleClass("active");
-    console.log('menu active');
     $(".body").toggleClass("overflow");
   });
-});
 
-// menu click imprint
-$(document).ready(function () {
+  // menu click imprint
   $("#load_imprint").on("click", function () {
     $(".content").load("assets/html/imprint.html");
-    console.log('cv');
     $(".hamburger").toggleClass("is-active");
-    console.log('hamburger active');
     $(".menu").toggleClass("active");
-    console.log('menu active');
     $(".body").toggleClass("overflow");
   });
-});
 
-// on click load projects
-$(document).ready(function () {
+  // on click load projects
   $(".content").on("click", "#pr1", function () {
     $(".content").load("assets/projects/time.html");
   });
@@ -118,35 +86,27 @@ $(document).ready(function () {
   $(".content").on("click", "#pr10", function () {
     $(".content").load("assets/projects/photography.html");
   });
-});
 
-
-
-// lightbox overflow toggle
-$(document).ready(function () {
+  // lightbox overflow toggle
   var toppiflopp;
   $(".content").on("click", ".img", function (e) {
     toppiflopp = $(document).scrollTop();
     $('#' + e.target.id + '-l').toggleClass("light-active");
-    console.log(e.target.id + '-l');
     $("body").toggleClass("overflow");
   });
   $(".content").on("click", ".img_last", function (e) {
     toppiflopp = $(document).scrollTop();
     $('#' + e.target.id + '-l').toggleClass("light-active");
-    console.log(e.target.id + '-l');
     $("body").toggleClass("overflow");
   });
   $(".content").on("click", ".hochformat", function (e) {
     toppiflopp = $(document).scrollTop();
     $('#' + e.target.id + '-l').toggleClass("light-active");
-    console.log(e.target.id + '-l');
     $("body").toggleClass("overflow");
   });
   $(".content").on("click", ".hochformat_last", function (e) {
     toppiflopp = $(document).scrollTop();
     $('#' + e.target.id + '-l').toggleClass("light-active");
-    console.log(e.target.id + '-l');
     $("body").toggleClass("overflow");
   });
   $(".content").on("click", ".lightbox", function () {
@@ -155,27 +115,3 @@ $(document).ready(function () {
     $(".lightbox").removeClass("light-active");
   });
 });
-
-//old stuff
-
-
-// var hamburger = document.querySelector(".hamburger");
-// hamburger.addEventListener("click", function () {
-//   hamburger.classList.toggle("is-active");
-//   var menu = document.querySelector(".menu");
-//   menu.classList.toggle("active");
-//   var overflow = document.querySelector("body");
-//   overflow.classList.toggle("overflow");
-// });
-
-// var img = document.querySelector(".img");
-// img.addEventListener("click", function () {
-//   var scrolling = document.querySelector("body");
-//   scrolling.classList.toggle("overflow");
-// });
-
-// var lightbox = document.querySelector(".lightbox");
-// lightbox.addEventListener("click", function () {
-//   var body = document.querySelector("body");
-//   body.classList.toggle("overflow");
-// });
