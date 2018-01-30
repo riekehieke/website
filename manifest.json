@@ -7,7 +7,7 @@
   "description": "the personal website of rieke helmers",
   "icons": [
     {
-      "src": "assets/img/icons/white_transparent_500.png",
+      "src": "assets/img/icons/white_transparent.png",
       "sizes": "500x500"
     }
   ]
