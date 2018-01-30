@@ -124,29 +124,35 @@ $(document).ready(function () {
 
 // lightbox overflow toggle
 $(document).ready(function () {
+  var toppiflopp;
   $(".content").on("click", ".img", function (e) {
+    toppiflopp = $(document).scrollTop();
     $('#' + e.target.id + '-l').toggleClass("light-active");
     console.log(e.target.id + '-l');
-    $(".body").toggleClass("overflow");
+    $("body").toggleClass("overflow");
   });
   $(".content").on("click", ".img_last", function (e) {
+    toppiflopp = $(document).scrollTop();
     $('#' + e.target.id + '-l').toggleClass("light-active");
     console.log(e.target.id + '-l');
-    $(".body").toggleClass("overflow");
+    $("body").toggleClass("overflow");
   });
   $(".content").on("click", ".hochformat", function (e) {
+    toppiflopp = $(document).scrollTop();
     $('#' + e.target.id + '-l').toggleClass("light-active");
     console.log(e.target.id + '-l');
-    $(".body").toggleClass("overflow");
+    $("body").toggleClass("overflow");
   });
   $(".content").on("click", ".hochformat_last", function (e) {
+    toppiflopp = $(document).scrollTop();
     $('#' + e.target.id + '-l').toggleClass("light-active");
     console.log(e.target.id + '-l');
-    $(".body").toggleClass("overflow");
+    $("body").toggleClass("overflow");
   });
   $(".content").on("click", ".lightbox", function () {
-    $(".body").toggleClass("overflow");
-    $(".lightbox").toggleClass("light-active");
+    $("body").toggleClass("overflow");
+    $(document).scrollTop(toppiflopp);
+    $(".lightbox").removeClass("light-active");
   });
 });
 
