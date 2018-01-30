@@ -5,10 +5,14 @@
   "display": "standalone",
   "background_color": "#000",
   "description": "the personal website of rieke helmers",
-  "Icons": [
+  "icons": [
     {
-      "src": "assets/img/icons/white_transparent_72.png",
-      "sizes": "73x73"
+      "src": "assets/img/icons/white_transparent.jpg",
+      "sizes": "480x480"
+    },
+    {
+      "src": "assets/img/icons/white_transparent.jpg",
+      "sizes": "500x480"
     }
   ]
 }
