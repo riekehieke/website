@@ -15,7 +15,12 @@ $(document).ready(function () {
     $(".body").toggleClass("overflow");
   });
 });
-
+// load home on name click
+$(document).ready(function () {
+  $("#load_home").on("click", function () {
+    $(".content").load("assets/html/start.html");
+  })
+});
 // menu click work
 $(document).ready(function () {
   $("#load_start").on("click", function () {
@@ -119,22 +124,35 @@ $(document).ready(function () {
 
 // lightbox overflow toggle
 $(document).ready(function () {
-  $(".content").on("click", ".img", function () {
+  $(".content").on("click", ".img", function (e) {
+    $('#' + e.target.id + '-l').toggleClass("light-active");
+    console.log(e.target.id + '-l');
     $(".body").toggleClass("overflow");
   });
-  $(".content").on("click", ".img_last", function () {
+  $(".content").on("click", ".img_last", function (e) {
+    $('#' + e.target.id + '-l').toggleClass("light-active");
+    console.log(e.target.id + '-l');
     $(".body").toggleClass("overflow");
   });
-  $(".content").on("click", ".hochformat", function () {
+  $(".content").on("click", ".hochformat", function (e) {
+    $('#' + e.target.id + '-l').toggleClass("light-active");
+    console.log(e.target.id + '-l');
     $(".body").toggleClass("overflow");
   });
-  $(".content").on("click", ".hochformat_last", function () {
+  $(".content").on("click", ".hochformat_last", function (e) {
+    $('#' + e.target.id + '-l').toggleClass("light-active");
+    console.log(e.target.id + '-l');
     $(".body").toggleClass("overflow");
   });
   $(".content").on("click", ".lightbox", function () {
     $(".body").toggleClass("overflow");
+    $(".lightbox").toggleClass("light-active");
   });
 });
+
+//old stuff
+
+
 // var hamburger = document.querySelector(".hamburger");
 // hamburger.addEventListener("click", function () {
 //   hamburger.classList.toggle("is-active");
