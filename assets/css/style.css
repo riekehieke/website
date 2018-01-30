@@ -38,10 +38,11 @@ p {
   font-size: 1rem;
   line-height: 1.5
 }
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
+
 /* header */
 .header {
   display: flex;
@@ -72,6 +73,7 @@ a{
   text-align: center;
   text-decoration: none;
   background: inherit;
+  overflow: hidden;
 }
 .menu ul {
     list-style: none;
@@ -84,6 +86,9 @@ a{
 .menu a {
   font-size: 1.3rem;
   line-height: 3rem;
+}
+.menu a:hover {
+  opacity: 0.7;
 }
 
 /* projects-page-styling */
@@ -146,6 +151,9 @@ a{
 .page a {
   text-decoration: underline;
 }
+.page a:hover {
+  opacity: 0.7;
+}
 .portrait {
   margin: 3% 1%;
 }
@@ -162,6 +170,9 @@ a{
 }
 .details a {
   text-decoration: underline;
+}
+.details p a:hover {
+  opacity: 0.7;
 }
 .youtube {
   width: 74%;
@@ -208,6 +219,20 @@ a{
     content: "";
     padding-top: 75%;
   }
+  .hochformat_last {
+    width: 22.5%;
+    margin: 0 1vw 1vw 0;
+    position: relative;
+    background: url() 50% 50% no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    flex-grow: 0.35;
+  }
+  .hochformat_last:before {
+    display: block;
+    content: "";
+    padding-top: 140%;
+  }
 /* hochformat */
   .hochformat {
     width: 22.5%;
@@ -217,28 +242,11 @@ a{
     background-size: cover;
     background-clip: content-box;
     flex-grow: 0.5;
-    background-color: #282828;
   }
   .hochformat:before {
     display: block;
     content: "";
     padding-top: 140%;
-  }
-/* phone screens */
-  .phone {
-    width: 22.5%;
-    margin: 0 1vw 1vw 0;
-    position: relative;
-    background: url() 50% 50% no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    background-color: #282828;
-  }
-
-  .phone:before {
-    display: block;
-    content: "";
-    padding-top: 175%;
   }
 
   /* Lightbox */
@@ -246,7 +254,7 @@ a{
   .lightbox {
   display: none;
 	position: fixed;
-	z-index: 999;
+	z-index: 998;
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -262,6 +270,7 @@ a{
   left: 0;
   margin: 50vh 0 0 50%;
   transform: translate(-50%, -50%);
+  z-index: 999;
 }
 .lightbox:target {
   display: block;
@@ -274,6 +283,11 @@ a{
 }
 .portrait img {
   width: 20%;
+}
+.youtube {
+  width: 74%;
+  height: 35%;
+  margin: 0 1%;
 }
 }
 @media screen and (max-width: 600px){
@@ -290,12 +304,15 @@ a{
 }
 .img {
 width: 74%;
+flex-grow: 1;
 }
 .img_last {
 width: 74%;
+flex-grow: 1;
 }
 .hochformat {
 width: 30%;
+flex-grow: 1;
 }
 .phone {
 width: 30%;
