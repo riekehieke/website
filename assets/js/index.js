@@ -86,6 +86,9 @@ $(document).ready(function () {
   $(".content").on("click", "#pr10", function () {
     $(".content").load("assets/projects/photography.html");
   });
+  $(".content").on("click", "#goto_contact", function () {
+    $(".content").load("assets/html/contact.html");
+  });
 
   // lightbox overflow toggle
   var toppiflopp;
