@@ -56,34 +56,37 @@ $(document).ready(function () {
   });
 
   // on click load projects
-  $(".content").on("click", "#pr1", function () {
-    $(".content").load("assets/projects/time.html");
-  });
-  $(".content").on("click", "#pr2", function () {
-    $(".content").load("assets/projects/typro.html");
-  });
-  $(".content").on("click", "#pr3", function () {
-    $(".content").load("assets/projects/marketing.html");
-  });
-  $(".content").on("click", "#pr4", function () {
-    $(".content").load("assets/projects/bewerbung.html");
-  });
-  $(".content").on("click", "#pr5", function () {
-    $(".content").load("assets/projects/rh.html");
-  });
-  $(".content").on("click", "#pr6", function () {
-    $(".content").load("assets/projects/sternenhimmel.html");
-  });
-  $(".content").on("click", "#pr7", function () {
-    $(".content").load("assets/projects/circular.html");
-  });
-  $(".content").on("click", "#pr8", function () {
-    $(".content").load("assets/projects/abstract.html");
-  });
-  $(".content").on("click", "#pr9", function () {
-    $(".content").load("assets/projects/posters.html");
+  $(".content").on("click", "#pr11", function () {
+    $(".content").load("assets/projects/klima.html");
   });
   $(".content").on("click", "#pr10", function () {
+    $(".content").load("assets/projects/time.html");
+  });
+  $(".content").on("click", "#pr9", function () {
+    $(".content").load("assets/projects/typro.html");
+  });
+  $(".content").on("click", "#pr8", function () {
+    $(".content").load("assets/projects/marketing.html");
+  });
+  $(".content").on("click", "#pr7", function () {
+    $(".content").load("assets/projects/bewerbung.html");
+  });
+  $(".content").on("click", "#pr6", function () {
+    $(".content").load("assets/projects/rh.html");
+  });
+  $(".content").on("click", "#pr5", function () {
+    $(".content").load("assets/projects/sternenhimmel.html");
+  });
+  $(".content").on("click", "#pr4", function () {
+    $(".content").load("assets/projects/circular.html");
+  });
+  $(".content").on("click", "#pr3", function () {
+    $(".content").load("assets/projects/abstract.html");
+  });
+  $(".content").on("click", "#pr2", function () {
+    $(".content").load("assets/projects/posters.html");
+  });
+  $(".content").on("click", "#pr1", function () {
     $(".content").load("assets/projects/photography.html");
   });
   $(".content").on("click", "#goto_contact", function () {
