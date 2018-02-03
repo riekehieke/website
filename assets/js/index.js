@@ -2,9 +2,30 @@
 
 // on page load start.html
 $(document).ready(function () {
+  if (localStorage.getItem('color') !== null) {
+    localStorage.getItem('color') === 'dark' ? makeDark() : makeLight();
+  }
   $(".content").load("assets/html/start.html");
 
+  function makeLight() {
+    $("html").get(0).style.setProperty("--bg-color", "#fff");
+    $("html").get(0).style.setProperty("--txt-color", "#000");
+    $("body").get(0).style.setProperty("--bg-color", "#fff");
+    $("body").get(0).style.setProperty("--txt-color", "#000");
+    $("html").get(0).style.setProperty("--plus-color", "#a5a5a5");
+    $("body").get(0).style.setProperty("--plus-color", "#a5a5a5");
+    console.log('goooood morning. i hope you have a fantastic day. :D');
+  };
 
+  function makeDark() {
+    $("html").get(0).style.setProperty("--bg-color", "#000");
+    $("html").get(0).style.setProperty("--txt-color", "#fff");
+    $("body").get(0).style.setProperty("--bg-color", "#000");
+    $("body").get(0).style.setProperty("--txt-color", "#fff");
+    $("html").get(0).style.setProperty("--plus-color", "#585858");
+    $("body").get(0).style.setProperty("--plus-color", "#585858");
+    console.log('goooood night. sleep tight. :-)');
+  }
   // hamburger menu active
   $(".hamburger").on("click", function () {
     $(".hamburger").toggleClass("is-active");
@@ -49,21 +70,14 @@ $(document).ready(function () {
 
   // change theme to light
   $("#load_light").on("click", function () {
-    $("html").get(0).style.setProperty("--bg-color", "#fff");
-    $("html").get(0).style.setProperty("--txt-color", "#000");
-    $("body").get(0).style.setProperty("--bg-color", "#fff");
-    $("body").get(0).style.setProperty("--txt-color", "#000");
-    $("html").get(0).style.setProperty("--plus-color", "#a5a5a5");
-    $("body").get(0).style.setProperty("--plus-color", "#a5a5a5");
+    makeLight();
+    localStorage.setItem('color', 'light');
   });
 
+  // dark
   $("#load_dark").on("click", function () {
-    $("html").get(0).style.setProperty("--bg-color", "#000");
-    $("html").get(0).style.setProperty("--txt-color", "#fff");
-    $("body").get(0).style.setProperty("--bg-color", "#000");
-    $("body").get(0).style.setProperty("--txt-color", "#fff");
-    $("html").get(0).style.setProperty("--plus-color", "#585858");
-    $("body").get(0).style.setProperty("--plus-color", "#585858");
+    makeDark();
+    localStorage.setItem('color', 'dark');
   });
 
   // on click load projects
