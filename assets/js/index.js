@@ -61,7 +61,6 @@ $(document).ready(function () {
     $("html").get(0).style.setProperty("--txt-color", "#000");
     $("body").get(0).style.setProperty("--bg-color", "#fff");
     $("body").get(0).style.setProperty("--txt-color", "#000");
-    // $("meta[property='status']").attr("content", "default");
   });
 
   $("#load_dark").on("click", function () {
@@ -69,7 +68,6 @@ $(document).ready(function () {
     $("html").get(0).style.setProperty("--txt-color", "#fff");
     $("body").get(0).style.setProperty("--bg-color", "#000");
     $("body").get(0).style.setProperty("--txt-color", "#fff");
-    // $("meta[property='status']").attr("content", "black");
   });
 
   // on click load projects
