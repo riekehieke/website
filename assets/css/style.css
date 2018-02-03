@@ -8,20 +8,6 @@ font-size: 16px;
 color: var(--txt-color);
 overflow-x: hidden;
 }
-/* .dark {
-background-color: #000000;
-font-family: Courier New, Courier, monospace;
-font-size: 16px;
-color: #fff;
-overflow-x: hidden;
-}
-.light {
-background-color: #ffffff;
-font-family: Courier New, Courier, monospace;
-font-size: 16px;
-color: #000;
-overflow-x: hidden;
-} */
 .overflow {
   overflow: hidden;
   height: 90vh;
@@ -139,26 +125,9 @@ a {
   opacity: 0;
   transition: .5s ease;
 }
-/* .overlay-light {
-  background-color: #fff;
-  text-align: center;
-  z-index: 5;
-  text-decoration: none;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-} */
 .thumbnail:hover .overlay {
   opacity: 1;
 }
-/* .thumbnail:hover .overlay-light {
-  opacity: 1;
-} */
 
 .text {
   font-size: 20px;
