@@ -57,30 +57,17 @@ $(document).ready(function () {
 
   // change theme to light
   $("#load_light").on("click", function () {
-    $("html").addClass("light");
-    $("html").removeClass("dark");
-    $("body").addClass("light");
-    $("body").removeClass("dark");
-    $("a").css("color", "#000");
-    $(".overlay").css("background-color", "#fff");
-    $(".lightbox").css("background", "#fff");
-    $(".hamburger-box").children().css("background-color", "#000");
-    // $(".hamburger-inner::before").css("background-color", "#000");
-    // $(".hamburger-inner::after").css("background-color", "#000");
+    $("html").get(0).style.setProperty("--bg-color", "#fff");
+    $("html").get(0).style.setProperty("--txt-color", "#000");
+    $("body").get(0).style.setProperty("--bg-color", "#fff");
+    $("body").get(0).style.setProperty("--txt-color", "#000");
   });
 
-  // change theme to dark
   $("#load_dark").on("click", function () {
-    $("html").addClass("dark");
-    $("html").removeClass("light");
-    $("body").addClass("dark");
-    $("body").removeClass("light");
-    $("a").css("color", "#fff");
-    $(".overlay").css("background-color", "#000");
-    $(".lightbox").css("background", "#000");
-    $(".hamburger-inner").css("background-color", "#fff");
-    $(".hamburger-inner::before").css("background-color", "#fff");
-    $(".hamburger-inner::after").css("background-color", "#fff");
+    $("html").get(0).style.setProperty("--bg-color", "#000");
+    $("html").get(0).style.setProperty("--txt-color", "#fff");
+    $("body").get(0).style.setProperty("--bg-color", "#000");
+    $("body").get(0).style.setProperty("--txt-color", "#fff");
   });
 
   // on click load projects
