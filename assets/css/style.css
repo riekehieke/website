@@ -9,6 +9,9 @@ font-size: 16px;
 color: var(--txt-color);
 overflow-x: hidden;
 }
+p, a, h1, h2, h3, h4, h5, span {
+  text-transform: lowercase;
+}
 .overflow {
   overflow: hidden;
   height: 90vh;
