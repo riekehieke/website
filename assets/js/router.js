@@ -10,6 +10,7 @@ function loadPage(page, mode) {
   } else {
     $(".content").load("assets/projects/" + page + ".html");
   }
+  window.scrollTo(0, 0);
 }
 
 var routes = [
