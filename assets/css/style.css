@@ -1,12 +1,25 @@
 /* basic-styling */
-html, body {
+/* html, body {
+background-color: #000000;
+font-family: Courier New, Courier, monospace;
+font-size: 16px;
+color: #fff;
+overflow-x: hidden;
+} */
+.dark {
 background-color: #000000;
 font-family: Courier New, Courier, monospace;
 font-size: 16px;
 color: #fff;
 overflow-x: hidden;
 }
-
+.light {
+background-color: #ffffff;
+font-family: Courier New, Courier, monospace;
+font-size: 16px;
+color: #000;
+overflow-x: hidden;
+}
 .overflow {
   overflow: hidden;
   height: 90vh;
@@ -23,7 +36,6 @@ font-weight: 400;
 h3 {
   font-size: 1.3rem;
   font-weight: 400;
-  color: #fff;
 }
 h4 {
   margin: 17px 1% 7px 1%;
@@ -130,7 +142,6 @@ a {
 }
 
 .text {
-  color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;

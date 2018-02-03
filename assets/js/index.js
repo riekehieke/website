@@ -55,6 +55,34 @@ $(document).ready(function () {
     $(".body").toggleClass("overflow");
   });
 
+  // change theme to light
+  $("#load_light").on("click", function () {
+    $("html").addClass("light");
+    $("html").removeClass("dark");
+    $("body").addClass("light");
+    $("body").removeClass("dark");
+    $("a").css("color", "#000");
+    $(".overlay").css("background-color", "#fff");
+    $(".lightbox").css("background", "#fff");
+    $(".hamburger-box").children().css("background-color", "#000");
+    // $(".hamburger-inner::before").css("background-color", "#000");
+    // $(".hamburger-inner::after").css("background-color", "#000");
+  });
+
+  // change theme to dark
+  $("#load_dark").on("click", function () {
+    $("html").addClass("dark");
+    $("html").removeClass("light");
+    $("body").addClass("dark");
+    $("body").removeClass("light");
+    $("a").css("color", "#fff");
+    $(".overlay").css("background-color", "#000");
+    $(".lightbox").css("background", "#000");
+    $(".hamburger-inner").css("background-color", "#fff");
+    $(".hamburger-inner::before").css("background-color", "#fff");
+    $(".hamburger-inner::after").css("background-color", "#fff");
+  });
+
   // on click load projects
   $(".content").on("click", "#pr11", function () {
     $(".content").load("assets/projects/klima.html");
