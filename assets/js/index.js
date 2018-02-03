@@ -14,6 +14,7 @@ $(document).ready(function () {
     $("body").get(0).style.setProperty("--txt-color", "#000");
     $("html").get(0).style.setProperty("--plus-color", "#a5a5a5");
     $("body").get(0).style.setProperty("--plus-color", "#a5a5a5");
+    $('meta[name="apple-mobile-web-app-status-bar-style"]')[0].content = 'default';
     console.log('goooood morning. i hope you have a fantastic day. :D');
   };
 
@@ -24,6 +25,7 @@ $(document).ready(function () {
     $("body").get(0).style.setProperty("--txt-color", "#fff");
     $("html").get(0).style.setProperty("--plus-color", "#585858");
     $("body").get(0).style.setProperty("--plus-color", "#585858");
+    $('meta[name="apple-mobile-web-app-status-bar-style"]')[0].content = 'black';
     console.log('goooood night. sleep tight. :-)');
   }
   // hamburger menu active
