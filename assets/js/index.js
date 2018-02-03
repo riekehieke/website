@@ -31,14 +31,6 @@ $(document).ready(function () {
     $(".body").toggleClass("overflow");
   });
 
-  // menu click cv
-  $("#load_cv").on("click", function () {
-    $(".content").load("assets/html/cv.html");
-    $(".hamburger").toggleClass("is-active");
-    $(".menu").toggleClass("active");
-    $(".body").toggleClass("overflow");
-  });
-
   // menu click contact
   $("#load_contact").on("click", function () {
     $(".content").load("assets/html/contact.html");
@@ -61,6 +53,8 @@ $(document).ready(function () {
     $("html").get(0).style.setProperty("--txt-color", "#000");
     $("body").get(0).style.setProperty("--bg-color", "#fff");
     $("body").get(0).style.setProperty("--txt-color", "#000");
+    $("html").get(0).style.setProperty("--plus-color", "#a5a5a5");
+    $("body").get(0).style.setProperty("--plus-color", "#a5a5a5");
   });
 
   $("#load_dark").on("click", function () {
@@ -68,6 +62,8 @@ $(document).ready(function () {
     $("html").get(0).style.setProperty("--txt-color", "#fff");
     $("body").get(0).style.setProperty("--bg-color", "#000");
     $("body").get(0).style.setProperty("--txt-color", "#fff");
+    $("html").get(0).style.setProperty("--plus-color", "#585858");
+    $("body").get(0).style.setProperty("--plus-color", "#585858");
   });
 
   // on click load projects

@@ -2,6 +2,7 @@
 html, body {
   --bg-color: #000;
   --txt-color: #fff;
+  --plus-color: #585858;
 background-color: var(--bg-color);
 font-family: Courier New, Courier, monospace;
 font-size: 16px;
@@ -158,6 +159,13 @@ a {
 }
 .portrait img {
   width: 15%;
+}
+.plus-inactive {
+  color: var(--plus-color);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
 }
 /* details-page-styling */
 .details h1 {
