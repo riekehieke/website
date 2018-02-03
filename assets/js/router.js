@@ -42,15 +42,15 @@ var router = {
       page = router.match(path);
     }
     loadPage(page, mode);
-    if (pushState) { console.log('PUSHED YO!'); history.pushState({}, title, path); }
+    if (pushState) { history.pushState({ page: path }, title, path); }
     var title = page === 'start' ? 'rieke helmers' : page;
     $('title').text(title);
   },
   init: function () {
     window.addEventListener('popstate', function (url) {
-      router.push((url.path[0].location.pathname + url.path[0].location.search), false);
+      router.push(url.state.page, false);
     });
-    router.push((window.location.pathname.replace('.html', '') + window.location.search), false);
+    router.push((window.location.pathname.replace('.html', '') + window.location.search));
   },
   match: function (matchPath) {
     return routes.reduce(function (a, b) {
