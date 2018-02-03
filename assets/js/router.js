@@ -1,6 +1,7 @@
 "use strict"
 
 function loadPage(page, mode) {
+  console.log(`Seite: ${page} Mode: ${mode}`)
   if (mode === 'html') {
     $(".content").load("assets/html/" + page + ".html");
     $(".hamburger").removeClass("is-active");
@@ -30,8 +31,7 @@ var routes = [
 ]
 
 var router = {
-  push: function (path, pushState) {
-    pushState = pushState === undefined ? true : pushState;
+  push: function (path, pushState = true) {
     var page, mode;
     if (path.includes('?')) {
       mode = 'projects';
@@ -41,17 +41,18 @@ var router = {
       mode = 'html';
       page = router.match(path);
     }
-    var title = page === 'start' ? 'rieke helmers' : page;
     loadPage(page, mode);
-    if (pushState) history.pushState({}, title, page);
+    if (pushState) { console.log('PUSHED YO!'); history.pushState({}, title, path); }
+    var title = page === 'start' ? 'rieke helmers' : page;
     $('title').text(title);
   },
   init: function () {
-    window.addEventListener('popstate', function (url) { router.push(url.path[0].location.pathname), false })
-    router.push(window.location.pathname.replace('.html', ''));
+    window.addEventListener('popstate', function (url) {
+      router.push((url.path[0].location.pathname + url.path[0].location.search), false);
+    });
+    router.push((window.location.pathname.replace('.html', '') + window.location.search), false);
   },
   match: function (matchPath) {
-
     return routes.reduce(function (a, b) {
       if (b.path === matchPath) return b.page
       else return a

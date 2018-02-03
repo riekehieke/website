@@ -3,7 +3,6 @@
 
 // on page load start.html
 $(document).ready(function () {
-  //$(".content").load("assets/html/start.html");
   router.init();
 
   // hamburger menu active
@@ -12,42 +11,6 @@ $(document).ready(function () {
     $(".menu").addClass("active");
     $(".body").addClass("overflow");
   });
-  // // load home on name click
-  // $("#load_home").on("click", function () {
-  //   $(".content").load("assets/html/start.html");
-  // });
-  // // menu click work
-  // $("#load_start").on("click", function () {
-  //   // $(".content").load("assets/html/start.html");
-  //   $(".hamburger").toggleClass("is-active");
-  //   $(".menu").toggleClass("active");
-  //   $(".body").toggleClass("overflow");
-  // });
-
-  // // menu click about
-  // $("#load_about").on("click", function () {
-  //   // $(".content").load("assets/html/about.html");
-  //   $(".hamburger").toggleClass("is-active");
-  //   $(".menu").toggleClass("active");
-  //   $(".body").toggleClass("overflow");
-  // });
-
-  // // menu click contact
-  // $("#load_contact").on("click", function () {
-  //   // $(".content").load("assets/html/contact.html");
-  //   $(".hamburger").toggleClass("is-active");
-  //   $(".menu").toggleClass("active");
-  //   $(".body").toggleClass("overflow");
-  // });
-
-  // // menu click imprint
-  // $("#load_imprint").on("click", function () {
-  //   // $(".content").load("assets/html/imprint.html");
-  //   $(".hamburger").toggleClass("is-active");
-  //   $(".menu").toggleClass("active");
-  //   $(".body").toggleClass("overflow");
-  // });
-
   // change theme to light
   $("#load_light").on("click", function () {
     $("html").get(0).style.setProperty("--bg-color", "#fff");
@@ -68,7 +31,7 @@ $(document).ready(function () {
   });
 
 
-  $('.content').on('click', '.router', function (e) {
+  $(document).on('click', '.router', function (e) {
     e.preventDefault();
     var link = new URL(e.currentTarget.href);
     var url = (link.pathname + link.search);
