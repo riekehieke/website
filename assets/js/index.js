@@ -29,9 +29,9 @@ $(document).ready(function () {
   }
   // hamburger menu active
   $(".hamburger").on("click", function () {
-    $(".hamburger").addClass("is-active");
-    $(".menu").addClass("active");
-    $(".body").addClass("overflow");
+    $(".hamburger").toggleClass("is-active");
+    $(".menu").toggleClass("active");
+    $(".body").toggleClass("overflow");
   });
   // change theme to light
   $("#load_light").on("click", function () {
