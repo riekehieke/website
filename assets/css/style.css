@@ -228,6 +228,7 @@ a {
     background-size: cover;
     background-clip: content-box;
     flex-grow: 0.5;
+    cursor: pointer;
   }
   .img:before {
     display: block;
@@ -243,6 +244,7 @@ a {
     background-size: cover;
     background-clip: content-box;
     flex-grow: 0.07;
+    cursor: pointer;
   }
   .img_last:before {
     display: block;
@@ -257,6 +259,7 @@ a {
     background-size: cover;
     background-clip: content-box;
     flex-grow: 0.35;
+    cursor: pointer;
   }
   .hochformat_last:before {
     display: block;
@@ -272,6 +275,7 @@ a {
     background-size: cover;
     background-clip: content-box;
     flex-grow: 0.5;
+    cursor: pointer;
   }
   .hochformat:before {
     display: block;
@@ -291,6 +295,7 @@ a {
 	left: 0;
   background: var(--bg-color);
   overflow: hidden;
+  cursor: pointer;
 }
 .lightbox img {
   max-width: 90%;
