@@ -6,7 +6,12 @@ font-size: 16px;
 color: #fff;
 overflow-x: hidden;
 }
-
+body {
+  width: 100%;
+  max-width: 2100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
 .overflow {
   overflow: hidden;
   height: 90vh;
