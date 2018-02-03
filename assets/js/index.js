@@ -1,51 +1,6 @@
 "use strict"
 
-function loadPage(page) {
-  $(".content").load("assets/html/" + page + ".html");
-  $(".hamburger").removeClass("is-active");
-  $(".menu").removeClass("active");
-  $(".body").removeClass("overflow");
 
-}
-var routes = [
-  {
-    path: '/', page: 'start'
-  },
-  {
-    path: '/start', page: 'start'
-  },
-  {
-    path: '/about', page: 'about'
-  },
-  {
-    path: '/contact', page: 'contact'
-  },
-  {
-    path: '/imprint', page: 'imprint'
-  }
-]
-
-var router = {
-  push: function (path, pushState) {
-    pushState = pushState === "undefined" ? true : pushState;
-    var page = router.match(path);
-    var title = page === 'start' ? 'rieke helmers' : page;
-    loadPage(page);
-    if (pushState) history.pushState({}, title, page);
-    $('title').text(title);
-    return false;
-  },
-  init: function () {
-    window.addEventListener('popstate', function (url) { router.push(url.path[0].location.pathname), false })
-    router.push(window.location.pathname.replace('.html', ''))
-  },
-  match: function (matchPath) {
-    return routes.reduce(function (a, b) {
-      if (b.path === matchPath) return b.page
-      else return a
-    }, '404');
-  }
-}
 // on page load start.html
 $(document).ready(function () {
   //$(".content").load("assets/html/start.html");
@@ -112,42 +67,12 @@ $(document).ready(function () {
     $("body").get(0).style.setProperty("--plus-color", "#585858");
   });
 
-  // on click load projects
-  $(".content").on("click", "#pr11", function () {
-    $(".content").load("assets/projects/klima.html");
-  });
-  $(".content").on("click", "#pr10", function () {
-    $(".content").load("assets/projects/time.html");
-  });
-  $(".content").on("click", "#pr9", function () {
-    $(".content").load("assets/projects/typro.html");
-  });
-  $(".content").on("click", "#pr8", function () {
-    $(".content").load("assets/projects/marketing.html");
-  });
-  $(".content").on("click", "#pr7", function () {
-    $(".content").load("assets/projects/bewerbung.html");
-  });
-  $(".content").on("click", "#pr6", function () {
-    $(".content").load("assets/projects/rh.html");
-  });
-  $(".content").on("click", "#pr5", function () {
-    $(".content").load("assets/projects/sternenhimmel.html");
-  });
-  $(".content").on("click", "#pr4", function () {
-    $(".content").load("assets/projects/circular.html");
-  });
-  $(".content").on("click", "#pr3", function () {
-    $(".content").load("assets/projects/abstract.html");
-  });
-  $(".content").on("click", "#pr2", function () {
-    $(".content").load("assets/projects/posters.html");
-  });
-  $(".content").on("click", "#pr1", function () {
-    $(".content").load("assets/projects/photography.html");
-  });
-  $(".content").on("click", "#goto_contact", function () {
-    $(".content").load("assets/html/contact.html");
+
+  $('.content').on('click', '.router', function (e) {
+    e.preventDefault();
+    var link = new URL(e.currentTarget.href);
+    var url = (link.pathname + link.search);
+    router.push(url);
   });
 
   // lightbox overflow toggle
