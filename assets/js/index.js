@@ -1,51 +1,97 @@
 "use strict"
 
+function loadPage(page) {
+  $(".content").load("assets/html/" + page + ".html");
+  $(".hamburger").removeClass("is-active");
+  $(".menu").removeClass("active");
+  $(".body").removeClass("overflow");
+
+}
+var routes = [
+  {
+    path: '/', page: 'start'
+  },
+  {
+    path: '/start', page: 'start'
+  },
+  {
+    path: '/about', page: 'about'
+  },
+  {
+    path: '/contact', page: 'contact'
+  },
+  {
+    path: '/imprint', page: 'imprint'
+  }
+]
+
+var router = {
+  push: function (path, pushState) {
+    pushState = pushState === "undefined" ? true : pushState;
+    var page = router.match(path);
+    var title = page === 'start' ? 'rieke helmers' : page;
+    loadPage(page);
+    if (pushState) history.pushState({}, title, page);
+    $('title').text(title);
+    return false;
+  },
+  init: function () {
+    window.addEventListener('popstate', function (url) { router.push(url.path[0].location.pathname), false })
+    router.push(window.location.pathname.replace('.html', ''))
+  },
+  match: function (matchPath) {
+    return routes.reduce(function (a, b) {
+      if (b.path === matchPath) return b.page
+      else return a
+    }, '404');
+  }
+}
 // on page load start.html
 $(document).ready(function () {
-  $(".content").load("assets/html/start.html");
-
+  //$(".content").load("assets/html/start.html");
+  router.init();
 
   // hamburger menu active
   $(".hamburger").on("click", function () {
-    $(".hamburger").toggleClass("is-active");
-    $(".menu").toggleClass("active");
-    $(".body").toggleClass("overflow");
+    $(".hamburger").addClass("is-active");
+    $(".menu").addClass("active");
+    $(".body").addClass("overflow");
   });
-  // load home on name click
-  $("#load_home").on("click", function () {
-    $(".content").load("assets/html/start.html");
-  });
-  // menu click work
-  $("#load_start").on("click", function () {
-    $(".content").load("assets/html/start.html");
-    $(".hamburger").toggleClass("is-active");
-    $(".menu").toggleClass("active");
-    $(".body").toggleClass("overflow");
-  });
+  // // load home on name click
+  // $("#load_home").on("click", function () {
+  //   $(".content").load("assets/html/start.html");
+  // });
+  // // menu click work
+  // $("#load_start").on("click", function () {
+  //   // $(".content").load("assets/html/start.html");
+  //   $(".hamburger").toggleClass("is-active");
+  //   $(".menu").toggleClass("active");
+  //   $(".body").toggleClass("overflow");
+  // });
 
-  // menu click about
-  $("#load_about").on("click", function () {
-    $(".content").load("assets/html/about.html");
-    $(".hamburger").toggleClass("is-active");
-    $(".menu").toggleClass("active");
-    $(".body").toggleClass("overflow");
-  });
+  // // menu click about
+  // $("#load_about").on("click", function () {
+  //   // $(".content").load("assets/html/about.html");
+  //   $(".hamburger").toggleClass("is-active");
+  //   $(".menu").toggleClass("active");
+  //   $(".body").toggleClass("overflow");
+  // });
 
-  // menu click contact
-  $("#load_contact").on("click", function () {
-    $(".content").load("assets/html/contact.html");
-    $(".hamburger").toggleClass("is-active");
-    $(".menu").toggleClass("active");
-    $(".body").toggleClass("overflow");
-  });
+  // // menu click contact
+  // $("#load_contact").on("click", function () {
+  //   // $(".content").load("assets/html/contact.html");
+  //   $(".hamburger").toggleClass("is-active");
+  //   $(".menu").toggleClass("active");
+  //   $(".body").toggleClass("overflow");
+  // });
 
-  // menu click imprint
-  $("#load_imprint").on("click", function () {
-    $(".content").load("assets/html/imprint.html");
-    $(".hamburger").toggleClass("is-active");
-    $(".menu").toggleClass("active");
-    $(".body").toggleClass("overflow");
-  });
+  // // menu click imprint
+  // $("#load_imprint").on("click", function () {
+  //   // $(".content").load("assets/html/imprint.html");
+  //   $(".hamburger").toggleClass("is-active");
+  //   $(".menu").toggleClass("active");
+  //   $(".body").toggleClass("overflow");
+  // });
 
   // change theme to light
   $("#load_light").on("click", function () {

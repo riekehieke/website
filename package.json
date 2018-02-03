@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "the personal website of rieke helmers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --entry-file=/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riekehieke/portfolio-neu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riekehieke/portfolio-neu/issues"
+  },
+  "homepage": "https://github.com/riekehieke/portfolio-neu#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
