@@ -1,8 +1,8 @@
 /* basic-styling */
 html, body {
-  --bg-color: #000;
-  --txt-color: #fff;
-  --plus-color: #585858;
+  --bg-color: #fff;
+  --txt-color: #000;
+  --plus-color: #a5a5a5;
 background-color: var(--bg-color);
 font-family: Courier New, Courier, monospace;
 font-size: 16px;
@@ -62,10 +62,14 @@ a {
 }
 /* logo */
 .logo {
-  width: 15%;
+  width: 36%;
+  padding: 0 0 1% 0;
 }
 .logo:hover {
   opacity: 0.7;
+}
+.inactive {
+  display: none;
 }
 
 /* menu */
