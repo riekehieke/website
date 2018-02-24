@@ -16,6 +16,7 @@ $(document).ready(function () {
     $("body").get(0).style.setProperty("--plus-color", "#a5a5a5");
     $("#logo_w").addClass("inactive");
     $("#logo_s").removeClass("inactive");
+    $("meta[property='theme']").attr("content", '#fff');
     console.log('goooood morning. i hope you have a fantastic day. :D');
   };
 
@@ -29,6 +30,7 @@ $(document).ready(function () {
     $("body").get(0).style.setProperty("--plus-color", "#585858");
     $("#logo_s").addClass("inactive");
     $("#logo_w").removeClass("inactive");
+    $("meta[property='theme']").attr("content", '#000');
     console.log('goooood night. sleep tight. :-)');
   }
   // hamburger menu active
