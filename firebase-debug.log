@@ -1,0 +1,41 @@
+[debug] [2018-02-24T23:54:54.470Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T23:54:54.472Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-02-24T23:54:54.473Z] CLI Version:   3.17.4
+[debug] [2018-02-24T23:54:54.473Z] Platform:      darwin
+[debug] [2018-02-24T23:54:54.473Z] Node Version:  v8.9.1
+[debug] [2018-02-24T23:54:54.473Z] Time:          Sun Feb 25 2018 00:54:54 GMT+0100 (CET)
+[debug] [2018-02-24T23:54:54.473Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T23:54:54.488Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T23:54:54.488Z] > authorizing via signed-in user
+[debug] [2018-02-24T23:54:54.490Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-24T23:54:54.491Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/8Yss6931lHDbOGWN4X5oDxMAz6XiXX5vIoBkjnLuxw8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Feb 25 2018 00:54:54 GMT+0100 (CET)
+[debug] [2018-02-24T23:54:54.729Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T23:54:54.744Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/website-rieke  
+  
+ Sun Feb 25 2018 00:54:54 GMT+0100 (CET)
+[debug] [2018-02-24T23:54:55.601Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T23:54:55.602Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/website-rieke/tokens  
+  
+ Sun Feb 25 2018 00:54:55 GMT+0100 (CET)
+[debug] [2018-02-24T23:54:56.166Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/Rieke/Documents/CODE/website'...
+[info] 
+[debug] [2018-02-24T23:54:56.169Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/website-rieke  
+  
+ Sun Feb 25 2018 00:54:56 GMT+0100 (CET)
+[debug] [2018-02-24T23:54:57.139Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T23:54:57.139Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/528433933789/clients/_:getWebAppConfig  
+  
+ Sun Feb 25 2018 00:54:57 GMT+0100 (CET)
+[debug] [2018-02-24T23:54:57.665Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+

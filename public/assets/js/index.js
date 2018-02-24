@@ -37,7 +37,7 @@ $(document).ready(function () {
   $(".hamburger").on("click", function () {
     $(".hamburger").toggleClass("is-active");
     $(".menu").toggleClass("active");
-    $(".body").toggleClass("overflow");
+    $("body").toggleClass("overflow");
   });
   // change theme to light
   $("#load_light").on("click", function () {
