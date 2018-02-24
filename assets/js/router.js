@@ -44,7 +44,7 @@ var router = {
     }
     loadPage(page, mode);
     if (pushState) { history.pushState({ page: path }, title, path); }
-    var title = page === 'start' ? 'rieke helmers' : page;
+    var title = 'rieke helmers';
     $('title').text(title);
   },
   init: function () {
