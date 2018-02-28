@@ -1,7 +1,6 @@
 "use strict"
 
 function loadPage(page, mode) {
-  console.log(`Seite: ${page} Mode: ${mode}`)
   if (mode === 'html') {
     $(".content").load("assets/html/" + page + ".html");
     $(".hamburger").removeClass("is-active");
