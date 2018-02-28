@@ -6,7 +6,7 @@ function loadPage(page, mode) {
     $(".content").load("assets/html/" + page + ".html");
     $(".hamburger").removeClass("is-active");
     $(".menu").removeClass("active");
-    $(".body").removeClass("overflow");
+    $("html").removeClass("overflow");
   } else {
     $(".content").load("assets/projects/" + page + ".html");
   }
