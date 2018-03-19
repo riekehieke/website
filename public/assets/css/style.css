@@ -193,6 +193,10 @@ a {
   height: 74%;
   margin: 0 1%;
 }
+.time p {
+  color: var(--plus-color);
+  font-size: 0.7rem;
+}
 
 /* details-gallery */
 .galerie {
