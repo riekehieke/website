@@ -3,11 +3,13 @@ html, body {
   --bg-color: #fff;
   --txt-color: #000;
   --plus-color: #a5a5a5;
-background-color: var(--bg-color);
-font-family: Courier New, Courier, monospace;
-font-size: 16px;
-color: var(--txt-color);
-overflow-x: hidden;
+  background-color: #ffffff;
+  background-color: var(--bg-color);
+  font-family: Courier New, Courier, monospace;
+  font-size: 16px;
+  color: #000000;
+  color: var(--txt-color);
+  overflow-x: hidden;
 }
 p, a, h1, h2, h3, h4, h5, span {
   text-transform: lowercase;
@@ -44,6 +46,7 @@ p {
 }
 a {
   text-decoration: none;
+  color: #000000;
   color: var(--txt-color);
 }
 
@@ -120,6 +123,7 @@ a {
 }
 
 .overlay {
+  background-color: #ffffff;
   background-color: var(--bg-color);
   text-align: center;
   z-index: 5;
@@ -168,6 +172,7 @@ a {
   width: 15%;
 }
 .plus-inactive {
+  color: #a5a5a5;
   color: var(--plus-color);
   font-size: 1rem;
   line-height: 1.5;
@@ -194,6 +199,7 @@ a {
   margin: 0 1%;
 }
 .time p {
+  color: #a5a5a5;
   color: var(--plus-color);
   font-size: 0.7rem;
 }
@@ -281,6 +287,7 @@ a {
 	height: 100%;
 	top: 0;
 	left: 0;
+  background: #ffffff;
   background: var(--bg-color);
   overflow: hidden;
   cursor: pointer;

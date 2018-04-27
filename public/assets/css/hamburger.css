@@ -30,6 +30,7 @@
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 30px;
     height: 2px;
+    background-color: #000000;
     background-color: var(--txt-color);
     border-radius: 4px;
     position: absolute;
