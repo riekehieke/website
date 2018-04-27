@@ -1,5 +1,9 @@
 "use strict"
 
+// parseUri 1.2.2
+// (c) Steven Levithan <stevenlevithan.com>
+// MIT License
+function parseUri(r) { for (var e = parseUri.options, o = e.parser[e.strictMode ? "strict" : "loose"].exec(r), s = {}, t = 14; t--;)s[e.key[t]] = o[t] || ""; return s[e.q.name] = {}, s[e.key[12]].replace(e.q.parser, function (r, o, t) { o && (s[e.q.name][o] = t) }), s } parseUri.options = { strictMode: !1, key: ["source", "protocol", "authority", "userInfo", "user", "password", "host", "port", "relative", "path", "directory", "file", "query", "anchor"], q: { name: "queryKey", parser: /(?:^|&)([^&=]*)=?([^&]*)/g }, parser: { strict: /^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/, loose: /^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/ } };
 var supportsCssVars = window.CSS && window.CSS.supports && window.CSS.supports('(color: var(--color))');
 
 $(document).ready(function () {
@@ -7,7 +11,7 @@ $(document).ready(function () {
   if (localStorage.getItem('color') !== null && supportsCssVars) {
     localStorage.getItem('color') === 'dark' ? makeDark() : makeLight();
   }
-  if (supportsCssVars) $('dark-light-toggle').removeClass('hide');
+  if (supportsCssVars) $('#dark-light-toggle').removeClass('hide');
 
   function makeLight() {
     $("html").get(0).style.setProperty("--bg-color", "#fff");
@@ -56,8 +60,8 @@ $(document).ready(function () {
 
   $(document).on('click', '.router', function (e) {
     e.preventDefault();
-    var link = new URL(e.currentTarget.href);
-    var url = (link.pathname + link.search);
+    var link = parseUri(e.currentTarget.href);
+    var url = link.relative;
     router.push(url);
   });
 
