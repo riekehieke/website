@@ -1,11 +1,13 @@
 "use strict"
 
+var supportsCssVars = window.CSS && window.CSS.supports && window.CSS.supports('(color: var(--color))');
 
 $(document).ready(function () {
   router.init();
-  if (localStorage.getItem('color') !== null) {
+  if (localStorage.getItem('color') !== null && supportsCssVars) {
     localStorage.getItem('color') === 'dark' ? makeDark() : makeLight();
   }
+  if (supportsCssVars) $('dark-light-toggle').removeClass('hide');
 
   function makeLight() {
     $("html").get(0).style.setProperty("--bg-color", "#fff");
