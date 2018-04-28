@@ -66,6 +66,7 @@ a {
 /* logo */
 .logo {
   width: 36%;
+  min-width: 54px;
   padding: 0 1% 1% 0;
 }
 .logo:hover {
@@ -116,7 +117,6 @@ a {
 }
 
 .image {
-
   width: 100%;
   height: auto;
   position: relative;
@@ -215,71 +215,70 @@ a {
 }
 
 .img {
-    width: 45%;
-    margin: 0 1vw 1vw 0;
-    position: relative;
-    background: url() 50% 50% no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    flex-grow: 0.5;
-    cursor: pointer;
-  }
-  .img:before {
-    display: block;
-    content: "";
-    padding-top: 75%;
-  }
-  /* last */
-  .img_last {
-    width: 45%;
-    margin: 0 1vw 1vw 0;
-    position: relative;
-    background: url() 50% 50% no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    flex-grow: 0.07;
-    cursor: pointer;
-  }
-  .img_last:before {
-    display: block;
-    content: "";
-    padding-top: 75%;
-  }
-  .hochformat_last {
-    width: 22.5%;
-    margin: 0 1vw 1vw 0;
-    position: relative;
-    background: url() 50% 50% no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    flex-grow: 0.35;
-    cursor: pointer;
-  }
-  .hochformat_last:before {
-    display: block;
-    content: "";
-    padding-top: 140%;
-  }
+  width: 45%;
+  margin: 0 1vw 1vw 0;
+  position: relative;
+  background: url() 50% 50% no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  flex-grow: 0.5;
+  cursor: pointer;
+}
+.img:before {
+  display: block;
+  content: "";
+  padding-top: 75%;
+}
+/* last */
+.img_last {
+  width: 45%;
+  margin: 0 1vw 1vw 0;
+  position: relative;
+  background: url() 50% 50% no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  flex-grow: 0.07;
+  cursor: pointer;
+}
+.img_last:before {
+  display: block;
+  content: "";
+  padding-top: 75%;
+}
+.hochformat_last {
+  width: 22.5%;
+  margin: 0 1vw 1vw 0;
+  position: relative;
+  background: url() 50% 50% no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  flex-grow: 0.35;
+  cursor: pointer;
+}
+.hochformat_last:before {
+  display: block;
+  content: "";
+  padding-top: 140%;
+}
 /* hochformat */
-  .hochformat {
-    width: 22.5%;
-    margin: 0 1vw 1vw 0;
-    position: relative;
-    background: url() 50% 50% no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    flex-grow: 0.5;
-    cursor: pointer;
-  }
-  .hochformat:before {
-    display: block;
-    content: "";
-    padding-top: 140%;
-  }
+.hochformat {
+  width: 22.5%;
+  margin: 0 1vw 1vw 0;
+  position: relative;
+  background: url() 50% 50% no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  flex-grow: 0.5;
+  cursor: pointer;
+}
+.hochformat:before {
+  display: block;
+  content: "";
+  padding-top: 140%;
+}
 
-  /* Lightbox */
-
-  .lightbox {
+/* Lightbox */
+.lightbox {
   display: none;
 	position: fixed;
 	z-index: 998;
@@ -308,57 +307,56 @@ a {
 
 /* resonsiveness */
 @media screen and (max-width: 850px){
-.thumbnail {
-  width: 50%;
-}
-.portrait img {
-  width: 20%;
-}
-.youtube {
-  width: 74%;
-  height: 35%;
-  margin: 0 1%;
-}
+  .thumbnail {
+    width: 50%;
+  }
+  .portrait img {
+    width: 20%;
+  }
+  .youtube {
+    width: 74%;
+    height: 35%;
+    margin: 0 1%;
+  }
 }
 @media screen and (max-width: 600px){
-.thumbnail {
-  width: 100%;
-}
-.portrait img {
+  .thumbnail {
+    width: 100%;
+  }
+  .portrait img {
+    width: 30%;
+  }
+  .youtube {
+    width: 100%;
+    height: 30%;
+    margin: 0 1%;
+  }
+  .img {
+  width: 74%;
+  flex-grow: 1;
+  }
+  .img_last {
+  width: 74%;
+  flex-grow: 1;
+  }
+  .hochformat {
   width: 30%;
-}
-.youtube {
-  width: 100%;
-  height: 30%;
-  margin: 0 1%;
-}
-.img {
-width: 74%;
-flex-grow: 1;
-}
-.img_last {
-width: 74%;
-flex-grow: 1;
-}
-.hochformat {
-width: 30%;
-flex-grow: 1;
-}
-.phone {
-width: 30%;
-}
-.page p, h3, h5 {
-  width: 100%;
-  margin: 0 1%;
-}
-.galerie {
-  width: 100%;
-  margin: 0 1%;
-}
-.details p {
-  width: 100%;
-}
-
+  flex-grow: 1;
+  }
+  .phone {
+  width: 30%;
+  }
+  .page p, h3, h5 {
+    width: 100%;
+    margin: 0 1%;
+  }
+  .galerie {
+    width: 100%;
+    margin: 0 1%;
+  }
+  .details p {
+    width: 100%;
+  }
 }
 .hide {
   display: none;
