@@ -31,9 +31,10 @@ var routes = [
 ]
 
 var router = {
-  push: function (path, pushState = true) {
+  push: function (path, pushState) {
+    pushState = pushState !== false;
     var page, mode;
-    if (path.includes('?')) {
+    if (path.indexOf('?') > -1) {
       mode = 'projects';
       page = router.getProject(path);
     }
