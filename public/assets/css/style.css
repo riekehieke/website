@@ -120,6 +120,7 @@ a {
   width: 100%;
   height: auto;
   position: relative;
+  display: block;
 }
 
 .overlay {
