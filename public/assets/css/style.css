@@ -194,9 +194,9 @@ a {
 .details p a:hover {
   opacity: 0.7;
 }
-.youtube {
+iframe {
   width: 74%;
-  height: 74%;
+  height: 700px;
   margin: 0 1%;
 }
 .time p {
