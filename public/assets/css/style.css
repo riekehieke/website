@@ -102,6 +102,9 @@ a {
 .menu a:hover {
   opacity: 0.7;
 }
+#sprache {
+  cursor: pointer;
+}
 
 /* projects-page-styling */
 .projects {
