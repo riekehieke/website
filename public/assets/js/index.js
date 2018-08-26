@@ -14,33 +14,7 @@ $(document).ready(function () {
   }
   if (supportsCssVars) $('#dark-light-toggle').removeClass('hide');
 
-  // Language Toggle
-  if (!NodeList.prototype.forEach) NodeList.prototype.forEach = Array.prototype.forEach;
-  var german = true;
-
-  if (localStorage.getItem('german') === null) {
-    localStorage.setItem('german', 'true')
-  } else {
-    german = JSON.parse(localStorage.getItem('german'))
-  }
-  console.log("reload");
-  setLanguage(german);
-
-  function toggleLanguage() {
-    german = !german;
-    localStorage.setItem('german', german)
-    setLanguage(german);
-  }
-  function setLanguage(german) {
-    console.log(german);
-    document.querySelectorAll('[data-de]').forEach(el => el.innerHTML = el.dataset[german ? 'de' : 'en']);
-  }
-
-  $('#sprache').on('click', function () {
-    toggleLanguage();
-  });
-
-  // Language Toggle Ende
+  $('#sprache').on('click', toggleLanguage);
 
   function makeLight() {
     $("html").get(0).style.setProperty("--bg-color", "#fff");

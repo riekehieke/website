@@ -1,13 +1,13 @@
 "use strict"
 
-function loadPage(page, mode) {
+function loadPage(page, mode, callback) {
   if (mode === 'html') {
-    $(".content").load("assets/html/" + page + ".html");
+    $(".content").load("assets/html/" + page + ".html", callback);
     $(".hamburger").removeClass("is-active");
     $(".menu").removeClass("active");
     $("html").removeClass("overflow");
   } else {
-    $(".content").load("assets/projects/" + page + ".html");
+    $(".content").load("assets/projects/" + page + ".html", callback);
   }
   window.scrollTo(0, 0);
 }
@@ -42,7 +42,7 @@ var router = {
       mode = 'html';
       page = router.match(path);
     }
-    loadPage(page, mode);
+    loadPage(page, mode, setLanguage);
     if (pushState) { history.pushState({ page: path }, title, path); }
     var title = 'rieke helmers';
     $('title').text(title);
