@@ -1,8 +1,19 @@
 /* basic-styling */
-html, body {
+:root,
+:root.light {
   --bg-color: #fff;
   --txt-color: #000;
   --plus-color: #a5a5a5;
+}
+
+:root.dark {
+  --bg-color: #000;
+  --txt-color: #fff;
+  --plus-color: #585858;
+}
+
+html,
+body {
   background-color: #ffffff;
   background-color: var(--bg-color);
   font-family: Courier New, Courier, monospace;
@@ -11,7 +22,14 @@ html, body {
   color: var(--txt-color);
   overflow-x: hidden;
 }
-p, a, h1, h2, h3, h4, h5, span {
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
   text-transform: lowercase;
 }
 .overflow {
@@ -24,8 +42,8 @@ h1 {
   font-weight: 400;
 }
 h2 {
-font-size: 1.5rem;
-font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 h3 {
   font-size: 1.3rem;
@@ -33,7 +51,7 @@ h3 {
 }
 h4 {
   margin: 17px 1% 7px 1%;
-  width: 75%
+  width: 75%;
 }
 h5 {
   font-size: 0.8rem;
@@ -42,7 +60,7 @@ h5 {
 }
 p {
   font-size: 1rem;
-  line-height: 1.5
+  line-height: 1.5;
 }
 a {
   text-decoration: none;
@@ -88,8 +106,8 @@ a {
   overflow: hidden;
 }
 .menu ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 .active {
   display: inherit;
@@ -139,7 +157,7 @@ a {
   right: 0;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 .thumbnail:hover .overlay {
   opacity: 1;
@@ -159,7 +177,9 @@ a {
 .page h1 {
   margin: 3% 1%;
 }
-.page p, h3, h5 {
+.page p,
+h3,
+h5 {
   width: 75%;
   margin: 0 1%;
 }
@@ -200,23 +220,23 @@ a {
 
 /* Youtube Embed Styling */
 .embed-container {
-      position: relative;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden;
-      max-width: 99%;
-    }
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 99%;
+}
 
-    .embed-container iframe,
-    .embed-container object,
-    .embed-container embed {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 99%;
-      height: 100%;
-      margin: 0% 1%;
-    }
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height: 100%;
+  margin: 0% 1%;
+}
 
 .time p {
   color: #a5a5a5;
@@ -231,7 +251,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-
 }
 
 .img {
@@ -300,12 +319,12 @@ a {
 /* Lightbox */
 .lightbox {
   display: none;
-	position: fixed;
-	z-index: 998;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
+  position: fixed;
+  z-index: 998;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   background: #ffffff;
   background: var(--bg-color);
   overflow: hidden;
@@ -326,7 +345,7 @@ a {
 }
 
 /* resonsiveness */
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) {
   .thumbnail {
     width: 50%;
   }
@@ -339,7 +358,7 @@ a {
     margin: 0 1%;
   }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .thumbnail {
     width: 100%;
   }
@@ -352,21 +371,23 @@ a {
     margin: 0 1%;
   }
   .img {
-  width: 74%;
-  flex-grow: 1;
+    width: 74%;
+    flex-grow: 1;
   }
   .img_last {
-  width: 74%;
-  flex-grow: 1;
+    width: 74%;
+    flex-grow: 1;
   }
   .hochformat {
-  width: 30%;
-  flex-grow: 1;
+    width: 30%;
+    flex-grow: 1;
   }
   .phone {
-  width: 30%;
+    width: 30%;
   }
-  .page p, h3, h5 {
+  .page p,
+  h3,
+  h5 {
     width: 100%;
     margin: 0 1%;
   }
@@ -378,6 +399,16 @@ a {
     width: 100%;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000;
+    --txt-color: #fff;
+    --plus-color: #585858;
+    --auto-dark: true;
+  }
+}
+
 .hide {
   display: none;
 }

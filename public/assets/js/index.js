@@ -1,67 +1,131 @@
-"use strict"
+"use strict";
 
 // parseUri 1.2.2
 // (c) Steven Levithan <stevenlevithan.com>
 // MIT License
-function parseUri(r) { for (var e = parseUri.options, o = e.parser[e.strictMode ? "strict" : "loose"].exec(r), s = {}, t = 14; t--;)s[e.key[t]] = o[t] || ""; return s[e.q.name] = {}, s[e.key[12]].replace(e.q.parser, function (r, o, t) { o && (s[e.q.name][o] = t) }), s } parseUri.options = { strictMode: !1, key: ["source", "protocol", "authority", "userInfo", "user", "password", "host", "port", "relative", "path", "directory", "file", "query", "anchor"], q: { name: "queryKey", parser: /(?:^|&)([^&=]*)=?([^&]*)/g }, parser: { strict: /^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/, loose: /^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/ } };
-var supportsCssVars = window.CSS && window.CSS.supports && window.CSS.supports('(color: var(--color))');
+function parseUri(r) {
+  for (
+    var e = parseUri.options,
+      o = e.parser[e.strictMode ? "strict" : "loose"].exec(r),
+      s = {},
+      t = 14;
+    t--;
 
-$(document).ready(function () {
-
-  router.init();
-  if (localStorage.getItem('color') !== null && supportsCssVars) {
-    localStorage.getItem('color') === 'dark' ? makeDark() : makeLight();
+  )
+    s[e.key[t]] = o[t] || "";
+  return (
+    (s[e.q.name] = {}),
+    s[e.key[12]].replace(e.q.parser, function(r, o, t) {
+      o && (s[e.q.name][o] = t);
+    }),
+    s
+  );
+}
+parseUri.options = {
+  strictMode: !1,
+  key: [
+    "source",
+    "protocol",
+    "authority",
+    "userInfo",
+    "user",
+    "password",
+    "host",
+    "port",
+    "relative",
+    "path",
+    "directory",
+    "file",
+    "query",
+    "anchor"
+  ],
+  q: { name: "queryKey", parser: /(?:^|&)([^&=]*)=?([^&]*)/g },
+  parser: {
+    strict: /^(?:([^:\/?#]+):)?(?:\/\/((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?))?((((?:[^?#\/]*\/)*)([^?#]*))(?:\?([^#]*))?(?:#(.*))?)/,
+    loose: /^(?:(?![^:@]+:[^:@\/]*@)([^:\/?#.]+):)?(?:\/\/)?((?:(([^:@]*)(?::([^:@]*))?)?@)?([^:\/?#]*)(?::(\d*))?)(((\/(?:[^?#](?![^?#\/]*\.[^?#\/.]+(?:[?#]|$)))*\/?)?([^?#\/]*))(?:\?([^#]*))?(?:#(.*))?)/
   }
-  if (supportsCssVars) $('#dark-light-toggle').removeClass('hide');
+};
+var supportsCssVars =
+  window.CSS &&
+  window.CSS.supports &&
+  window.CSS.supports("(color: var(--color))");
 
-  $('#sprache').on('click', toggleLanguage);
+$(document).ready(function() {
+  router.init();
+  if (localStorage.getItem("color") !== null && supportsCssVars) {
+    if (localStorage.getItem("color") === "dark") {
+      makeDark();
+    } else if (localStorage.getItem("color") === "light") {
+      makeLight();
+    } else if (localStorage.getItem("color") === "auto") {
+      makeAuto();
+    }
+  }
+  if (supportsCssVars) $("#dark-light-toggle").removeClass("hide");
+
+  $("#sprache").on("click", toggleLanguage);
 
   function makeLight() {
-    $("html").get(0).style.setProperty("--bg-color", "#fff");
-    $("html").get(0).style.setProperty("--txt-color", "#000");
-    $("body").get(0).style.setProperty("--bg-color", "#fff");
-    $("body").get(0).style.setProperty("--txt-color", "#000");
-    $("html").get(0).style.setProperty("--plus-color", "#a5a5a5");
-    $("body").get(0).style.setProperty("--plus-color", "#a5a5a5");
+    $("html").addClass("light");
+    $("body").addClass("light");
     $("#logo_w").addClass("inactive");
     $("#logo_s").removeClass("inactive");
-    $("meta[property='theme']").attr("content", '#fff');
-    console.log('goooood morning. i hope you have a fantastic day. :D');
-  };
-
+    $("meta[property='theme']").attr("content", "#fff");
+    console.log("goooood morning. i hope you have a fantastic day. :D");
+  }
 
   function makeDark() {
-    $("html").get(0).style.setProperty("--bg-color", "#000");
-    $("html").get(0).style.setProperty("--txt-color", "#fff");
-    $("body").get(0).style.setProperty("--bg-color", "#000");
-    $("body").get(0).style.setProperty("--txt-color", "#fff");
-    $("html").get(0).style.setProperty("--plus-color", "#585858");
-    $("body").get(0).style.setProperty("--plus-color", "#585858");
+    $("html").addClass("dark");
+    $("body").addClass("dark");
     $("#logo_s").addClass("inactive");
     $("#logo_w").removeClass("inactive");
-    $("meta[property='theme']").attr("content", '#000');
-    console.log('goooood night. sleep tight. :-)');
+    $("meta[property='theme']").attr("content", "#000");
+    console.log("goooood night. sleep tight. :-)");
   }
+
+  function makeAuto() {
+    $("html").removeClass("dark");
+    $("body").removeClass("dark");
+    $("html").removeClass("light");
+    $("body").removeClass("light");
+    var dark = getComputedStyle(document.body).getPropertyValue("--auto-dark");
+    if (dark === " true") {
+      $("#logo_s").addClass("inactive");
+      $("#logo_w").removeClass("inactive");
+      $("meta[property='theme']").attr("content", "#000");
+    } else {
+      $("#logo_w").addClass("inactive");
+      $("#logo_s").removeClass("inactive");
+      $("meta[property='theme']").attr("content", "#fff");
+    }
+    console.log("automatic darkmode activaaaated! :D");
+  }
+
   // hamburger menu active
-  $(".hamburger").on("click", function () {
+  $(".hamburger").on("click", function() {
     $(".hamburger").toggleClass("is-active");
     $(".menu").toggleClass("active");
     $("html").toggleClass("overflow");
   });
   // change theme to light
-  $("#load_light").on("click", function () {
+  $("#load_light").on("click", function() {
     makeLight();
-    localStorage.setItem('color', 'light');
+    localStorage.setItem("color", "light");
   });
 
-  // dark
-  $("#load_dark").on("click", function () {
+  // change theme to dark
+  $("#load_dark").on("click", function() {
     makeDark();
-    localStorage.setItem('color', 'dark');
+    localStorage.setItem("color", "dark");
   });
 
+  // change theme to auto (system)
+  $("#load_auto").on("click", function() {
+    makeAuto();
+    localStorage.setItem("color", "auto");
+  });
 
-  $(document).on('click', '.router', function (e) {
+  $(document).on("click", ".router", function(e) {
     e.preventDefault();
     var link = parseUri(e.currentTarget.href);
     var url = link.relative;
@@ -70,30 +134,29 @@ $(document).ready(function () {
 
   // lightbox overflow toggle
   var toppiflopp;
-  $(".content").on("click", ".img", function (e) {
+  $(".content").on("click", ".img", function(e) {
     toppiflopp = $(document).scrollTop();
-    $('#' + e.target.id + '-l').toggleClass("light-active");
+    $("#" + e.target.id + "-l").toggleClass("light-active");
     $("body").toggleClass("overflow");
   });
-  $(".content").on("click", ".img_last", function (e) {
+  $(".content").on("click", ".img_last", function(e) {
     toppiflopp = $(document).scrollTop();
-    $('#' + e.target.id + '-l').toggleClass("light-active");
+    $("#" + e.target.id + "-l").toggleClass("light-active");
     $("body").toggleClass("overflow");
   });
-  $(".content").on("click", ".hochformat", function (e) {
+  $(".content").on("click", ".hochformat", function(e) {
     toppiflopp = $(document).scrollTop();
-    $('#' + e.target.id + '-l').toggleClass("light-active");
+    $("#" + e.target.id + "-l").toggleClass("light-active");
     $("body").toggleClass("overflow");
   });
-  $(".content").on("click", ".hochformat_last", function (e) {
+  $(".content").on("click", ".hochformat_last", function(e) {
     toppiflopp = $(document).scrollTop();
-    $('#' + e.target.id + '-l').toggleClass("light-active");
+    $("#" + e.target.id + "-l").toggleClass("light-active");
     $("body").toggleClass("overflow");
   });
-  $(".content").on("click", ".lightbox", function () {
+  $(".content").on("click", ".lightbox", function() {
     $("body").toggleClass("overflow");
     $(document).scrollTop(toppiflopp);
     $(".lightbox").removeClass("light-active");
   });
-
 });
