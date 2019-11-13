@@ -400,12 +400,33 @@ h5 {
   }
 }
 
+#logo_w,
+.light #logo_s {
+  display: inline;
+}
+#logo_s,
+.light #logo_w {
+  display: none;
+}
+
+.dark #logo_s {
+  display: none;
+}
+.dark #logo_w {
+  display: inline;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #000;
     --txt-color: #fff;
     --plus-color: #585858;
-    --auto-dark: true;
+  }
+  #logo_s {
+    display: none;
+  }
+  #logo_w {
+    display: inline;
   }
 }
 

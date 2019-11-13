@@ -61,43 +61,33 @@ $(document).ready(function() {
       makeAuto();
     }
   }
+  if (localStorage.getItem("color") === null) {
+    makeAuto();
+    localStorage.setItem("color", "auto");
+  }
   if (supportsCssVars) $("#dark-light-toggle").removeClass("hide");
 
   $("#sprache").on("click", toggleLanguage);
 
   function makeLight() {
     $("html").addClass("light");
-    $("body").addClass("light");
-    $("#logo_w").addClass("inactive");
-    $("#logo_s").removeClass("inactive");
+    // $("body").addClass("light");
     $("meta[property='theme']").attr("content", "#fff");
     console.log("goooood morning. i hope you have a fantastic day. :D");
   }
 
   function makeDark() {
     $("html").addClass("dark");
-    $("body").addClass("dark");
-    $("#logo_s").addClass("inactive");
-    $("#logo_w").removeClass("inactive");
+    // $("body").addClass("dark");
     $("meta[property='theme']").attr("content", "#000");
     console.log("goooood night. sleep tight. :-)");
   }
 
   function makeAuto() {
     $("html").removeClass("dark");
-    $("body").removeClass("dark");
+    // $("body").removeClass("dark");
     $("html").removeClass("light");
-    $("body").removeClass("light");
-    var dark = getComputedStyle(document.body).getPropertyValue("--auto-dark");
-    if (dark === " true") {
-      $("#logo_s").addClass("inactive");
-      $("#logo_w").removeClass("inactive");
-      $("meta[property='theme']").attr("content", "#000");
-    } else {
-      $("#logo_w").addClass("inactive");
-      $("#logo_s").removeClass("inactive");
-      $("meta[property='theme']").attr("content", "#fff");
-    }
+    // $("body").removeClass("light");
     console.log("automatic darkmode activaaaated! :D");
   }
 
