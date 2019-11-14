@@ -400,11 +400,11 @@ h5 {
   }
 }
 
-#logo_w,
+#logo_s,
 .light #logo_s {
   display: inline;
 }
-#logo_s,
+#logo_w,
 .light #logo_w {
   display: none;
 }
