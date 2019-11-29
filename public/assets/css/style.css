@@ -193,7 +193,7 @@ h5 {
   margin: 3% 1%;
 }
 .portrait img {
-  width: 15%;
+  height: 200px;
 }
 .plus-inactive {
   color: #a5a5a5;
@@ -349,9 +349,6 @@ h5 {
   .thumbnail {
     width: 50%;
   }
-  .portrait img {
-    width: 20%;
-  }
   .youtube {
     width: 74%;
     height: 35%;
@@ -361,9 +358,6 @@ h5 {
 @media screen and (max-width: 600px) {
   .thumbnail {
     width: 100%;
-  }
-  .portrait img {
-    width: 30%;
   }
   .youtube {
     width: 100%;
