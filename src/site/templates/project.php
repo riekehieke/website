@@ -17,7 +17,11 @@
       </div>
     <?php endforeach ?>
   </div>
-
+  <?php if ($page->video()->url()->isNotEmpty()): ?>
+     <div class="embed-container">
+      <?= video($page->video()) ?>
+    </div>
+  <?php endif ?>
   <div>
     <?= $page->text()->blocks() ?>
   </div>

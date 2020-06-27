@@ -1,10 +1,8 @@
-Title: MUI
+Title: Workshop 'Modern UI'
 
 ----
 
-Projectthumbnail:
-
-- p_mui.jpg
+Projectthumbnail: - p_mui.jpg
 
 ----
 
@@ -37,4 +35,4 @@ Text:
 
 ----
 
-Date: – januar 2020
+Date: – 2019-2020

@@ -1,0 +1,61 @@
+Title: Webprojekte
+
+----
+
+Projectthumbnail:
+
+- p_websites.jpg
+
+----
+
+Gallery:
+
+- 02.png
+- 03.png
+- 01.png
+- 04.png
+
+----
+
+Video: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Verschiedene Webprojekte, die ich (teilweise im Team) realisiert habe.",
+        "id": "_01UGMmqSK",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "- Website \"Expedition in die Natur\" (2020). Website f\u00fcr Kinder einer Natur-AG, um w\u00e4hrend der Corona-Krise weiter lernen zu k\u00f6nnen. <a title=\"Expedition in die Natur\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://expedition-in-die-natur.de\">Hier klicken um zur Website zu kommen</a>.",
+        "id": "_zEywEHtVV",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "- Landing Page \"Tourismuskontor\" (2020). Landing Page f\u00fcr Projektplanungs- und Contentb\u00fcro in der Tourismus-Branche. <a title=\"Tourismus-Kontor\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tourismus-kontor.de\">Hier klicken um zur Website zu kommen</a>.",
+        "id": "_SuVYWX5Jm",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "- Website \"Unterm Sternenhimmel\" (2019). Website und Online-Buchungssystem f\u00fcr ein Touristik-Unternehmen im Sternenpark Westhavelland. <a title=\"Unterm Sternenhimmel\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://unterm-sternenhimmel.de\">Hier geht es zur Website</a>.",
+        "id": "_1BVYaDQnL",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "- Website \"Theater F\u00f6rderverein Bremerhaven\" (2019). Website f\u00fcr den F\u00f6rderverein des Bremerhavener Stadttheaters. Zusammen mit <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://jonaskuske.com\">Jonas Kuske</a> realisiert. <a title=\"Theater-F\u00f6rderverein Bremerhaven\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://theater-foerderverein-bremerhaven.de\">Hier anschauen</a>.",
+        "id": "_wLaVRJydq",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Date: – 2019-2020

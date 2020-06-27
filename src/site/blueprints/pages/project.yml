@@ -9,6 +9,10 @@ fields:
     type: files
     multiple: true
     label: Galerie
+  video:
+    type: url
+    multiple: false
+    label: Video-Link
   text:
     type: editor
     label: Text

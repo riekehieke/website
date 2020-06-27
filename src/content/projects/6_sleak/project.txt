@@ -1,0 +1,59 @@
+Title: Magazin 'sleak'
+
+----
+
+Projectthumbnail:
+
+- p_sleak.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 07.jpg
+- 03.jpg
+- 05.jpg
+- 08.jpg
+- 04.jpg
+- 06.jpg
+
+----
+
+Video: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "sleak ist ein Magazin f\u00fcr design- und medieninteressierte Menschen. Es wurde durch mich und meine Kommilitonen im Rahmen eines Medienprojektes komplett konzipiert, designt, gelayoutet, mit Inhalt gef\u00fcllt und gedruckt. Mit der Unterst\u00fctzung von 2 Dozenten haben wir den Prozess der Magazin-Erstellung von Anfang bis Ende durchlaufen.",
+        "id": "_av2rma0c8",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Das Magazin sticht durch sein minimalistisches und doch auffallendes Design heraus. Das Cover wurde nur mittels einer Blindpr\u00e4gung auf schwarzem Grund gestaltet und das gesamte Heft wurde in schwarz-rot gedruckt. Auf der zugeh\u00f6rigen <a title=\"sleak\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dmp-magazin.de\">Website</a> k\u00f6nnen (fast) alle Inhalte des Magazins zus\u00e4tzlich digital abgerufen werden.",
+        "id": "_tytuukgw8",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Bez\u00fcglich der Gestaltung war ich, neben Beitr\u00e4gen zum allgemeinen Layout, f\u00fcr die Erstellung des Logos, die Umsetzung der Website sowie f\u00fcr das Verfassen und Gestalten des Artikels \"Axel Bertram\" zust\u00e4ndig.",
+        "id": "_e4tww74ux",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Um die weiteren Mitglieder des Teams kennenzulernen, bitte <a title=\"sleak \u2013 Team\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dmp-magazin.de/team\">hier</a> klicken.",
+        "id": "_9cf5nbhh1",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Date: – Januar 2019

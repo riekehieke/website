@@ -1,0 +1,47 @@
+Title: Plakat-Serie 'Sommer in Zeiten von Corona'
+
+----
+
+Projectthumbnail: - poster_mockup_neu.jpg
+
+----
+
+Gallery:
+
+- poster_mockup_neu.jpg
+- 01_abstand_grun.png
+- 02_hande_pink.png
+- 03_maske_grun.png
+
+----
+
+Video: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "In Bezug auf die aktuelle weltweite Corona-Krise habe ich eine Plakatserie zum Thema \"Sommer in Zeiten von Corona\" entwickelt. Hierbei handelt es sich um rein typografische Plakate, die mit ihren leuchtenden Farben die Aufmerksamkeit auf sich ziehen und gleichzeitig ein Gef\u00fchl von Sommer vermitteln.",
+        "id": "_m7uu7yexu",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Der Inhalt der Plakate thematisiert die drei wichtigsten Ma\u00dfnahmen, dass der Sommer 2020 trotz Corona ein Erfolg wird: Maske auf, H\u00e4nde waschen, Abstand halten.",
+        "id": "_1xxewagp9",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Bei diesem Projekt handelt es sich um ein freies Projekt.",
+        "id": "_1ozqny7ma",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Date: – Mai 2020

@@ -1,0 +1,61 @@
+Title: Prototyp medizinischer Chatbot 'Lara'
+
+----
+
+Projectthumbnail:
+
+- p_lara.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+
+----
+
+Video: https://youtu.be/5SzsSZsXSDU
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Prototyp f\u00fcr einen medizinischen chatbot namens Lara. Sie hilft dem Nutzer, Symptome zu analysieren, Arzttermine zu vereinbaren und Erinnerungen f\u00fcr Medikamente einzustellen. Im Konzept gibt es au\u00dferdem die Funktion, Rezepte f\u00fcr bestimmte Medikamente direkt in der App zu erneuern und so lange Wartezeiten beim Arzt zu vermeiden. Die App zeigt au\u00dferdem auch die n\u00e4chsten Apotheken an.",
+        "id": "_6Vs1MxAaJ",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Der Prototyp wurde mit besonderem Augenmerk auf gutes UX-/UI-Design entwickelt und mithilfe des onsen UI templates, html und javascript als Web App umgesetzt.",
+        "id": "_WUkkmAOW7",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_8Y1qJ7Z3z",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Um den Prototypen selbst zu testen, bitte <a title=\"Lara\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://data.riekehelmers.com/lara\">hier</a> klicken.",
+        "id": "_dMdIM0dJT",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Das Projekt war eine Zusammenarbeit mit <a title=\"Max M. Schneider\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://maxmschneider.com\">Max M. Schneider</a>.",
+        "id": "_HzlWV23Fu",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Date: – August 2018

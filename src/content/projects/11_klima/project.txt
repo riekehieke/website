@@ -1,0 +1,42 @@
+Title: Logo 'Klimainitiative'
+
+----
+
+Projectthumbnail:
+
+- p_klima.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 03.jpg
+- 02.jpg
+
+----
+
+Video: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Logo f\u00fcr das Klimaschutzkonzept der Hochschule Bremerhaven. Das Logo kann einerseits als zwei H\u00e4nde, die die Erde halten interpretiert werden, oder auch als ein Auge und Wellen. Das symbolisiert den Hauptgedanken der Klimasch\u00fctzer: Die Erde besch\u00fctzen und ein Auge auf Alles haben. Die Wellen und die Farbwahl beziehen sich auf den Standort der Hochschule: Direkt an der Nordseek\u00fcste.",
+        "id": "_wZFGqYY9v",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Alles in allem ist es ein elegantes, modernes Logo mit hohem Wiedererkennungswert und einer sichtbaren Verbindung zur Nordsee und dem Thema Klimaschutz.",
+        "id": "_qB8xDMZad",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Date: – Dezember 2017

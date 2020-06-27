@@ -1,0 +1,49 @@
+Title: Portfolio Website 'Digitale Medienproduktion'
+
+----
+
+Projectthumbnail:
+
+- p_dmp.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 03.jpg
+- 04.jpg
+- 02.jpg
+
+----
+
+Video: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Portfolio Website f\u00fcr den Studiengang \"Digitale Medienproduktion\" der Hochschule Bremerhaven. Sinn der Website ist es haupts\u00e4chlich, Studieninteressierten zu zeigen, was f\u00fcr Projekte im Laufe des Studiums entstehen k\u00f6nnen. Die Web-Anwendung pr\u00e4sentiert Projekte von Studierenden aus allen Semestern und Vertiefungsrichtungen. Die Website basiert auf dem javascript-framework vue.js, um eine Single-Page-Experience zu erm\u00f6glichen. Die Projekte werden durch die Studierenden selbstst\u00e4ndig \u00fcber das angebundene Wordpress-Backend eingereicht.",
+        "id": "_ch0S4wfm9",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Um zur Website zu gelangen, bitte <a title=\"DMP Portfolio\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dmp-bremerhaven.de\">hier</a> klicken.",
+        "id": "_mXx3bOXUR",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Weitere Teammitglieder sind <a title=\"Max M. Schneider\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://maxmschneider.com\">Max M. Schneider</a> und <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://jonaskuske.com\">Jonas Kuske</a>.",
+        "id": "_bjoqhisbh",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Date: – Januar 2018

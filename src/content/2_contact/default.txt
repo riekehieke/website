@@ -1,0 +1,26 @@
+Title: Kontakt
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Kontakt",
+        "id": "_f6h8f4pzn",
+        "type": "h1"
+    },
+    {
+        "attrs": [],
+        "content": "Wenn ihr mehr \u00fcber mich oder meine Arbeit wissen wollt oder mich wegen eines Projektes kontaktieren wollt, schreibt mir gerne eine Mail an mail@riekehelmers.com oder klick einfach <a title=\"Mail an Rieke Helmers\" href=\"mailto:mail@riekehelmers.com\">hier</a>.",
+        "id": "_c9gvrbr5j",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "F\u00fcr Anfragen bez\u00fcglich eines Webentwicklung-Projektes k\u00f6nnt ihr auch sehr gerne Jonas Kuske und mich via mail@helmerskuske.team kontaktieren oder <a title=\"Mail an Rieke Helmers &amp; Jonas Kuske\" href=\"mailto:mail@helmerskuske.team\">hier</a> klicken.",
+        "id": "_a4kghyub7",
+        "type": "paragraph"
+    }
+]
