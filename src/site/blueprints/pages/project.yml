@@ -1,0 +1,17 @@
+Title: Project
+
+fields:
+  projectThumbnail:
+    type: files
+    multiple: false
+    label: Thumbnail
+  gallery:
+    type: files
+    multiple: true
+    label: Galerie
+  text:
+    type: editor
+    label: Text
+  date:
+    type: text
+    label: Datum

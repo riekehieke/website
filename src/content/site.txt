@@ -1,1 +1,27 @@
 Title: Rieke Helmers
+
+----
+
+Logo:
+
+- logo_s.png
+
+----
+
+Logodark:
+
+- logo_w.png
+
+----
+
+Sociallinks:
+
+- 
+  name: Pinterest
+  url: https://www.pinterest.de/rieke_helmers/
+- 
+  name: Twitter
+  url: https://twitter.com/riekehieke
+- 
+  name: GitHub
+  url: https://github.com/riekehieke

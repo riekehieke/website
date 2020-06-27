@@ -1,0 +1,14 @@
+Title: 404
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "entschuldigung, die Seite nach der Sie suchen existiert nicht. :-(",
+        "id": "_kr6zver7r",
+        "type": "paragraph"
+    }
+]
