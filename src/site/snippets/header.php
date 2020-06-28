@@ -39,22 +39,19 @@
           <?php endforeach ?>
         </div>
 
-        <div style="font-size: 0.7rem" id="dark-light-toggle" class="hide">
+        <div id="dark-light-toggle" class="hide">
           <span
             id="load_light"
-            style="font-size: 0.7rem; cursor: pointer"
             >hell</span
           >
           /
           <span
             id="load_dark"
-            style="font-size: 0.7rem; cursor: pointer"
             >dunkel</span
           >
           /
           <span
             id="load_auto"
-            style="font-size: 0.7rem; cursor: pointer"
             >auto</span
           >
         </div>

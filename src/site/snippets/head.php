@@ -83,5 +83,21 @@
       href="/assets/favicon/favicon-16x16.png"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
-    <?= js(['assets/js/router.js', 'assets/js/index.js'], ['defer' => true]) ?>
+    <?= js(['assets/js/index.js'], ['defer' => true]) ?>
   </head>
+
+  <body>
+  <script>
+    'use strict'
+    ;(function detectScrollbar(doc) {
+      var el = doc.body.appendChild(doc.createElement('div'))
+
+      el.style.cssText =
+        'width:100px;height:100px;overflow:scroll !important;position:absolute;top:-100vh'
+
+      var hasScrollbar = el.offsetWidth - el.clientWidth > 0
+      if (hasScrollbar) doc.documentElement.classList.add('has-scrollbar')
+
+      doc.body.removeChild(el)
+    })(document)
+  </script>

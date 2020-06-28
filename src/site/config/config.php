@@ -3,6 +3,8 @@
 use Kirby\Http\Server;
 use Kirby\Toolkit\I18n;
 
+$is_dev = Server::host() === 'localhost' && Server::port() === 8080;
+
 /**
  * The config file is optional. It accepts a return array with config options
  * Note: Never include more than one return statement, all options go within this single return array

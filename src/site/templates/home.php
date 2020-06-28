@@ -7,15 +7,20 @@ $projects = $projectPage ? $projectPage->children()->listed() : pages([]);
 ?>
 
 <div class="projects" id="projects">
-  <?php foreach($projects as $index => $project): ?>
-    <div class="thumbnail <?= 'thumbnail--' . $index ?>">
-      <a href="<?= $project->url() ?>" class="router">
+  <?php foreach($projects as $project): ?>
+    <div class="thumbnail <?= 'thumbnail--' . $project->indexOf() ?>">
+      <div class="thumbnail__img-container">
         <?php if ($project->projectThumbnail()->isNotEmpty()): ?>
-          <img src="<?= $project->projectThumbnail()->toFile()->url() ?>" alt="" class="image" />
+          <img
+            src="<?= $project->projectThumbnail()->toFile()->thumb(['width' => 1200])->url() ?>"
+            alt=""
+            class="thumbnail__img"
+          />
         <?php endif ?>
-        <p>
-          <?= $project->title()->inline() ?>
-        </p>
+      </div>
+
+      <a class="thumbnail__link" href="<?= $project->url() ?>" class="router">
+        <span><?= $project->title()->inline() ?></span>
       </a>
     </div>
   <?php endforeach ?>
