@@ -1,0 +1,11 @@
+type: pages
+headline: Projekte
+template: project
+parent: kirby.page("projects")
+size: tiny
+info: "<b>{{ page.num() }}.</b> {{ page.info.short(24) }}"
+layout: cards
+empty: Noch keine Projekte.
+image:
+  query: page.projectThumbnail.toFile
+  cover: true

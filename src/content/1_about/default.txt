@@ -1,0 +1,60 @@
+Title: About
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "About",
+        "id": "_2l8lkeclm",
+        "type": "h1"
+    },
+    {
+        "attrs": [],
+        "content": "Hi, mein Name ist Rieke Helmers. Ich bin eine 23-j\u00e4hrige Studentin der Digitalen Medienproduktion in Bremerhaven. In meinem Studium konzentriere ich mich haupts\u00e4chlich auf Grafik-/Coporate-Design, Web-Design und UX-/UI-Design.",
+        "id": "_h2glvoiy4",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Von September 2018 bis Januar 2019 habe ich ein Praktikum in der Stockholmer Grafikagentur BVD absolviert. Nun befinde ich mich im 8. Semester meines Studiums und arbeite aktuell an meiner Bachelorarbeit. Seit 2018 bin ich au\u00dferdem als Freelancerin aktiv. F\u00fcr Projektanfragen meldet euch gerne!",
+        "id": "_3465x0plf",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Bei vielen Webprojekten arbeite ich mit Jonas Kuske zusammen. F\u00fcr mehr Infos und Kontaktm\u00f6glichkeiten, bitte <a title=\"Helmers &amp; Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://helmerskuske.team\">hier</a> klicken.",
+        "id": "_wh0mBOlDH",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Fragen, Anregungen, Gr\u00fc\u00dfe? <a title=\"Kontakt\" href=\"/contact\">Hier</a> k\u00f6nnt ihr mich kontaktieren!",
+        "id": "_kiwgc8wkr",
+        "type": "paragraph"
+    },
+    {
+        "attrs": {
+            "guid": "/pages/about/files/rieke.jpg",
+            "id": "about/rieke.jpg",
+            "ratio": 1,
+            "caption": ""
+        },
+        "content": "",
+        "id": "_6vixbwu97",
+        "type": "image"
+    },
+    {
+        "attrs": {
+            "guid": "/pages/about/files/rieke2.jpg",
+            "id": "about/rieke2.jpg",
+            "ratio": 1.4997000599880024,
+            "caption": ""
+        },
+        "content": "",
+        "id": "_tgpnlbu1g",
+        "type": "image"
+    }
+]

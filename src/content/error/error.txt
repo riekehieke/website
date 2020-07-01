@@ -1,0 +1,20 @@
+Title: 404
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Sorry, die Seite nach der du gesucht hast existiert nicht. :-(",
+        "id": "_kr6zver7r",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "<a title=\"Start\" href=\"https://riekehelmers.com\">Zur\u00fcck zum Start</a>",
+        "id": "_d1jkhve4i",
+        "type": "paragraph"
+    }
+]

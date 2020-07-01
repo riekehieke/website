@@ -1,0 +1,6 @@
+title: Standard
+icon: 📃
+preset: page
+fields:
+  text:
+    type: editor

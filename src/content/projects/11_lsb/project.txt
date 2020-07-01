@@ -1,0 +1,53 @@
+Title: Corporate Design 'Landessportbund Bremen'
+
+----
+
+Projectthumbnail:
+
+- p_lsb.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+- 05.jpg
+- 06.jpg
+- 07.jpg
+- 08.jpg
+
+----
+
+Video: 
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Fiktives Corporate Design f\u00fcr den Landessportbund Bremen. Der Landessportbund Bremen ist die gr\u00f6\u00dfte sportorganisation in Bremen mit ungef\u00e4hr 160.000 Mitgliedern. Das Logo besteht aus einer modernen, geometrischen Form mit einer Ausstanzung und glatter Typografie. Die variable Farbpalette hilft, die modernit\u00e4t und frische des Logos zu unterstreichen.",
+        "id": "_nB0TEre1i",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Das Logo ist Teil eines modularen Systems. Es kann durch ein zweites Modul erweitert werden, um bestimmte Zweige des Landessportbundes in den Vordergrund zu stellen.",
+        "id": "_BhXNTvUzP",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Alle Teile des Corporate Designs sind in einem Corporate Design Manual festgehalten. Um einen Blick hinein zu werfen, bitte <a title=\"Corporate Design Manual LSB\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://bit.ly/cd-lsb\">hier</a> klicken.",
+        "id": "_bMxv1tUD4",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Date: – Februar 2018
