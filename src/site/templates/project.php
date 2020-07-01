@@ -11,18 +11,18 @@
     <?php foreach($images as $image): ?>
       <?php if ($image->height() > $image->width()): ?>
       <div class="gallery__img-container gallery__img-container--portrait">
-        <?= $image->thumb(['width' => 900])->html(['id' => 'img-' . $image->indexOf()]) ?>
+        <?= $image->thumb(['width' => 900])->html(['id' => 'thumb-img-' . $image->indexOf()]) ?>
       </div>
       <?php else: ?>
       <div class="gallery__img-container gallery__img-container--landscape">
-        <?= $image->crop(1200, 800)->html(['id' => 'img-' . $image->indexOf()]) ?>
+        <?= $image->crop(1200, 800)->html(['id' => 'thumb-img-' . $image->indexOf()]) ?>
       </div>
       <?php endif ?>
     <?php endforeach ?>
   </div>
 
   <?php foreach($images as $image): ?>
-    <div class="lightbox" id="<?= 'img-' . $image->indexOf() . '-l' ?>">
+    <div class="lightbox" id="<?= 'lightbox-for-thumb-img-' . $image->indexOf() ?>">
       <img src="<?= $image->url() ?>" />
     </div>
   <?php endforeach ?>

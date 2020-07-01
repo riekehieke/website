@@ -68,26 +68,13 @@ $(document).ready(function () {
   // lightbox overflow toggle
   var toppiflopp;
   console.log("I am doing stuff");
-  $(".content").on("click", ".img", function (e) {
+
+  $(".content").on("click", "[id^='thumb-img-']", function (e) {
     toppiflopp = $(document).scrollTop();
-    $("#" + e.target.id + "-l").toggleClass("light-active");
+    $("#lightbox-for-" + e.target.id).toggleClass("light-active");
     $("body").toggleClass("overflow");
   });
-  $(".content").on("click", ".img_last", function (e) {
-    toppiflopp = $(document).scrollTop();
-    $("#" + e.target.id + "-l").toggleClass("light-active");
-    $("body").toggleClass("overflow");
-  });
-  $(".content").on("click", ".hochformat", function (e) {
-    toppiflopp = $(document).scrollTop();
-    $("#" + e.target.id + "-l").toggleClass("light-active");
-    $("body").toggleClass("overflow");
-  });
-  $(".content").on("click", ".hochformat_last", function (e) {
-    toppiflopp = $(document).scrollTop();
-    $("#" + e.target.id + "-l").toggleClass("light-active");
-    $("body").toggleClass("overflow");
-  });
+
   $(".content").on("click", ".lightbox", function () {
     $("body").toggleClass("overflow");
     $(document).scrollTop(toppiflopp);

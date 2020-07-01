@@ -43,6 +43,9 @@
 html.has-scrollbar .gallery__img-container--portrait {
   height: calc(calc(100vw - 30px - 16px) * 0.6666 * 0.6666);
 }
+.gallery__img-container img {
+  cursor: pointer;
+}
 .gallery__img-container--portrait img {
   height: 100%;
 }
