@@ -21,6 +21,21 @@
 .gallery__img-container:first-child {
   scroll-snap-align: end;
 }
+.gallery__img-container--landscape {
+  position: relative;
+}
+.gallery__img-container--landscape:after {
+  content: "";
+  display: block;
+  padding-bottom: 66.66666%;
+}
+.gallery__img-container--landscape img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .gallery__img-container--portrait {
   width: auto;
   height: calc(calc(100vw - 30px) * 0.6666 * 0.6666);
@@ -65,6 +80,13 @@ html.has-scrollbar .gallery__img-container--portrait {
   display: block;
 }
 
+.video-container {
+  margin-bottom: 2rem;
+}
+.video-container--empty {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .video-editor-container {
     display: flex;
@@ -79,6 +101,9 @@ html.has-scrollbar .gallery__img-container--portrait {
     flex: 1;
     flex-shrink: 0;
     order: 1;
+  }
+  .video-container--empty {
+    display: block;
   }
 }
 .video-container {

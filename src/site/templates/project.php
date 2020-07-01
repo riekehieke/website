@@ -9,12 +9,15 @@
 
   <div class="gallery">
     <?php foreach($images as $image): ?>
-      <div class="gallery__img-container <?= e($image->height() > $image->width(), 'gallery__img-container--portrait') ?>">
-        <img
-          src="<?= ($image->height() > $image->width()) ? $image->thumb(['width' => 900])->url() : $image->crop(1200, 800)->url() ?>"
-          id="<?= 'img-' . $image->indexOf() ?>"
-        />
-    </div>
+      <?php if ($image->height() > $image->width()): ?>
+      <div class="gallery__img-container gallery__img-container--portrait">
+        <?= $image->thumb(['width' => 900])->html(['id' => 'img-' . $image->indexOf()]) ?>
+      </div>
+      <?php else: ?>
+      <div class="gallery__img-container gallery__img-container--landscape">
+        <?= $image->crop(1200, 800)->html(['id' => 'img-' . $image->indexOf()]) ?>
+      </div>
+      <?php endif ?>
     <?php endforeach ?>
   </div>
 
@@ -25,10 +28,10 @@
   <?php endforeach ?>
 
   <div class="video-editor-container">
-    <div class="video-container">
+    <div class="video-container <?= e($page->video()->isEmpty(), 'video-container--empty') ?>">
       <?php if ($page->video()->isNotEmpty()): ?>
         <?= video($page->video()) ?>
-        <?php endif ?>
+      <?php endif ?>
     </div>
 
     <div class="editor"><?= $page->text()->blocks() ?></div>
