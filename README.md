@@ -1,4 +1,7 @@
-# Portfolio-Website of Rieke Helmers
+<br>
+<br>
+
+<h1 align="center">Portfolio-Website of Rieke Helmers</h1>
 
 <img src="https://user-images.githubusercontent.com/30436310/86271482-3b8ce280-bbcd-11ea-977f-47da34962ec2.jpg">
 
@@ -8,7 +11,7 @@ ___
 Built with <a href="https://getkirby.com" target="_blank">Kirby CMS</a>.
 
 ___
-## Anleitung
+## Instructions
 
 #### Clone the repo
 
