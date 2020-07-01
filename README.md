@@ -5,14 +5,14 @@
 This is my personal portfolio-website, available at <a href="https://riekehelmers.com" target="_blank">https://riekehelmers.com</a>.
 ___
 
-Built with <a href="https://getkirby.com" target="_blank">Kriby CMS</a>.
+Built with <a href="https://getkirby.com" target="_blank">Kirby CMS</a>.
 
 ___
 ## Anleitung
 
 #### Clone the repo
 
-`> git clone --recurse-submodules https://github.com/jonaskuske/studentenfutter`
+`> git clone --recurse-submodules https://github.com/riekehieke/website`
 
 > If you clone the repo without `--recurse-submodules`, run `git submodule update --init --recursive` in the project dir.
 
