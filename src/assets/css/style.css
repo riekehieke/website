@@ -28,7 +28,7 @@ body {
   font-family: "Courier New", "Courier", monospace;
   color: var(--txt-color);
   text-transform: lowercase;
-  overflow: scroll;
+  min-height: 100vh;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 .has-scrollbar body {
