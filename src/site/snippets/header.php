@@ -13,11 +13,11 @@
           id="logo_w"
         />
       </a>
-      <div class="hamburger hamburger--squeeze">
-        <div class="hamburger-box">
-          <div class="hamburger-inner"></div>
-        </div>
-      </div>
+      <button class="hamburger hamburger--squeeze">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
     </div>
 
     <div class="menu">

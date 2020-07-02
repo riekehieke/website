@@ -8,7 +8,7 @@ $projects = $projectPage ? $projectPage->children()->listed() : pages([]);
 
 <div class="projects" id="projects">
   <?php foreach($projects as $project): ?>
-    <div class="thumbnail <?= 'thumbnail--' . $project->indexOf() ?>">
+    <div class="thumbnail">
       <div class="thumbnail__img-container">
         <?php if ($project->projectThumbnail()->isNotEmpty()): ?>
           <img

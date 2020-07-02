@@ -108,16 +108,19 @@ body {
   margin: 15px;
 }
 
-.hamburger {
-  margin-right: -0.8%;
-}
-
 /* header */
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 35px;
+  margin-bottom: 0.5rem;
 }
+
+.has-scrollbar body.overflow .header {
+  padding-right: 8px;
+}
+
 .header h2 {
   margin: 5px 0 5px 1%;
   width: 100%;
@@ -155,7 +158,7 @@ body {
   padding: 0;
 }
 .active {
-  display: inherit;
+  display: block;
   z-index: 99;
 }
 .menu a {

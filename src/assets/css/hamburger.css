@@ -1,5 +1,6 @@
 .hamburger {
   padding: 5px 0 0 0;
+  outline: none;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -18,7 +19,7 @@
 }
 
 .hamburger-box {
-  width: 40px;
+  width: 30px;
   height: 24px;
   display: inline-block;
   position: relative;
@@ -34,7 +35,6 @@
 .hamburger-inner::after {
   width: 30px;
   height: 2px;
-  background-color: #000000;
   background-color: var(--txt-color);
   border-radius: 4px;
   position: absolute;
