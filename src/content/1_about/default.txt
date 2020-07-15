@@ -56,5 +56,11 @@ Text:
         "content": "",
         "id": "_tgpnlbu1g",
         "type": "image"
+    },
+    {
+        "attrs": [],
+        "content": "P.S.: Diese Website wurde mithilfe des Super-CMS <a title=\"Kirby\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://getkirby.com\">Kirby</a> gebaut.",
+        "id": "_fl6efru3l",
+        "type": "paragraph"
     }
 ]

@@ -68,7 +68,19 @@ Text:
     {
         "attrs": [],
         "content": "",
-        "id": "_HP83DH22s",
+        "id": "_n4vzc9fi0",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "Diese Seite wurde mithilfe des CMS <a title=\"Kirby\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://getkirby.com\">Kirby</a> umgesetzt.",
+        "id": "_zreb3yl4w",
+        "type": "paragraph"
+    },
+    {
+        "attrs": [],
+        "content": "",
+        "id": "_nu88owfre",
         "type": "paragraph"
     },
     {

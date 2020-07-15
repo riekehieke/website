@@ -1,0 +1,37 @@
+Title: Alphabet 'Circular'
+
+----
+
+Projectthumbnail:
+
+- p_circular.jpg
+
+----
+
+Gallery:
+
+- 03.jpg
+- 04.jpg
+- 01.png
+- 02.jpg
+
+----
+
+Video: https://youtu.be/JduP-gifnpI
+
+----
+
+Text:
+
+[
+    {
+        "attrs": [],
+        "content": "Circular, eine Schrift, die nur aus geometrischen Grundformen (Kreis, Dreieck und Quadrat) konstruiert wurde. Die Hauptidee war, eine experimentelle Schrift und dazugeh\u00f6rige Regeln, nach denen die Schrift konstruiert wird. Lesbarkeit wurde bewusst in den Hintergrund gestellt, da es haupts\u00e4chlich um die \u00c4sthetik des Alphabets ging. Das Alphabet wurde auf zwei Plakaten pr\u00e4sentiert und zus\u00e4tzlich in einem Imageclip vorgestellt, der die Verspieltheit aber auch Harmonie der Buchstaben aufzeigt.",
+        "id": "_sbvo5d7cj",
+        "type": "paragraph"
+    }
+]
+
+----
+
+Date: – Februar 2017
