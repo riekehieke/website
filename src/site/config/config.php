@@ -15,6 +15,7 @@ $is_dev = Server::host() === 'localhost' && Server::port() === 8080;
 return [
     'production' => !$is_dev,
     'debug' => $is_dev,
+    'thumbs' => ['driver' => 'im'],
     'bvdputte.fingerprint.query' => true,
     'hooks' => [
       'route:after' => function () {
