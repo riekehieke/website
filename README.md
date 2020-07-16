@@ -23,10 +23,10 @@ Built with <a href="https://getkirby.com" target="_blank">Kirby CMS</a>.
 
 #### Development
 
-`> npm start` – requires PHP >= 7.3 (with `curl`, `ctype`, `mbstring` and `gd`) and `imagemagick` to be installed
+**`> npm start`** – requires PHP >= 7.3 (with `curl`, `ctype`, `mbstring` and `gd`) and `imagemagick` to be installed
 
 or using `docker-compose`:
 
-`docker-compose up -d` – also set `PHP_UID` and `PHP_GID` env variables if the owner of `./src` is different than `1000:1000`
+**`> docker-compose up -d`** – set `PHP_UID` and `PHP_GID` env variables if owner of `./src` is different from `1000:1000`
 
 > Then visit [`localhost:8080`](http://localhost:8080) (or [`localhost:8080/panel`](http://localhost:8080/panel) for the admin panel) 👍🏻
