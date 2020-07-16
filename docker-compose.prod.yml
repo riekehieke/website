@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  nginx:
+    image: nginx:1.19.1-alpine
+    networks:
+      - traefik-public
+      - php
+    volumes:
+      - "./nginx.conf:/etc/nginx/conf.d/default.conf:ro"
+      - "./src:/var/www"
+    deploy:
+      labels:
+        - "traefik.enable=true"
+        - "traefik.docker.network=traefik-public"
+        - "traefik.http.routers.website-rieke.rule=Host(`riekehelmers.com`)"
+        - "traefik.http.services.website-rieke.loadbalancer.server.port=80"
+  php-fpm:
+    image: jonaskuske/php-fpm-imagemagick
+    user: "${PHP_UID}:${PHP_GID}"
+    networks:
+      - php
+    volumes:
+      - "./src:/var/www"
+
+networks:
+  php:
+    driver: overlay
+  traefik-public:
+    external: true
