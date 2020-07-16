@@ -3,8 +3,6 @@ version: "3.8"
 services:
   nginx:
     image: nginx:1.19.1-alpine
-    networks:
-      - php
     volumes:
       - "./nginx.conf:/etc/nginx/conf.d/default.conf:ro"
       - "./src:/var/www"
@@ -17,10 +15,5 @@ services:
       args:
         DEVELOPMENT: "true"
     user: "${PHP_UID}:${PHP_GID}"
-    networks:
-      - php
     volumes:
       - "./src:/var/www"
-
-networks:
-  php:
