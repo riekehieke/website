@@ -11,6 +11,7 @@ services:
     ports:
       - "8080:80"
   php-fpm:
+    image: jonaskuske/php-fpm-imagemagick
     build:
       context: .
       args:
