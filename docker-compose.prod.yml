@@ -17,7 +17,7 @@ services:
         - "traefik.http.services.website-rieke.loadbalancer.server.port=80"
   php-fpm:
     image: jonaskuske/php-fpm-imagemagick
-    user: "${PHP_UID}:${PHP_GID}"
+    user: "${PHP_UID?err}:${PHP_GID?err}"
     networks:
       - php
     volumes:
