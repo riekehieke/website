@@ -2,4 +2,10 @@
 
 require __DIR__ . '/kirby/bootstrap.php';
 
-echo (new Kirby)->render();
+$kirby = new Kirby([
+  'roots' => [
+    'license' => __DIR__ . '/site/license',
+  ]
+]);
+
+echo $kirby->render();
