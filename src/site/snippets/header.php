@@ -1,5 +1,5 @@
 <div class="header">
-      <a href="/" class="router">
+      <a href="<?= url('/', $kirby->languageCode()) ?>" class="router">
         <img
           src="<?= $site->logo()->toFile()->url() ?>"
           alt="rieke helmers"
