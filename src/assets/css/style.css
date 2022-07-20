@@ -233,6 +233,12 @@ h5 {
 .hide {
   display: none;
 }
+.languages li {
+  display: inline;
+}
+.languages li:not(:first-child) a::before {
+  content: " / ";
+}
 .social-links a:not(:first-child)::before {
   content: " / ";
 }
