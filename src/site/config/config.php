@@ -39,5 +39,6 @@ return [
             }
         }
         ]
-    ]
+    ],
+    'languages' => true
 ];
