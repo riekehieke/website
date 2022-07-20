@@ -31,6 +31,18 @@
         <?php endforeach ?>
       </ul>
 
+      <div class="languages">
+        <ul>
+          <?php foreach($kirby->languages() as $language): ?>
+            <li<?php e($kirby->language() == $language, ' class="active"') ?>>
+              <a href="<?= $page->url($language->code()) ?>" hreflang="<?php echo $language->code() ?>">
+                <?= html($language->name()) ?>
+              </a>
+            </li>
+          <?php endforeach ?>
+        </ul>
+    </div>
+
         <div class="social-links">
           <?php foreach($site->socialLinks()->toStructure() as $link): ?>
             <a href="<?= $link->url() ?>" target="_blank" rel="noopener">
