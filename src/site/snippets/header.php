@@ -31,7 +31,15 @@
         <?php endforeach ?>
       </ul>
 
-      <div class="languages">
+        <div class="social-links">
+          <?php foreach($site->socialLinks()->toStructure() as $link): ?>
+            <a href="<?= $link->url() ?>" target="_blank" rel="noopener">
+              <?= $link->name()->inline() ?>
+            </a>
+          <?php endforeach ?>
+        </div>
+
+        <div class="languages">
         <ul>
           <?php foreach($kirby->languages() as $language): ?>
             <li<?php e($kirby->language() == $language, ' class="active"') ?>>
@@ -42,14 +50,6 @@
           <?php endforeach ?>
         </ul>
     </div>
-
-        <div class="social-links">
-          <?php foreach($site->socialLinks()->toStructure() as $link): ?>
-            <a href="<?= $link->url() ?>" target="_blank" rel="noopener">
-              <?= $link->name()->inline() ?>
-            </a>
-          <?php endforeach ?>
-        </div>
 
         <div id="dark-light-toggle" class="hide">
           <span

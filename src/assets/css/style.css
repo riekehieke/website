@@ -255,6 +255,10 @@ h5 {
   cursor: pointer;
 }
 
+.languages ul li a {
+  font-size: 0.7rem;
+}
+
 @media screen and (min-width: 768px) {
   .content figure img {
     /* float: left; */
