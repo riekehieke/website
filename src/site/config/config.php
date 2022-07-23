@@ -13,6 +13,10 @@ $is_dev = Server::host() === 'localhost' && Server::port() === 8080;
  * All config options: https://getkirby.com/docs/reference/system/options
  */
 return [
+    'url' => [
+        'https://riekehelmers.com',
+        'http://localhost:8080'
+    ],
     'production' => !$is_dev,
     'debug' => $is_dev,
     'thumbs' => ['driver' => 'im'],
