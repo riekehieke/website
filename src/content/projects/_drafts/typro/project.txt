@@ -23,22 +23,7 @@ Video:
 
 ----
 
-Text:
-
-[
-    {
-        "attrs": [],
-        "content": "Eine jQuery mobile Web App. Die Hauptidee bestand darin, dass die App verschiedene Fonts durch die Kamera erkennen und identifizieren sollte. Das ist aktuell f\u00fcr uns noch nicht umsetzbar. Aktuell kann die web app auf die Kamera oder bereits aufgenommenen Fotos zugreifen und Fotos mit bestimmten Nutzeraccounts verkn\u00fcpfen und speichern. Es gibt au\u00dferdem einen Katalog mit verschiedenen Fonts. Die Single-page-application wurde mit HTML, CSS und Javascript/jQuery entwickelt. Zum Team geh\u00f6rten au\u00dferdem <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://jonaskuske.com\">Jonas Kuske</a> und <a title=\"Max M. Schneider\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://maxmschneider.com\">Max M. Schneider</a>.",
-        "id": "_9zw4kq6jt",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Um die letzte Version des Projektes anzuschauen, bitte <a title=\"Typro\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://jonaskuske.github.io/typro\">hier</a> klicken.",
-        "id": "_Z2b6VQQg8",
-        "type": "paragraph"
-    }
-]
+Text: [{"content":{"text":"<p>Eine jQuery mobile Web App. Die Hauptidee bestand darin, dass die App verschiedene Fonts durch die Kamera erkennen und identifizieren sollte. Das ist aktuell f\u00fcr uns noch nicht umsetzbar. Aktuell kann die web app auf die Kamera oder bereits aufgenommenen Fotos zugreifen und Fotos mit bestimmten Nutzeraccounts verkn\u00fcpfen und speichern. Es gibt au\u00dferdem einen Katalog mit verschiedenen Fonts. Die Single-page-application wurde mit HTML, CSS und Javascript\/jQuery entwickelt. Zum Team geh\u00f6rten au\u00dferdem <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http:\/\/jonaskuske.com\">Jonas Kuske<\/a> und <a title=\"Max M. Schneider\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/maxmschneider.com\">Max M. Schneider<\/a>.<\/p>"},"id":"a4f906dc-6450-4829-84e2-e15777cf8676","isHidden":false,"type":"text"},{"content":{"text":"<p>Um die letzte Version des Projektes anzuschauen, bitte <a title=\"Typro\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.github.io\/typro\">hier<\/a> klicken.<\/p>"},"id":"1e7ccbea-a6ad-4171-9fbe-2ab4ed97487e","isHidden":false,"type":"text"}]
 
 ----
 

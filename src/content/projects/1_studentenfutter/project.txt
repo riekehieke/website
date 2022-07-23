@@ -26,22 +26,7 @@ Video:
 
 ----
 
-Text:
-
-[
-    {
-        "attrs": [],
-        "content": "Im Rahmen meiner Bachelorarbeit habe ich ein crossmediales Kochbuch-Projekt namens \u201estudentenfutter\u201c konzipiert, gestaltet und umgesetzt. Das Projekt besteht aus einem Kochbuch und einer Begleit-App. Die Rezepte im Kochbuch und in der App sind Lieblingsrezepte, die von Studierenden aus ganz Deutschland eingereicht wurden \u2013 egal wie lang, komplex oder exotisch die Rezepte sind. Damit entsteht ein authentischer Blick in die K\u00fcchen der Studierenden von Heute. Das Kochbuch \u00fcberzeugt durch gute Gestaltung, gute Haptik sowie langlebige Materialien und eine robuste Verarbeitung, die App besticht mit ihren exklusiven Funktionen wie dem Markieren von Favoriten oder der Suche und ist gleichzeitig noch ansehnlich gestaltet und gut bedienbar.",
-        "id": "_rf2RaglPq",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Das Kochbuch wurde in einer limitierten Auflage von 75 Exemplaren gedruckt. Die App wurde von <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://jonaskuske.com\">Jonas Kuske</a> als Progressive Web App umgesetzt und kann kostenlos genutzt werden: <a title=\"Studentenfutter\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://studentenfutter.app\">https://studentenfutter.app</a>",
-        "id": "_Z9mmdXwbE",
-        "type": "paragraph"
-    }
-]
+Text: [{"content":{"text":"<p>Im Rahmen meiner Bachelorarbeit habe ich ein crossmediales Kochbuch-Projekt namens \u201estudentenfutter\u201c konzipiert, gestaltet und umgesetzt. Das Projekt besteht aus einem Kochbuch und einer Begleit-App. Die Rezepte im Kochbuch und in der App sind Lieblingsrezepte, die von Studierenden aus ganz Deutschland eingereicht wurden \u2013 egal wie lang, komplex oder exotisch die Rezepte sind. Damit entsteht ein authentischer Blick in die K\u00fcchen der Studierenden von Heute. Das Kochbuch \u00fcberzeugt durch gute Gestaltung, gute Haptik sowie langlebige Materialien und eine robuste Verarbeitung, die App besticht mit ihren exklusiven Funktionen wie dem Markieren von Favoriten oder der Suche und ist gleichzeitig noch ansehnlich gestaltet und gut bedienbar.<\/p>"},"id":"b5d31865-7bea-4e95-b79f-6cf5e2ff1c10","isHidden":false,"type":"text"},{"content":{"text":"<p>Das Kochbuch wurde in einer limitierten Auflage von 75 Exemplaren gedruckt. Die App wurde von <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a> als Progressive Web App umgesetzt und kann kostenlos genutzt werden: <a title=\"Studentenfutter\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/studentenfutter.app\">https:\/\/studentenfutter.app<\/a><\/p>"},"id":"68dbff95-e40c-44d2-ab13-fce2bbc4714e","isHidden":false,"type":"text"}]
 
 ----
 

@@ -23,22 +23,7 @@ Video:
 
 ----
 
-Text:
-
-[
-    {
-        "attrs": [],
-        "content": "Visuelle Identit\u00e4t f\u00fcr den Co-Working Space \"Co-Working Wolle\" im denkmalgesch\u00fctzten Haus. Es sollte ein nat\u00fcrlicher, minimalistischer Look erzielt werden, der den Charme des mit Naturbaustoffen renovierten Hauses mit der modernen Einrichtung und Verwendung verbindet. F\u00fcr die Flyer wurde ein hochwertiger Recyclingkarton gew\u00e4hlt. Neben dem Logo, Flyern und Stickern habe ich auch Schilder f\u00fcr die Hausfassade und die Website gestaltet. F\u00fcr die Website habe ich ein eigenes Buchungssystem entwickelt, das den Nutzern die M\u00f6glichkeit gibt, ihre Schreibitsche oder B\u00fcros jederzeit selbstst\u00e4ndig online zu buchen.",
-        "id": "_gduzzjl5l",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "<a title=\"Co-Working Wolle\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://coworking-wolle.de\">Hier geht es zur Website</a>.",
-        "id": "_34l3ltwqb",
-        "type": "paragraph"
-    }
-]
+Text: [{"content":{"text":"<p>Visuelle Identit\u00e4t f\u00fcr den Co-Working Space \"Co-Working Wolle\" im denkmalgesch\u00fctzten Haus. Es sollte ein nat\u00fcrlicher, minimalistischer Look erzielt werden, der den Charme des mit Naturbaustoffen renovierten Hauses mit der modernen Einrichtung und Verwendung verbindet. F\u00fcr die Flyer wurde ein hochwertiger Recyclingkarton gew\u00e4hlt. Neben dem Logo, Flyern und Stickern habe ich auch Schilder f\u00fcr die Hausfassade und die Website gestaltet. F\u00fcr die Website habe ich ein eigenes Buchungssystem entwickelt, das den Nutzern die M\u00f6glichkeit gibt, ihre Schreibitsche oder B\u00fcros jederzeit selbstst\u00e4ndig online zu buchen.<\/p>"},"id":"160b92ef-ba70-40c0-b185-7a23d6d580c9","isHidden":false,"type":"text"},{"content":{"text":"<p><a title=\"Co-Working Wolle\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/coworking-wolle.de\">Hier geht es zur Website<\/a>.<\/p>"},"id":"e1f22229-4aa0-4b73-a517-d8ccf92d6da4","isHidden":false,"type":"text"}]
 
 ----
 

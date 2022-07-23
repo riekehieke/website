@@ -2,7 +2,9 @@ Title: Plakat-Serie 'Sommer in Zeiten von Corona'
 
 ----
 
-Projectthumbnail: - poster_mockup_neu.jpg
+Projectthumbnail:
+
+- poster_mockup_neu.jpg
 
 ----
 
@@ -19,28 +21,7 @@ Video:
 
 ----
 
-Text:
-
-[
-    {
-        "attrs": [],
-        "content": "In Bezug auf die aktuelle weltweite Corona-Krise habe ich eine Plakatserie zum Thema \"Sommer in Zeiten von Corona\" entwickelt. Hierbei handelt es sich um rein typografische Plakate, die mit ihren leuchtenden Farben die Aufmerksamkeit auf sich ziehen und gleichzeitig ein Gef\u00fchl von Sommer vermitteln.",
-        "id": "_m7uu7yexu",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Der Inhalt der Plakate thematisiert die drei wichtigsten Ma\u00dfnahmen, dass der Sommer 2020 trotz Corona ein Erfolg wird: Maske auf, H\u00e4nde waschen, Abstand halten.",
-        "id": "_1xxewagp9",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Bei diesem Projekt handelt es sich um ein freies Projekt.",
-        "id": "_1ozqny7ma",
-        "type": "paragraph"
-    }
-]
+Text: [{"content":{"text":"<p>In Bezug auf die aktuelle weltweite Corona-Krise habe ich eine Plakatserie zum Thema \"Sommer in Zeiten von Corona\" entwickelt. Hierbei handelt es sich um rein typografische Plakate, die mit ihren leuchtenden Farben die Aufmerksamkeit auf sich ziehen und gleichzeitig ein Gef\u00fchl von Sommer vermitteln.<\/p>"},"id":"c9cd1ea9-3c30-435e-9f61-28e6b45c878b","isHidden":false,"type":"text"},{"content":{"text":"<p>Der Inhalt der Plakate thematisiert die drei wichtigsten Ma\u00dfnahmen, dass der Sommer 2020 trotz Corona ein Erfolg wird: Maske auf, H\u00e4nde waschen, Abstand halten.<\/p>"},"id":"f1b08281-4776-4ddc-9e35-9edb7ac625e0","isHidden":false,"type":"text"},{"content":{"text":"<p>Bei diesem Projekt handelt es sich um ein freies Projekt.<\/p>"},"id":"522155d7-16c8-4c52-bf2d-cee0463e27e1","isHidden":false,"type":"text"}]
 
 ----
 

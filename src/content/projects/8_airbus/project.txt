@@ -21,22 +21,7 @@ Video: https://youtu.be/M9DHziU8wMc
 
 ----
 
-Text:
-
-[
-    {
-        "attrs": [],
-        "content": "In Kooperation mit Airbus Bremen war es Aufgabe, L\u00f6sungen zu entwickeln, die Leistungen &amp; Potenzial des Airbus-Standortes Bremen pr\u00e4sentieren sollen. Schon fr\u00fch entstand die Idee, auf eine Kampagne zu setzen, die eine digitale Experience sinnvoll mit einer Komponente im Print-Bereich kombiniert \u2013 daraus entwickelte sich dann die \"AR-Kampagne\". Diese erz\u00e4hlt eine Brandstory, die User nach dem Motto \"Bremen bringts\" entlang von vier Steps in den Weltraum f\u00fchrt: der Airbus A350, die Ariane-Rakete, die ISS und das Raumschiff Orion. Das modulare Konzept l\u00e4sst sich jedoch um beliebige Stationen erweitern. F\u00fcr jeden Step wurde eine zugeh\u00f6rige Animation sowie ein speziell pr\u00e4pariertes AR-Plakat entworfen. Scannt man dieses, spielt sich die Animation in der Augmented Reality ab: das Plakat wird zum Leben erweckt. Anschlie\u00dfend \u00f6ffnet sich automatisch die f\u00fcr die Kampagne entwickelte <a title=\"Airbus AR Kampagne - Website\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://data.jonaskuske.com/airbus/\">Web-App</a>, die alle Steps zu einer interaktiven Experience vereint, um abschlie\u00dfend auf eine Werksf\u00fchrung zu verweisen. So entsteht ein crossmedialer \"Experience Lifecycle\" mit Touchpoints im Print-Bereich, Digital-Bereich und der Option, den Standort \"hautnah zu erleben\".",
-        "id": "_klbz7t3e7",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "Dieses Projekt war eine Kooperation mit <a title=\"Max M. Schneider\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://maxmschneider.com\">Max M. Schneider</a> und <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://jonaskuske.com\">Jonas Kuske</a>.",
-        "id": "_rjqib4i9t",
-        "type": "paragraph"
-    }
-]
+Text: [{"content":{"text":"<p>In Kooperation mit Airbus Bremen war es Aufgabe, L\u00f6sungen zu entwickeln, die Leistungen &amp; Potenzial des Airbus-Standortes Bremen pr\u00e4sentieren sollen. Schon fr\u00fch entstand die Idee, auf eine Kampagne zu setzen, die eine digitale Experience sinnvoll mit einer Komponente im Print-Bereich kombiniert \u2013 daraus entwickelte sich dann die \"AR-Kampagne\". Diese erz\u00e4hlt eine Brandstory, die User nach dem Motto \"Bremen bringts\" entlang von vier Steps in den Weltraum f\u00fchrt: der Airbus A350, die Ariane-Rakete, die ISS und das Raumschiff Orion. Das modulare Konzept l\u00e4sst sich jedoch um beliebige Stationen erweitern. F\u00fcr jeden Step wurde eine zugeh\u00f6rige Animation sowie ein speziell pr\u00e4pariertes AR-Plakat entworfen. Scannt man dieses, spielt sich die Animation in der Augmented Reality ab: das Plakat wird zum Leben erweckt. Anschlie\u00dfend \u00f6ffnet sich automatisch die f\u00fcr die Kampagne entwickelte <a title=\"Airbus AR Kampagne - Website\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/data.jonaskuske.com\/airbus\/\">Web-App<\/a>, die alle Steps zu einer interaktiven Experience vereint, um abschlie\u00dfend auf eine Werksf\u00fchrung zu verweisen. So entsteht ein crossmedialer \"Experience Lifecycle\" mit Touchpoints im Print-Bereich, Digital-Bereich und der Option, den Standort \"hautnah zu erleben\".<\/p>"},"id":"7fb1076f-e009-4eae-a37e-b333b171f622","isHidden":false,"type":"text"},{"content":{"text":"<p>Dieses Projekt war eine Kooperation mit <a title=\"Max M. Schneider\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/maxmschneider.com\">Max M. Schneider<\/a> und <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"http:\/\/jonaskuske.com\">Jonas Kuske<\/a>.<\/p>"},"id":"8bab8cfd-3982-4aa8-9273-88a7973da478","isHidden":false,"type":"text"}]
 
 ----
 

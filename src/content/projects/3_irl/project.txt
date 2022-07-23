@@ -30,16 +30,7 @@ Video:
 
 ----
 
-Text:
-
-[
-    {
-        "attrs": [],
-        "content": "Zusammen mit meinen Kommilitonen Marvin Homann und <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://jonaskuske.com\">Jonas Kuske</a> habe ich ein Fotografieprojekt umgesetzt. Wir wollten uns gerne mit der Produktfotografie besch\u00e4ftigen, diese aber auch mit einem Thema, was uns am Herzen liegt, verkn\u00fcpfen. Es kam die Idee auf, Verpackungsm\u00fcll, also scheinbar wertlose Objekte, die demoliert und achtlos entsorgt wurden, so zu inszenieren, wie normalerweise nur Hightech-Ger\u00e4te wie Smartphones oder Notebooks inszeniert werden. Wir wollten den M\u00fcll, den viele Leute t\u00e4glich wegwerfen, in\u2018s richtige Licht r\u00fccken und aufzeigen, dass diese Objekte sehrwohl wertvoll und hochqualitativ sind. In die Konzeption, das Design, die Materialien und die Herstellung dieser Verpackungen ist viel Zeit und Geld geflossen und sie sollten von uns dementsprechend gew\u00fcrdigt werden. Wir haben die Fotos im Studio aufgenommen und am Ende auf einer von uns erstellten <a title=\"Website Im richtigen Licht\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://jonaskuske.github.io/im-richtigen-licht/\">Website</a> inszeniert.",
-        "id": "_r0gh5m4qv",
-        "type": "paragraph"
-    }
-]
+Text: [{"content":{"text":"<p>Zusammen mit meinen Kommilitonen Marvin Homann und <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a> habe ich ein Fotografieprojekt umgesetzt. Wir wollten uns gerne mit der Produktfotografie besch\u00e4ftigen, diese aber auch mit einem Thema, was uns am Herzen liegt, verkn\u00fcpfen. Es kam die Idee auf, Verpackungsm\u00fcll, also scheinbar wertlose Objekte, die demoliert und achtlos entsorgt wurden, so zu inszenieren, wie normalerweise nur Hightech-Ger\u00e4te wie Smartphones oder Notebooks inszeniert werden. Wir wollten den M\u00fcll, den viele Leute t\u00e4glich wegwerfen, in\u2018s richtige Licht r\u00fccken und aufzeigen, dass diese Objekte sehrwohl wertvoll und hochqualitativ sind. In die Konzeption, das Design, die Materialien und die Herstellung dieser Verpackungen ist viel Zeit und Geld geflossen und sie sollten von uns dementsprechend gew\u00fcrdigt werden. Wir haben die Fotos im Studio aufgenommen und am Ende auf einer von uns erstellten <a title=\"Website Im richtigen Licht\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.github.io\/im-richtigen-licht\/\">Website<\/a> inszeniert.<\/p>"},"id":"87a0a6ec-2d03-4c26-84a4-2edaff773a11","isHidden":false,"type":"text"}]
 
 ----
 

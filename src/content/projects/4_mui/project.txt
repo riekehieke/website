@@ -2,7 +2,9 @@ Title: Workshop 'Modern UI'
 
 ----
 
-Projectthumbnail: - p_mui.jpg
+Projectthumbnail:
+
+- p_mui.jpg
 
 ----
 
@@ -16,22 +18,11 @@ Gallery:
 
 ----
 
-Text:
+Video: 
 
-[
-    {
-        "attrs": [],
-        "content": "In der zweiten H\u00e4lfte des Jahres 2019 habe ich zusammen mit meinem Kollegen und Kommilitonen <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://jonaskuske.com\">Jonas Kuske</a> einen Workshop zum Thema User Interface &amp; User Experience Design konzipiert, vorbereitet und umgesetzt. Der Workshop bestand aus 4 f\u00fcnfst\u00fcndigen Veranstaltungen mit ca. 20 Teilnehmern, die sich mit den Themen Konzeption, Wireframing, Prototyping, Designlehre (Farbe, Form, Typografie), Accessibility und Responsive Design besch\u00e4ftigt haben. Als Vorbereitung und Begleitung des Workshops haben wir eine Website mit allen wichtigen Informationen designt und umgesetzt, die die Teilnehmenden auch w\u00e4hrend des Workshops begleitet hat. Im Nachhinein haben wir noch ein Handout mit den wichtigsten Infos aus dem Workshop zusammengestellt. Wir haben dem Workshop eine eigene lebhafte, Farbenfrohe und moderne visuelle Identit\u00e4t inklusive Logo gegeben, um Studierende auf den Workshop aufmerksam zu machen. Der Workshop war sehr erfolgreich und wir hatten sehr viel Spa\u00df.",
-        "id": "_kiqhajikc",
-        "type": "paragraph"
-    },
-    {
-        "attrs": [],
-        "content": "<a title=\"MUI\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://modern-ui.design\">Link zur Website mit Folien, Handout und weiteren Infos</a><br><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://api.dmp-bremerhaven.de/modernui/Handout.pdf\">Das Handout zum Herunterladen als PDF</a>",
-        "id": "_l1hes5i8i",
-        "type": "paragraph"
-    }
-]
+----
+
+Text: [{"content":{"text":"<p>In der zweiten H\u00e4lfte des Jahres 2019 habe ich zusammen mit meinem Kollegen und Kommilitonen <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a> einen Workshop zum Thema User Interface &amp; User Experience Design konzipiert, vorbereitet und umgesetzt. Der Workshop bestand aus 4 f\u00fcnfst\u00fcndigen Veranstaltungen mit ca. 20 Teilnehmern, die sich mit den Themen Konzeption, Wireframing, Prototyping, Designlehre (Farbe, Form, Typografie), Accessibility und Responsive Design besch\u00e4ftigt haben. Als Vorbereitung und Begleitung des Workshops haben wir eine Website mit allen wichtigen Informationen designt und umgesetzt, die die Teilnehmenden auch w\u00e4hrend des Workshops begleitet hat. Im Nachhinein haben wir noch ein Handout mit den wichtigsten Infos aus dem Workshop zusammengestellt. Wir haben dem Workshop eine eigene lebhafte, Farbenfrohe und moderne visuelle Identit\u00e4t inklusive Logo gegeben, um Studierende auf den Workshop aufmerksam zu machen. Der Workshop war sehr erfolgreich und wir hatten sehr viel Spa\u00df.<\/p>"},"id":"eee0df2b-f0fc-4420-9fa6-fd48cd9d63b3","isHidden":false,"type":"text"},{"content":{"text":"<p><a title=\"MUI\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/modern-ui.design\">Link zur Website mit Folien, Handout und weiteren Infos<\/a><br><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/api.dmp-bremerhaven.de\/modernui\/Handout.pdf\">Das Handout zum Herunterladen als PDF<\/a><\/p>"},"id":"f324aebd-e547-4324-a241-bc5d81c6849d","isHidden":false,"type":"text"}]
 
 ----
 
