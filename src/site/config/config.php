@@ -14,10 +14,7 @@ $is_dev = $environment->host() === 'localhost' && $environment->port() === 8080;
  * All config options: https://getkirby.com/docs/reference/system/options
  */
 return [
-    'url' => [
-        'https://riekehelmers.com',
-        'http://localhost:8080'
-    ],
+    'url' => ['https://riekehelmers.com', 'http://localhost:8080'],
     'production' => !$is_dev,
     'debug' => $is_dev,
     'thumbs' => ['driver' => 'im'],
@@ -27,19 +24,19 @@ return [
     'routes' => [
         // Redirect old /detail?project=<slug> style URLs to new /projects/<slug> URLs
         [
-        'pattern' => '/detail',
-        'action' => function() {
-            $query = Url::query();
+            'pattern' => '/detail',
+            'action' => function() {
+                $query = Url::query();
 
-            $match = preg_match('/^project=([^&\/]+)/', $query, $matches);
-            $slug = $matches[1];
+                $match = preg_match('/^project=([^&\/]+)/', $query, $matches);
+                $slug = $matches[1];
 
-            if ($page = page('projects')->find($slug)) {
-                go($page->url());
-            } else {
-                $this->next();
+                if ($page = page('projects')->find($slug)) {
+                    go($page->url());
+                } else {
+                    $this->next();
+                }
             }
-        }
         ],
     ]
 ];
