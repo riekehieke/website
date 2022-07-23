@@ -2,5 +2,5 @@
 <?= snippet('header') ?>
 
 <div class="content">
-  <?= $page->text()->blocks() ?>
+  <?= $page->text()->toBlocks() ?>
 </div>

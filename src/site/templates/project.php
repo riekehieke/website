@@ -34,7 +34,7 @@
       <?php endif ?>
     </div>
 
-    <div class="editor"><?= $page->text()->blocks() ?></div>
+    <div class="editor"><?= $page->text()->toBlocks() ?></div>
   </div>
 
   <div class="time">

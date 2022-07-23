@@ -1,9 +1,6 @@
 [submodule "src/kirby"]
 	path = src/kirby
 	url = https://github.com/getkirby/kirby.git
-[submodule "src/site/plugins/editor"]
-	path = src/site/plugins/editor
-	url = https://github.com/getkirby/editor.git
 [submodule "src/site/plugins/kirby-fingerprint"]
 	path = src/site/plugins/kirby-fingerprint
 	url = https://github.com/jonaskuske/kirby-fingerprint.git

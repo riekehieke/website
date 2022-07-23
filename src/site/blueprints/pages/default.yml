@@ -3,4 +3,4 @@ icon: 📃
 preset: page
 fields:
   text:
-    type: editor
+    type: blocks

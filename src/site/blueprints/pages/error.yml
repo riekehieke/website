@@ -2,5 +2,5 @@ title: Error
 icon: ❌
 fields:
   text:
-    type: editor
+    type: blocks
     label: Fehlermeldung

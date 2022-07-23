@@ -14,7 +14,7 @@ fields:
     multiple: false
     label: Video-Link
   text:
-    type: editor
+    type: blocks
     label: Text
   date:
     type: text
