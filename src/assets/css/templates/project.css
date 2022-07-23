@@ -132,4 +132,5 @@ html.has-scrollbar .gallery__img-container--portrait {
 .editor p {
   width: 100%;
   margin-top: 0;
+  text-transform: none;
 }
