@@ -28,7 +28,7 @@ $projects = $projectPage ? $projectPage->children()->listed() : pages([]);
               src="<?= $image->resize(1200)->url() ?>"
               width="<?= $image->resize(1200)->width() ?>"
               height="<?= $image->resize(1200)->height() ?>"
-              <?= r($project->indexOf() === 0, 'loading="lazy"') ?>
+              <?= r($project->indexOf(), 'loading="lazy"') ?>
               decoding="async"
               sizes="(min-width: 768px) <?= r($project->indexOf(), '30vw', '60vw')?>, 100vw"
               srcset="<?= $image->srcset() ?>"
