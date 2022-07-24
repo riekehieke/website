@@ -24,8 +24,6 @@ return [
     ],
     'thumbs' => [
         'driver' => 'im',
-        'autoOrient' => true,
-        'interlace' => true,
         'srcsets' => [
             'default' => [
                 '600w'  => ['width' => 600],
