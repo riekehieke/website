@@ -1,11 +1,17 @@
 "use strict";
 
+/** @type {Document['querySelector']} */
+var $ = document.querySelector.bind(document);
+var html = document.documentElement;
 var supportsCssVars =
   window.CSS &&
   window.CSS.supports &&
   window.CSS.supports("(color: var(--color))");
 
-$(document).ready(function () {
+if (document.readyState !== "loading") init();
+else document.addEventListener("DOMContentLoaded", init);
+
+function init() {
   if (localStorage.getItem("color") !== null && supportsCssVars) {
     if (localStorage.getItem("color") === "dark") {
       makeDark();
@@ -19,65 +25,72 @@ $(document).ready(function () {
     makeAuto();
     localStorage.setItem("color", "auto");
   }
-  if (supportsCssVars) $("#dark-light-toggle").removeClass("hide");
+  if (supportsCssVars) $("#dark-light-toggle").classList.remove("hide");
 
   function makeLight() {
-    $("html").addClass("light");
-    $("html").removeClass("dark");
-    $("meta[property='theme']").attr("content", "#fff");
+    html.classList.add("light");
+    html.classList.remove("dark");
+    $("meta[property='theme']").setAttribute("content", "#fff");
     console.log("goooood morning. i hope you have a fantastic day. :D");
   }
 
   function makeDark() {
-    $("html").addClass("dark");
-    $("html").removeClass("light");
-    $("meta[property='theme']").attr("content", "#000");
+    html.classList.add("dark");
+    html.classList.remove("light");
+    $("meta[property='theme']").setAttribute("content", "#000");
     console.log("goooood night. sleep tight. :-)");
   }
 
   function makeAuto() {
-    $("html").removeClass("dark");
-    $("html").removeClass("light");
+    html.classList.remove("dark");
+    html.classList.remove("light");
     console.log("automatic darkmode activaaaated! :D");
   }
 
   // hamburger menu active
-  $(".hamburger").on("click", function () {
-    $(".hamburger").toggleClass("is-active");
-    $(".menu").toggleClass("active");
-    $("body").toggleClass("overflow");
+  $(".hamburger").addEventListener("click", function () {
+    $(".hamburger").classList.toggle("is-active");
+    $(".menu").classList.toggle("active");
+    $("body").classList.toggle("overflow");
   });
   // change theme to light
-  $("#load_light").on("click", function () {
+  $("#load_light").addEventListener("click", function () {
     makeLight();
     localStorage.setItem("color", "light");
   });
 
   // change theme to dark
-  $("#load_dark").on("click", function () {
+  $("#load_dark").addEventListener("click", function () {
     makeDark();
     localStorage.setItem("color", "dark");
   });
 
   // change theme to auto (system)
-  $("#load_auto").on("click", function () {
+  $("#load_auto").addEventListener("click", function () {
     makeAuto();
     localStorage.setItem("color", "auto");
   });
 
   // lightbox overflow toggle
   var toppiflopp;
+  var content = $(".content");
   console.log("I am doing stuff");
 
-  $(".content").on("click", "[id^='thumb-img-']", function (e) {
-    toppiflopp = $(document).scrollTop();
-    $("#lightbox-for-" + e.target.id).toggleClass("light-active");
-    $("body").toggleClass("overflow");
-  });
+  if (content) {
+    content.addEventListener("click", function (e) {
+      if (!e.target.closest("[id^='thumb-img-']")) return;
 
-  $(".content").on("click", ".lightbox", function () {
-    $("body").toggleClass("overflow");
-    $(document).scrollTop(toppiflopp);
-    $(".lightbox").removeClass("light-active");
-  });
-});
+      toppiflopp = document.scrollingElement.scrollTop;
+      $("#lightbox-for-" + e.target.id).classList.toggle("light-active");
+      $("body").classList.toggle("overflow");
+    });
+
+    content.addEventListener("click", function (e) {
+      if (!e.target.closest(".lightbox")) return;
+
+      $("body").classList.toggle("overflow");
+      document.scrollingElement.scrollTop = toppiflopp;
+      $(".lightbox").classList.remove("light-active");
+    });
+  }
+}

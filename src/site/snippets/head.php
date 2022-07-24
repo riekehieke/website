@@ -82,8 +82,8 @@
       sizes="16x16"
       href="/assets/favicon/favicon-16x16.png"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
-    <?= js(['assets/js/index.js'], ['defer' => true]) ?>
+
+    <?= js('assets/js/index.js', true) ?>
   </head>
 
   <body>
