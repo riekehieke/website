@@ -94,4 +94,20 @@ function init() {
       lightbox.classList.remove("light-active");
     });
   }
+
+  window.addEventListener("keyup", function (e) {
+    if (e.key !== "Escape") return;
+
+    if ($(".menu").classList.contains("active")) {
+      $(".hamburger").classList.remove("is-active");
+      $(".menu").classList.remove("active");
+      $("body").classList.remove("overflow");
+    }
+
+    if ($(".lightbox.light-active")) {
+      $("body").classList.remove("overflow");
+      document.scrollingElement.scrollTop = toppiflopp;
+      $(".lightbox.light-active").classList.remove("light-active");
+    }
+  });
 }
