@@ -10,7 +10,8 @@ return [
     'name' => 'English',
     'translations' => [
         'hell' => 'light',
-        'dunkel' => 'dark'
+        'dunkel' => 'dark',
+        'menu' => 'Menu'
     ],
     'url' => NULL
 ];

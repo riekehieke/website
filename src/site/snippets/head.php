@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="<?= $kirby->languageCode() ?>">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -84,20 +86,4 @@
     />
 
     <?= js('assets/js/index.js', true) ?>
-  </head>
-
-  <body>
-  <script>
-    'use strict'
-    ;(function detectScrollbar(doc) {
-      var el = doc.body.appendChild(doc.createElement('div'))
-
-      el.style.cssText =
-        'width:100px;height:100px;overflow:scroll !important;position:absolute;top:-100vh'
-
-      var hasScrollbar = el.offsetWidth - el.clientWidth > 0
-      if (hasScrollbar) doc.documentElement.classList.add('has-scrollbar')
-
-      doc.body.removeChild(el)
-    })(document)
-  </script>
+</head>

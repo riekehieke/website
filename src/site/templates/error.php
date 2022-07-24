@@ -7,3 +7,5 @@
     <?= $page->text()->toBlocks() ?>
   </div>
 </div>
+
+<?= snippet('foot') ?>

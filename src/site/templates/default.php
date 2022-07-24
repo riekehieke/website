@@ -4,3 +4,5 @@
 <div class="content">
   <?= $page->text()->toBlocks() ?>
 </div>
+
+<?= snippet('foot') ?>

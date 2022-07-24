@@ -1,13 +1,17 @@
 <div class="header">
-      <a href="<?= $site->homePage()->url() ?>" class="router">
+      <a href="<?= $site->homePage()->url() ?>">
         <img
           src="<?= $site->logo()->toFile()->url() ?>"
+          width="<?= $site->logo()->width() ?>"
+          height="<?= $site->logo()->height() ?>"
           alt="rieke helmers"
           class="logo"
           id="logo_s"
         />
         <img
           src="<?= $site->logoDark()->toFile()->url() ?>"
+          width="<?= $site->logoDark()->width() ?>"
+          height="<?= $site->logoDark()->height() ?>"
           alt="rieke helmers"
           class="logo inactive"
           id="logo_w"
@@ -17,6 +21,7 @@
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
+        <span class="sr-only"><?= t('menu', 'Menü') ?></span>
       </button>
     </div>
 
@@ -24,7 +29,7 @@
       <ul>
         <?php foreach($site->children()->listed() as $menuPage): ?>
           <li>
-            <a href="<?= $menuPage->url() ?>" class="router">
+            <a href="<?= $menuPage->url() ?>">
               <?= $menuPage->title()->inline() ?>
             </a>
           </li>

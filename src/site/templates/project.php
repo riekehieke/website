@@ -82,3 +82,5 @@
     <p><?= $page->date()->inline() ?></p>
   </div>
 </div>
+
+<?= snippet('foot') ?>
