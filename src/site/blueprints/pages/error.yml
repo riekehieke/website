@@ -1,6 +1,9 @@
 title: Error
 icon: ❌
-fields:
-  text:
-    type: blocks
-    label: Fehlermeldung
+tabs:
+  content:
+    fields:
+      text:
+        type: blocks
+        label: Fehlermeldung
+  seotab: seo
