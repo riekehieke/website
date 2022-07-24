@@ -1,11 +1,22 @@
 title: Standard
 icon: 📃
-preset: page
+
 tabs:
   content:
     label: Inhalt
     icon: text
-    fields:
-      text:
-        type: blocks
+    columns:
+      - width: 2/3
+        fields:
+          text:
+            type: blocks
+      - width: 1/3
+        sections:
+          pages:
+            headline: Seiten
+            status: all
+            layout: list
+          files:
+            headline: Dateien
+            layout: list
   seotab: seo

@@ -4,36 +4,38 @@ title: Site
 
 tabs:
   content:
+    label: Übersicht
+    icon: grid
     columns:
       - width: 2/3
         sections:
-          albums: sections/projects
+          projects:
+            extends: sections/projects
+            headline: Veröffentlicht
+            status: published
+            search: true
       - width: 1/3
         sections:
           pages:
             type: pages
+            label: Seiten
             create: default
-      - width: 1/1
-        fields:
-          logo:
-            label: Logo (Lightmode)
-            type: files
-            multiple: false
-            layout: cards
-            width: 1/4
-          logoDark:
-            label: Logo (Darkmode)
-            type: files
-            multiple: false
-            layout: cards
-            width: 1/4
-          socialLinks:
-            label: Weitere Links im Menü
-            type: structure
-            width: 1/2
+          fields:
             fields:
-              name:
-                type: text
-                label: Name
-              url: true
+              logo:
+                label: Logo (Lightmode)
+                type: files
+                multiple: false
+              logoDark:
+                label: Logo (Darkmode)
+                type: files
+                multiple: false
+              socialLinks:
+                label: Menü-Links
+                type: structure
+                fields:
+                  name:
+                    type: text
+                    label: Name
+                  url: true
   seotab: seo
