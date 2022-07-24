@@ -19,6 +19,9 @@ return [
             'active' => true
         ]
     ],
+    'diesdasdigital.meta-knight' => [
+      'siteTitleAsHomePageTitle' => true,
+    ],
     'thumbs' => [
         'driver' => 'im',
         'autoOrient' => true,

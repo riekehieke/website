@@ -2,37 +2,38 @@
 
 title: Site
 
-columns:
-  - width: 2/3
-    sections:
-      albums: sections/projects
-
-  - width: 1/3
-    sections:
-      pages:
-        type: pages
-        create: default
-
-  - width: 1/1
-    fields:
-      logo:
-        label: Logo (Lightmode)
-        type: files
-        multiple: false
-        layout: cards
-        width: 1/4
-      logoDark:
-        label: Logo (Darkmode)
-        type: files
-        multiple: false
-        layout: cards
-        width: 1/4
-      socialLinks:
-        label: Weitere Links im Menü
-        type: structure
-        width: 1/2
+tabs:
+  content:
+    columns:
+      - width: 2/3
+        sections:
+          albums: sections/projects
+      - width: 1/3
+        sections:
+          pages:
+            type: pages
+            create: default
+      - width: 1/1
         fields:
-          name:
-            type: text
-            label: Name
-          url: true
+          logo:
+            label: Logo (Lightmode)
+            type: files
+            multiple: false
+            layout: cards
+            width: 1/4
+          logoDark:
+            label: Logo (Darkmode)
+            type: files
+            multiple: false
+            layout: cards
+            width: 1/4
+          socialLinks:
+            label: Weitere Links im Menü
+            type: structure
+            width: 1/2
+            fields:
+              name:
+                type: text
+                label: Name
+              url: true
+  seotab: seo

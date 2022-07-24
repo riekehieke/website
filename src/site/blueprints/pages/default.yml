@@ -1,6 +1,11 @@
 title: Standard
 icon: 📃
 preset: page
-fields:
-  text:
-    type: blocks
+tabs:
+  content:
+    label: Inhalt
+    icon: text
+    fields:
+      text:
+        type: blocks
+  seotab: seo

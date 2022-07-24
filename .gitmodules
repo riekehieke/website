@@ -4,6 +4,6 @@
 [submodule "src/site/plugins/kirby-fingerprint"]
 	path = src/site/plugins/kirby-fingerprint
 	url = https://github.com/jonaskuske/kirby-fingerprint.git
-[submodule "src/site/plugins/simplestats"]
-	path = src/site/plugins/simplestats
-	url = https://github.com/daandelange/kirby3-simplestats.git
+[submodule "src/site/plugins/kirby-meta-knight"]
+	path = src/site/plugins/kirby-meta-knight
+	url = https://github.com/diesdasdigital/kirby-meta-knight.git
