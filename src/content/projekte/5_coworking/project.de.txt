@@ -1,0 +1,30 @@
+Title: Visuelle Identität & Website 'Co-Working Wolle'
+
+----
+
+Projectthumbnail:
+
+- p_coworking.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+- 05.jpg
+- 06.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>Visuelle Identit\u00e4t f\u00fcr den Co-Working Space \"Co-Working Wolle\" im denkmalgesch\u00fctzten Haus. Es sollte ein nat\u00fcrlicher, minimalistischer Look erzielt werden, der den Charme des mit Naturbaustoffen renovierten Hauses mit der modernen Einrichtung und Verwendung verbindet. F\u00fcr die Flyer wurde ein hochwertiger Recyclingkarton gew\u00e4hlt. Neben dem Logo, Flyern und Stickern habe ich auch Schilder f\u00fcr die Hausfassade und die Website gestaltet. F\u00fcr die Website habe ich ein eigenes Buchungssystem entwickelt, das den Nutzern die M\u00f6glichkeit gibt, ihre Schreibitsche oder B\u00fcros jederzeit selbstst\u00e4ndig online zu buchen.<\/p>"},"id":"53f9f01f-48fb-434a-8008-b99c1e0c7445","isHidden":false,"type":"text"},{"content":{"text":"<p><a title=\"Co-Working Wolle\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/coworking-wolle.de\">Hier geht es zur Website<\/a>.<\/p>"},"id":"dfe3ec5f-4246-4e7c-9b40-3b02b10207ea","isHidden":false,"type":"text"}]
+
+----
+
+Date: – Dezember 2019

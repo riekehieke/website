@@ -1,0 +1,28 @@
+Title: Prototype medicinal chatbot 'Lara'
+
+----
+
+Projectthumbnail:
+
+- p_lara.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+
+----
+
+Video: https://www.youtube-nocookie.com/watch?v=5SzsSZsXSDU
+
+----
+
+Text: [{"content":{"text":"<p>Prototype for a medicinal chatbot named Lara. She helps users to analyze symptoms, schedule doctor's appointments and set reminders for meds. The concept also includes the functionality to renew prescriptions directly in the app and avoid long waits at the doctor's office. The app also shows you the nearest pharmacies.<\/p>"},"id":"9ef27d90-fe53-46bc-b122-08e243d861f8","isHidden":false,"type":"text"},{"content":{"text":"<p>This prototype was designed with a special focus on good UX and UI and was built as a Web App using the onsen UI templates, HTML and javascript.<\/p>"},"id":"8d87d924-bd1c-44d4-b179-04f07cb178d3","isHidden":false,"type":"text"},{"content":{"text":"<p>To test the prototype for yourself, please click <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/riekehieke.github.io\/chatbot-lara\/\">here<\/a>.<\/p>"},"id":"74fc382a-badf-4c25-be57-1ff2479a5b78","isHidden":false,"type":"text"},{"content":{"text":"<p>This project was a collaboration between me and Max M. Schneider.<\/p>"},"id":"5b04b605-4022-4728-a528-75a1e932fcb3","isHidden":false,"type":"text"}]
+
+----
+
+Date: – August 2018

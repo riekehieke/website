@@ -2,7 +2,7 @@
 <?= snippet('header') ?>
 
 <?php
-$projectPage = page('projects');
+$projectPage = page('projekte');
 $projects = $projectPage ? $projectPage->children()->listed() : pages([]);
 ?>
 

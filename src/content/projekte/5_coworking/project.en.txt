@@ -1,0 +1,30 @@
+Title: Visual identity & website 'Co-Working Wolle'
+
+----
+
+Projectthumbnail:
+
+- p_coworking.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+- 05.jpg
+- 06.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>Visual identity and website for the co-working space \"Co-Working Wolle\" in a historic building. The goal was to create a natural, minimalistic look that captures the charm of the historic house that was renovated using natural ressources combined with the modern interior and use. For the flyers, I chose a high quality recycling carton. Aside from the logo, flyers and stickers, the project also included the design of signs for the front of the house and a webiste.<\/p>"},"id":"2e747646-c3ec-434b-9d94-ab40b5b14d34","isHidden":false,"type":"text"},{"content":{"text":"<p>For the website, I also developed a custom booking system to allow users to book desks and offices independently.<\/p>"},"id":"317fae29-4e66-44d9-bcf1-2a6439c45d57","isHidden":false,"type":"text"},{"content":{"text":"<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/coworking-wolle.de\">Click here to get to the website<\/a>.<\/p>"},"id":"3e5bd70f-67e5-4cab-96f2-48ab3f38eec7","isHidden":false,"type":"text"}]
+
+----
+
+Date: – december 2019

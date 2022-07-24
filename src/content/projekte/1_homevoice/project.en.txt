@@ -1,0 +1,35 @@
+Title: Modern property management-software 'homevoice'
+
+----
+
+Projectthumbnail:
+
+- thumbnail_hv-new.png
+
+----
+
+Gallery:
+
+- hv1.png
+- hv2-2.png
+- hv4.png
+- hv4.5.png
+- hv3.png
+- hv5.png
+- hv6.png
+- hv7.png
+- hv8.png
+- hv9.png
+- hv10.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>For almost two years, I worked for homevoice as an interaction designer. homevoice is a B2B-software for property management companys, that supports the employees in and eases their daily work. As opposed to the established systems in the field, the users don't have to navigate countless confusing input masks. Instead, their tasks are being organized in clear to-dos. In these to-dos, the users are being guided through carefully thought-through workflows. homevoice also stands out because of its easy and clear user guidance. This is how the software simplifies the daily work of property managers to give them the time to concentrate on what really matters: their clients.<\/p>"},"id":"f99da63d-cf74-4aed-aaa6-e4e5622009d4","isHidden":false,"type":"text"},{"content":{"text":"<p>In my work as interaction designer, I mainly ideated and designed new functionalities and workflows as well as the corresponding user interfaces. The focus was always on the users and the goal was to create the best possible experience for them. Also, together with my colleagues, I enhanced and upgraded the homevoice design system that is based on the Google Material Design and created new components.<\/p>"},"id":"2b707c54-1713-4c90-9042-b0cf3c3cdd9d","isHidden":false,"type":"text"},{"content":{"text":"<p>During my time at homevoice, I learned a lot and was able to gather plenty of experience \u2013 not only concerning design but also regarding the domain of property management \u2013 mainly by permanently being in contact with the users and researching their needs and the difficulties in their work.<\/p>"},"id":"c981d4fe-9fb4-48e6-9cb7-d17834ae1871","isHidden":false,"type":"text"}]
+
+----
+
+Date: – august 2020 to july 2022

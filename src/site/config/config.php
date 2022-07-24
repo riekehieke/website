@@ -31,7 +31,7 @@ return [
                 $match = preg_match('/^project=([^&\/]+)/', $query, $matches);
                 $slug = $matches[1];
 
-                if ($page = page('projects')->find($slug)) {
+                if ($page = page('projekte')->find($slug)) {
                     go($page->url());
                 } else {
                     $this->next();

@@ -42,8 +42,8 @@
         <div class="languages">
         <ul>
           <?php foreach($kirby->languages() as $language): ?>
-            <li<?php e($kirby->language() == $language, ' class="active"') ?>>
-              <a href="<?= $page->url($language->code()) ?>" hreflang="<?php echo $language->code() ?>">
+            <li<?= r($kirby->language() == $language, ' class="active"') ?>>
+              <a href="<?= $page->url($language->code()) ?>" hreflang="<?= $language->code() ?>">
                 <?= html($language->name()) ?>
               </a>
             </li>
@@ -52,20 +52,11 @@
     </div>
 
         <div id="dark-light-toggle" class="hide">
-          <span
-            id="load_light"
-            >hell</span
-          >
+          <span id="load_light"><?= t('hell', 'Hell') ?></span>
           /
-          <span
-            id="load_dark"
-            >dunkel</span
-          >
+          <span id="load_dark"><?= t('dunkel', 'Dunkel') ?></span>
           /
-          <span
-            id="load_auto"
-            >auto</span
-          >
+          <span id="load_auto">Auto</span>
         </div>
       </ul>
     </div>

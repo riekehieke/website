@@ -1,0 +1,29 @@
+Title: Workshop 'Modern UI'
+
+----
+
+Projectthumbnail:
+
+- p_mui.jpg
+
+----
+
+Gallery:
+
+- 01.png
+- 05.jpg
+- 04.jpg
+- 03.jpg
+- 02.jpg
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>In der zweiten H\u00e4lfte des Jahres 2019 habe ich zusammen mit meinem Kollegen und Kommilitonen <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a> einen Workshop zum Thema User Interface &amp; User Experience Design konzipiert, vorbereitet und umgesetzt. Der Workshop bestand aus 4 f\u00fcnfst\u00fcndigen Veranstaltungen mit ca. 20 Teilnehmern, die sich mit den Themen Konzeption, Wireframing, Prototyping, Designlehre (Farbe, Form, Typografie), Accessibility und Responsive Design besch\u00e4ftigt haben. Als Vorbereitung und Begleitung des Workshops haben wir eine Website mit allen wichtigen Informationen designt und umgesetzt, die die Teilnehmenden auch w\u00e4hrend des Workshops begleitet hat. Im Nachhinein haben wir noch ein Handout mit den wichtigsten Infos aus dem Workshop zusammengestellt. Wir haben dem Workshop eine eigene lebhafte, Farbenfrohe und moderne visuelle Identit\u00e4t inklusive Logo gegeben, um Studierende auf den Workshop aufmerksam zu machen. Der Workshop war sehr erfolgreich und wir hatten sehr viel Spa\u00df.<\/p>"},"id":"158c885b-bdd5-4004-907e-8e49fdfb2778","isHidden":false,"type":"text"},{"content":{"text":"<p><a title=\"MUI\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/modern-ui.design\">Link zur Website mit Folien, Handout und weiteren Infos<\/a><\/p>"},"id":"0557ea1e-fc03-4a2d-a3a0-aab7f9836ac1","isHidden":false,"type":"text"}]
+
+----
+
+Date: – 2019-2020

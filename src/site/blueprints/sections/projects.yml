@@ -1,7 +1,7 @@
 type: pages
 headline: Projekte
 template: project
-parent: kirby.page("projects")
+parent: kirby.page("projekte")
 size: tiny
 info: "<b>{{ page.num() }}.</b> {{ page.info.short(24) }}"
 layout: cards

@@ -1,0 +1,25 @@
+Title: Rieke Helmers
+
+----
+
+Logo:
+
+- logo_s.png
+
+----
+
+Logodark:
+
+- logo_w.png
+
+----
+
+Sociallinks:
+
+- 
+  name: LinkedIn
+  url: >
+    https://www.linkedin.com/in/rieke-helmers/
+- 
+  name: GitHub
+  url: https://github.com/riekehieke

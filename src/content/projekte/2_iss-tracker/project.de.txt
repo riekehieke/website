@@ -1,0 +1,30 @@
+Title: App 'Iss Tracker'
+
+----
+
+Projectthumbnail:
+
+- thumbnail.png
+
+----
+
+Gallery:
+
+- klein-1.png
+- klein-2.png
+- klein-3.png
+- klein-6.png
+- klein-5.png
+- klein-4.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>Diese App zur Vorhersage, wann die ISS das n\u00e4chste Mal \u00fcber den ausgew\u00e4hlten Standort fliegt ist als freies Projekt entstanden. Es k\u00f6nnen mehrere Standorte hinzugef\u00fcgt werden oder der aktuelle Standort verwendet werden. Au\u00dferdem kann die App zu einem gew\u00e4hlten Zeitpunkt (z. B. 30 min vor der Sichtung) daran erinnern, dass die ISS demn\u00e4chst \u00fcber den gew\u00e4hlten Standort fliegt. Zus\u00e4tzlich zur Uhrzeit der ISS-Sichtung werden Daten zum Winkel der Flugbahn, der Temperatur und der Bew\u00f6lkung mit angezeigt, um die Wahrscheinlichkeit einer Sichtung besser einsch\u00e4tzen zu k\u00f6nnen.<\/p>"},"id":"9946cb11-442c-4ba6-bca6-28786f427296","isHidden":false,"type":"text"},{"content":{"text":"<p>Die Umsetzung ist als Web App durch <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a> geplant.<\/p>"},"id":"bdf8d022-9d36-47c8-a2c6-d2ec2388f98a","isHidden":false,"type":"text"}]
+
+----
+
+Date: – Juli 2022

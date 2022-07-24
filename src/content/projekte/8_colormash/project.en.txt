@@ -1,0 +1,27 @@
+Title: Game 'Colormash'
+
+----
+
+Projectthumbnail:
+
+- colormash.png
+
+----
+
+Gallery:
+
+- screenshot-2020-12-04-113810.png
+- screenshot-2020-12-04-113856.png
+- screenshot-2020-12-04-114226.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>Colormash is an online-game designed and developed by Max M. Schneider, <a href=\"https:\/\/jonaskuske.com\" target=\"_blank\" rel=\"noopener noreferrer\">Jonas Kuske<\/a> and me. It turns the classic paint by numbers into a paint by letters. Instead of a brush, the players use their keyboard to reveal an image letter by letter. The game contains different modes to put the players typing skills to the ultimate test: Arcade, Time and Survival. If you prefer abstract art, you can switch to text-mode and create an abstract image by typing up a well-known text.<\/p><p>The game was built as a web app using the JavaScript library p5.js and the design uses the 8-bit retro style.<\/p><p>Click here to play the game for free: <a href=\"https:\/\/jonaskuske.github.io\/colormash\/\" target=\"_blank\" title=\"Colormash\" rel=\"noopener noreferrer\">Link to the game<\/a><\/p>"},"id":"4ae44c7a-6372-4c06-a374-c923b9a1be8e","isHidden":false,"type":"text"}]
+
+----
+
+Date: – August 2019

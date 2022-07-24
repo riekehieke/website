@@ -1,0 +1,37 @@
+Title: Fotografie-Projekt 'Im richtigen Licht'
+
+----
+
+Projectthumbnail:
+
+- p_irl.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+- 05.jpg
+- 06.jpg
+- 07.jpg
+- 08.jpg
+- 09.jpg
+- 10.jpg
+- 11.jpg
+- 12.jpg
+- 13.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>Zusammen mit meinen Kommilitonen Marvin Homann und <a href=\"https:\/\/jonaskuske.com\" target=\"_blank\" title=\"Jonas Kuske\" rel=\"noopener noreferrer\">Jonas Kuske<\/a> habe ich ein Fotografieprojekt umgesetzt. Wir wollten uns gerne mit der Produktfotografie besch\u00e4ftigen, diese aber auch mit einem Thema, was uns am Herzen liegt, verkn\u00fcpfen. Es kam die Idee auf, Verpackungsm\u00fcll, also scheinbar wertlose Objekte, die demoliert und achtlos entsorgt wurden, so zu inszenieren, wie normalerweise nur Hightech-Ger\u00e4te wie Smartphones oder Notebooks inszeniert werden. Wir wollten den M\u00fcll, den viele Leute t\u00e4glich wegwerfen, in\u2018s richtige Licht r\u00fccken und aufzeigen, dass diese Objekte sehr wohl wertvoll und hochqualitativ sind. In die Konzeption, das Design, die Materialien und die Herstellung dieser Verpackungen ist viel Zeit und Geld geflossen und sie sollten von uns dementsprechend gew\u00fcrdigt werden. Wir haben die Fotos im Studio aufgenommen und am Ende auf einer von uns erstellten <a href=\"https:\/\/jonaskuske.github.io\/im-richtigen-licht\/\" target=\"_blank\" title=\"Website Im richtigen Licht\" rel=\"noopener noreferrer\">Website<\/a> inszeniert.<\/p>"},"id":"daed2bf6-2f29-4d83-8162-4b30652ed209","isHidden":false,"type":"text"}]
+
+----
+
+Date: – Februar 2020

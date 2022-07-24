@@ -1,5 +1,0 @@
-Title: Kontakt
-
-----
-
-Text: [{"content":{"level":"h1","text":"Kontakt"},"id":"500c120c-0540-4ae2-af8a-25afc6e98642","isHidden":false,"type":"heading"},{"content":{"text":"<p>Wenn ihr mehr \u00fcber mich oder meine Arbeit wissen wollt oder mich wegen eines Projektes kontaktieren wollt, schreibt mir gerne eine Mail an mail@riekehelmers.com oder klick einfach <a title=\"Mail an Rieke Helmers\" href=\"mailto:mail@riekehelmers.com\">hier<\/a>.<\/p>"},"id":"7fd28359-8532-4be0-b843-ac97722480dc","isHidden":false,"type":"text"},{"content":{"text":"<p>F\u00fcr Anfragen bez\u00fcglich eines Webentwicklung-Projektes k\u00f6nnt ihr auch sehr gerne Jonas Kuske und mich via mail@helmerskuske.team kontaktieren oder <a title=\"Mail an Rieke Helmers &amp; Jonas Kuske\" href=\"mailto:mail@helmerskuske.team\">hier<\/a> klicken.<\/p>"},"id":"03644eb1-91de-4ca0-a42a-2c7a8335de39","isHidden":false,"type":"text"}]

@@ -1,0 +1,33 @@
+Title: Crossmedia cookbook 'studentenfutter'
+
+----
+
+Projectthumbnail:
+
+- thumb.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+- 05.jpg
+- 06.jpg
+- 07.jpg
+- 08.jpg
+- 09.jpg
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>For my bachelor thesis, I created a crossmedia cookbook project called \"studentenfutter\". The project consits of a print cookbook and an accompanying app. The recipes in the cookbook and in the app are the favorite recipes from university students from all over Germany\u00a0\u2013 regardless of how long, complex or exotic they may be. This creates an authentic glimpse into the kitchens of the students of today.<\/p>"},"id":"90edd9ba-9d12-47c1-9d0e-b888af050343","isHidden":false,"type":"text"},{"content":{"text":"<p>The cookbook asserts itself through its thought-through design, good haptics and durable materials while the app compliments the print product by providing exclusive functionality like saving favorite recipes or searching for specific recipes and is also focused on providing a good user experience.<\/p>"},"id":"20d36e91-23b9-4ef1-b900-a44418f4aa83","isHidden":false,"type":"text"},{"content":{"text":"<p>The cookbook was published in a limited edition of 75 books. The app was developed as a progressive web app by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a> and can be used for free: <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/studentenfutter.app\">https:\/\/studentenfutter.app<\/a><\/p>"},"id":"1d3b85c9-3294-4e97-a381-66174bfbd681","isHidden":false,"type":"text"}]
+
+----
+
+Date: – June 2020

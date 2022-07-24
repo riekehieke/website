@@ -1,0 +1,28 @@
+Title: Crossmedial campaign 'Bremen bringts'
+
+----
+
+Projectthumbnail:
+
+- p_airbus.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+
+----
+
+Video: https://www.youtube-nocookie.com/watch?v=M9DHziU8wMc
+
+----
+
+Text: [{"content":{"text":"<p>During my studies, I took part in a project in collaboration with Airbus Bremen. The task was to develop solutions to present the accomplishments and potential of Airbus Bremen. Early on, the idea was born to build a campaign, that smoothly combines a digital experience with print products. This idea turned into the \"AR-Campaign\". This campaign with the motto \"Bremen bringt's\" (eng.: Bremen is bringing it) tells a brand story, that guides the users along the 4 steps into space: the Airbus A350, the Ariane rocket, the ISS and the spaceship Orion. This modular concept is expandable by endless further steps. For each step, we designed a custom animation as well as an AR-poster. Once the user scans the poster, the animation plays and the poster thus comes to life in augmented reality. After the animation, the user is directed towards a website, which we developed, that combines all the steps into one interactive experience. This creates a crossmedia experience lifecycle with touchpoints in print, in the digital world and in real life with the option to visit Airbus Bremen.<\/p>"},"id":"a6e4c992-1e48-4cd0-9dbb-a6a3a5df7922","isHidden":false,"type":"text"},{"content":{"text":"<p>This project was created in collaboration with Max M. Schneider and <a href=\"https:\/\/jonaskuske.com\" target=\"_blank\" rel=\"noopener noreferrer\">Jonas Kuske<\/a>.<\/p>"},"id":"d163d8ed-c0ba-46b1-ab48-f4fb2609ac2a","isHidden":false,"type":"text"}]
+
+----
+
+Date: – August 2018

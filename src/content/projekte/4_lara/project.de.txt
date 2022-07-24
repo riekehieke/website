@@ -1,0 +1,28 @@
+Title: Prototyp medizinischer Chatbot 'Lara'
+
+----
+
+Projectthumbnail:
+
+- p_lara.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+
+----
+
+Video: https://www.youtube-nocookie.com/watch?v=5SzsSZsXSDU
+
+----
+
+Text: [{"content":{"text":"<p>Prototyp f\u00fcr einen medizinischen chatbot namens Lara. Sie hilft dem Nutzer, Symptome zu analysieren, Arzttermine zu vereinbaren und Erinnerungen f\u00fcr Medikamente einzustellen. Im Konzept gibt es au\u00dferdem die Funktion, Rezepte f\u00fcr bestimmte Medikamente direkt in der App zu erneuern und so lange Wartezeiten beim Arzt zu vermeiden. Die App zeigt au\u00dferdem auch die n\u00e4chsten Apotheken an.<\/p>"},"id":"5b321766-1f24-42a7-bbea-c96b6e328735","isHidden":false,"type":"text"},{"content":{"text":"<p>Der Prototyp wurde mit besonderem Augenmerk auf gutes UX-\/UI-Design entwickelt und mithilfe des onsen UI templates, html und javascript als Web App umgesetzt.<\/p>"},"id":"c2fe62f4-b279-4e20-9d79-bb88fffc3618","isHidden":false,"type":"text"},{"content":{"text":"<p><\/p>"},"id":"f633fe42-d480-4d06-a3a3-2c6fa6e7cbf1","isHidden":false,"type":"text"},{"content":{"text":"<p>Um den Prototypen selbst zu testen, bitte <a title=\"Lara\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/riekehieke.github.io\/chatbot-lara\/\">hier<\/a> klicken.<\/p>"},"id":"6a1c474d-59ca-44d4-bbde-a38a4904d459","isHidden":false,"type":"text"},{"content":{"text":"<p>Das Projekt war eine Zusammenarbeit mit Max M. Schneider.<\/p>"},"id":"a5f71916-581c-4ab7-b34f-e863245e40c4","isHidden":false,"type":"text"}]
+
+----
+
+Date: – August 2018

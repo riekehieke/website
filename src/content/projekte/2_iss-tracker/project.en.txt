@@ -1,0 +1,30 @@
+Title: App 'Iss Tracker'
+
+----
+
+Projectthumbnail:
+
+- thumbnail.png
+
+----
+
+Gallery:
+
+- klein-1.png
+- klein-2.png
+- klein-3.png
+- klein-6.png
+- klein-5.png
+- klein-4.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>This free project is an app to track the next passings of the ISS over a chosen location. You can add multiple locations or use your current location via GPS. The app can also alert you before an ISS-sighting at a chosen time (for example 30 minutes before the sighting). Besides the time of the passing, the app also provides data about the angle of the ISS's trajectory, the temperature and the cloudiness to be able to better estimate the probability of actually seeing the ISS pass.<\/p>"},"id":"719f8bcf-6ed5-4830-a6db-994dd3959794","isHidden":false,"type":"text"},{"content":{"text":"<p>The app is planned to be developed as a web app by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a>.<\/p>"},"id":"35bc8d9a-1a9e-4076-98b9-b360cbfb198d","isHidden":false,"type":"text"}]
+
+----
+
+Date: – July 2022

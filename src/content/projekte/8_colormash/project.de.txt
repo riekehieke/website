@@ -1,0 +1,27 @@
+Title: Spiel 'Colormash'
+
+----
+
+Projectthumbnail:
+
+- colormash.png
+
+----
+
+Gallery:
+
+- screenshot-2020-12-04-113810.png
+- screenshot-2020-12-04-113856.png
+- screenshot-2020-12-04-114226.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>Colormash ist ein von Max M. Schneider, <a href=\"https:\/\/jonaskuske.com\" target=\"_blank\" rel=\"noopener noreferrer\">Jonas Kuske<\/a> und mir designtes und entwickeltes Online-Spiel, das aus Malen nach Zahlen jetzt Malen nach Buchstaben macht. Statt einem Pinsel wird die Tastatur verwendet, um Buchstabe f\u00fcr Buchstabe ein Bild zum Vorschein zu bringen. Dabei gibt es verschiedene Modi um die Tippfertigkeiten der Spieler*innen auf die Probe zu stellen: Arcade, Time und Survival. Wer es lieber abstrakt mag, kann auch in den Text-Modus umschalten und durch abtippen von ber\u00fchmten Texten ein abstraktes Bild zu kreieren.<\/p><p>Gebaut wurde das Spiel als Web App unter Verwendung der JavaScript Bibliothek p5.js und das Design ist im 8-Bit Retro Stil gehalten.<\/p><p>Das Spiel kann hier kostenlos gespielt werden: <a href=\"https:\/\/jonaskuske.github.io\/colormash\/\" target=\"_blank\" title=\"Colormash\" rel=\"noopener noreferrer\">Link zum Spiel<\/a><\/p>"},"id":"4ae44c7a-6372-4c06-a374-c923b9a1be8e","isHidden":false,"type":"text"}]
+
+----
+
+Date: – August 2019

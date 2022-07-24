@@ -1,0 +1,28 @@
+Title: Alphabet 'Circular'
+
+----
+
+Projectthumbnail:
+
+- p_circular.jpg
+
+----
+
+Gallery:
+
+- 03.jpg
+- 04.jpg
+- 01.png
+- 02.jpg
+
+----
+
+Video: https://www.youtube-nocookie.com/watch?v=JduP-gifnpI
+
+----
+
+Text: [{"content":{"text":"<p>Circular is an alphabet that was created using only geometric primitive forms (circle, triangle and square). The main idea was to create an experimental font that is constructed adhering to set rules. Readability was intentionally regarded as low priority in order to focus on the aesthetics of the alphabet. This alphabet was presented on two posters as well as in a short image clip.<\/p>"},"id":"05149699-bd92-4411-a464-c5d25554fcfa","isHidden":false,"type":"text"}]
+
+----
+
+Date: – February 2017

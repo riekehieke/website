@@ -1,0 +1,35 @@
+Title: Moderne Hausverwaltungs-Software 'homevoice'
+
+----
+
+Projectthumbnail:
+
+- thumbnail_hv-neu.jpg
+
+----
+
+Gallery:
+
+- hv1.png
+- hv2-2.png
+- hv4.png
+- hv4.5.png
+- hv3.png
+- hv5.png
+- hv6.png
+- hv7.png
+- hv8.png
+- hv9.png
+- hv10.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>F\u00fcr knapp 2 Jahre habe ich als Interaction Designerin bei homevoice gearbeitet. Homevoice ist eine B2B-Software f\u00fcr Hausverwaltungen, die die Mitarbeiter*innen bei ihrer t\u00e4glichen Arbeit unterst\u00fctzt und diese erleichtert. Anders als bei klassischen ERP-Systemen der Branche m\u00fcssen sich die Nutzer*innen nicht durch unendliche Masken klicken und viele Objekt- und Kontennummern merken.<br>Stattdessen werden ihre Aufgaben in \u00fcbersichtlichen To-dos organisiert. In diesen To-dos werden die Nutzer*innen Schritt f\u00fcr Schritt durch sorgf\u00e4ltig konzipierte Workflows gef\u00fchrt. homevoice zeichnet sich au\u00dferdem durch seine einfache und klare Benutzerf\u00fchrung aus. So vereinfacht die Software die t\u00e4gliche Arbeit der Hausverwalter*innen, um diesen wieder mehr Zeit zu geben, sich tats\u00e4chlich auf ihre Kund*innen zu konzentrieren.<\/p>"},"id":"5947a807-cbfe-4f21-b818-c0751c46b0cf","isHidden":false,"type":"text"},{"content":{"text":"<p>In meiner Arbeit als Interaction Designerin habe ich haupts\u00e4chlich neue Funktionalit\u00e4ten und Workflows in der Software konzipiert und die entsprechenden Interfaces designt. Hierbei lag der Fokus immer darauf, das bestm\u00f6gliche Erlebnis f\u00fcr die Nutzer*innen zu erzeugen \u2013 sowohl inhaltlich, als auch was die Bedienung und auch die Gestaltung angeht. Zudem habe ich, zusammen mit meinen Kollegen, das Designsystem \u2013 basierend auf dem Google Material Design \u2013 stetig weiter ausgebaut und neue Komponenten entwickelt.<\/p>"},"id":"4d321c5d-10ab-4dea-9de7-a85e94ac2483","isHidden":false,"type":"text"},{"content":{"text":"<p>In meiner Zeit bei homevoice habe ich etliches gelernt und viele Erfahrungen sammeln k\u00f6nnen \u2013\u00a0nicht nur im Design-Bereich, sondern auch inhaltlich \u00fcber die Immobilienverwaltung, unter anderem durch den st\u00e4ndigen Austausch mit den Nutzer*innen und durch stetige Weiterbildungen.<\/p>"},"id":"a64ec322-30c1-487c-bfe2-d18db5906d4f","isHidden":false,"type":"text"}]
+
+----
+
+Date: – august 2020 bis juli 2022

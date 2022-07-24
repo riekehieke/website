@@ -1,0 +1,32 @@
+Title: Magazin 'sleak'
+
+----
+
+Projectthumbnail:
+
+- p_sleak.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 07.jpg
+- 03.jpg
+- 05.jpg
+- 08.jpg
+- 04.jpg
+- 06.jpg
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>sleak ist ein Magazin f\u00fcr design- und medieninteressierte Menschen. Es wurde durch meine Kommilitonen und mich im Rahmen eines Medienprojektes komplett konzipiert, designt, gelayoutet, mit Inhalt gef\u00fcllt und gedruckt. Mit der Unterst\u00fctzung von 2 Dozenten haben wir den Prozess der Magazin-Erstellung von Anfang bis Ende durchlaufen.<\/p>"},"id":"b670149a-ee4b-4905-b4f5-45c5bb844991","isHidden":false,"type":"text"},{"content":{"text":"<p>Das Magazin sticht durch sein minimalistisches und doch auffallendes Design heraus. Das Cover wurde nur mittels einer Blindpr\u00e4gung auf schwarzem Grund gestaltet und das gesamte Heft wurde in schwarz-rot gedruckt. Auf der zugeh\u00f6rigen <a href=\"https:\/\/dmp.hs-bremerhaven.de\/www\/sleak-magazine\/#\" target=\"_blank\" title=\"sleak\" rel=\"noopener noreferrer\">Website<\/a> k\u00f6nnen (fast) alle Inhalte des Magazins zus\u00e4tzlich digital abgerufen werden.<\/p>"},"id":"6b88b1f0-2b60-44dc-a045-a9df7d8d0a74","isHidden":false,"type":"text"},{"content":{"text":"<p>Bez\u00fcglich der Gestaltung war ich, neben Beitr\u00e4gen zum allgemeinen Layout, f\u00fcr die Erstellung des Logos, die Umsetzung der Website sowie f\u00fcr das Verfassen und Gestalten des Artikels \"Axel Bertram\" zust\u00e4ndig.<\/p>"},"id":"f4c11f8a-285a-4ae4-aa0a-ee59c78c2998","isHidden":false,"type":"text"}]
+
+----
+
+Date: – Januar 2019

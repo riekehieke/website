@@ -1,0 +1,37 @@
+Title: Photography project 'Im richtigen Licht'
+
+----
+
+Projectthumbnail:
+
+- p_irl.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 03.jpg
+- 04.jpg
+- 05.jpg
+- 06.jpg
+- 07.jpg
+- 08.jpg
+- 09.jpg
+- 10.jpg
+- 11.jpg
+- 12.jpg
+- 13.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>I created this photography project in collaboration with Marvin Homann and <a href=\"https:\/\/jonaskuske.com\" target=\"_blank\" rel=\"noopener noreferrer\">Jonas Kuske<\/a>. We wanted to focus on product photography whilst also shedding light on a topic that is important to us. This prompted the idea to stage packaging waste \u2013 seemingly worthless objects, that are discarded without a second thought \u2013 in the same way that is usually applied to high end tech like smartphones or notebooks. The goal was to put the trash, that is discarded daily, into the right light (\"Im richtigen Licht\") and to showcase that these objects are indeed high quality products and a feet of engineering. A lot of time went into the ideation, design, materials and production of these packagings and that should be honored accordingly.<\/p>"},"id":"8d043ead-d7a9-480c-9f2f-ce8801ab6542","isHidden":false,"type":"text"},{"content":{"text":"<p>We took these pictures in the studio and showcased them on this <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.github.io\/im-richtigen-licht\/\">Website<\/a>.<\/p>"},"id":"0d944da6-9799-4cd2-b4c2-5df8fcfd8ee9","isHidden":false,"type":"text"}]
+
+----
+
+Date: – February 2020

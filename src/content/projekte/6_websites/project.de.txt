@@ -1,0 +1,28 @@
+Title: Webprojekte
+
+----
+
+Projectthumbnail:
+
+- p_websites.jpg
+
+----
+
+Gallery:
+
+- freundeskreis.png
+- 01.png
+- 02.png
+- 04.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>Verschiedene Webprojekte, die ich (teilweise im Team) realisiert habe.<\/p>"},"id":"07b4e7e4-28cd-44c9-b321-b6bf4d0ee1e8","isHidden":false,"type":"text"},{"content":{"text":"<p>- Website \"Freundeskreis der Stadtbibliothek Bremerhaven\" (2020). Webauftritt f\u00fcr den Freundeskreis der Bremerhavener Stadtbibliothek. Realisiert zusammen mit <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a>. <a title=\"Freundeskreis der Stadtbibliothek Bremerhaven\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/freundeskreis-stadtbibliothek-bremerhaven.de\">Hier geht es zur Website<\/a>.<\/p>"},"id":"297cc529-03ed-4bb4-bd84-b9e4b3c777df","isHidden":false,"type":"text"},{"content":{"text":"<p>- Website \"Expedition in die Natur\" (2020). Website f\u00fcr Kinder einer Natur-AG, um w\u00e4hrend der Corona-Krise weiter lernen zu k\u00f6nnen. <a title=\"Expedition in die Natur\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/expedition-in-die-natur.de\">Hier klicken um zur Website zu kommen<\/a>.<\/p>"},"id":"26d13ed7-2a74-4cee-82b1-be3698edf79c","isHidden":false,"type":"text"},{"content":{"text":"<p>- Landing Page \"Tourismuskontor\" (2020). Landing Page f\u00fcr Projektplanungs- und Contentb\u00fcro in der Tourismus-Branche. <a title=\"Tourismus-Kontor\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/tourismus-kontor.de\">Hier klicken um zur Website zu kommen<\/a>.<\/p>"},"id":"7fe578e8-3831-4bae-bf23-78a7c1c6abcd","isHidden":false,"type":"text"},{"content":{"text":"<p>- Website \"Theater F\u00f6rderverein Bremerhaven\" (2019). Website f\u00fcr den F\u00f6rderverein des Bremerhavener Stadttheaters. Zusammen mit <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a> realisiert. <a title=\"Theater-F\u00f6rderverein Bremerhaven\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/theater-foerderverein-bremerhaven.de\">Hier anschauen<\/a>.<\/p>"},"id":"e0545303-8152-4d6a-8346-0db39e9109a9","isHidden":false,"type":"text"}]
+
+----
+
+Date: – 2019-2020

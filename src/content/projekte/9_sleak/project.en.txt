@@ -1,0 +1,32 @@
+Title: Magazine 'sleak'
+
+----
+
+Projectthumbnail:
+
+- p_sleak.jpg
+
+----
+
+Gallery:
+
+- 01.jpg
+- 02.jpg
+- 07.jpg
+- 03.jpg
+- 05.jpg
+- 08.jpg
+- 04.jpg
+- 06.jpg
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>sleak is a magazine for people interested in design and media. It was designed, filled with content and printed by me and my fellow students. Together with two teachers, we experienced the whole process of creating a magazine from start to finish.<\/p>"},"id":"571248a3-4415-4787-a170-fd236b25d67b","isHidden":false,"type":"text"},{"content":{"text":"<p>The magazine stands out through its minimalistic yet eye-catching design. The cover consits solely of the embossed logo on black paper and the whole magazine is printed in black and red. Additionally, almost all content can be viewed on the accompanying <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/dmp.hs-bremerhaven.de\/www\/sleak-magazine\/#\">website<\/a>.<\/p>"},"id":"f988f5c0-0af6-42d2-9808-2f070da1ae53","isHidden":false,"type":"text"},{"content":{"text":"<p>I contributed to the overall layout and was additionally responsible for designing the logo, building the website and writing and designing the article \"Axel Bertram\".<\/p>"},"id":"337ba42f-0102-4e35-83bb-96f7ac186f4c","isHidden":false,"type":"text"}]
+
+----
+
+Date: – January 2019

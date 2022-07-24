@@ -1,0 +1,28 @@
+Title: Web projects
+
+----
+
+Projectthumbnail:
+
+- p_websites.jpg
+
+----
+
+Gallery:
+
+- freundeskreis.png
+- 01.png
+- 02.png
+- 04.png
+
+----
+
+Video: 
+
+----
+
+Text: [{"content":{"text":"<p>Various web projects, that I designed and developed (partly as part of a team).<\/p>"},"id":"5ca9cd8f-5c8c-439a-bbfe-df71731974e6","isHidden":false,"type":"text"},{"content":{"text":"<p>- Website \"Freundeskreis der Stadtbibliothek Bremerhaven\" (2020). Website for the Friends of the city library of Bremerhaven. Developed together with <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a>. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/freundeskreis-stadtbibliothek-bremerhaven.de\">Link to the website<\/a>.<\/p>"},"id":"0f8681d3-188e-4250-9b18-09621a1e8551","isHidden":false,"type":"text"},{"content":{"text":"<p>- Website \"Expedition in die Natur\" (2020). Website for the students in a nature-club of an elementary school to be able to keep learning during the Covid19-pandemic. <a title=\"Expedition in die Natur\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/expedition-in-die-natur.de\">Link to the website<\/a>.<\/p>"},"id":"565dce32-a121-4c44-9335-af6a9c0a9f0a","isHidden":false,"type":"text"},{"content":{"text":"<p>- Landing Page \"Tourismuskontor\" (2020). Landing Page for planning- and content office in the field of tourism. <a title=\"Tourismus-Kontor\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/tourismus-kontor.de\">Link to the website<\/a>.<\/p>"},"id":"c123955a-6482-46c8-ba42-2645a718e41b","isHidden":false,"type":"text"},{"content":{"text":"<p>- Website \"Theater F\u00f6rderverein Bremerhaven\" (2019). Website for the society of friends of the bremerhaven city theater. Developed together with <a title=\"Jonas Kuske\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/jonaskuske.com\">Jonas Kuske<\/a>. <a title=\"Theater-F\u00f6rderverein Bremerhaven\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/theater-foerderverein-bremerhaven.de\">Link to the website<\/a>.<\/p>"},"id":"b9edf2bc-f7db-4af9-a35b-8fa65d810127","isHidden":false,"type":"text"}]
+
+----
+
+Date: – 2019-2020
