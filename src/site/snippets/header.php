@@ -2,16 +2,16 @@
       <a href="<?= $site->homePage()->url() ?>">
         <img
           src="<?= $site->logo()->toFile()->url() ?>"
-          width="<?= $site->logo()->width() ?>"
-          height="<?= $site->logo()->height() ?>"
+          width="<?= $site->logo()->toFile()->width() ?>"
+          height="<?= $site->logo()->toFile()->height() ?>"
           alt="rieke helmers"
           class="logo"
           id="logo_s"
         />
         <img
           src="<?= $site->logoDark()->toFile()->url() ?>"
-          width="<?= $site->logoDark()->width() ?>"
-          height="<?= $site->logoDark()->height() ?>"
+          width="<?= $site->logoDark()->toFile()->width() ?>"
+          height="<?= $site->logoDark()->toFile()->height() ?>"
           alt="rieke helmers"
           class="logo inactive"
           id="logo_w"
