@@ -196,6 +196,10 @@ h5 {
   text-transform: none;
 }
 
+.time p {
+  text-transform: lowercase;
+}
+
 @media screen and (max-width: 600px) {
   .content p,
   h3,
