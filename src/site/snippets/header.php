@@ -17,7 +17,7 @@
           id="logo_w"
         />
       </a>
-      <button class="hamburger hamburger--squeeze">
+      <button type="button" class="hamburger hamburger--squeeze">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
