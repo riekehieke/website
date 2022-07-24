@@ -49,6 +49,7 @@ html.has-scrollbar .gallery__img-container--portrait {
   cursor: pointer;
 }
 .gallery__img-container--portrait img {
+  width: auto;
   height: 100%;
 }
 
@@ -80,6 +81,7 @@ html.has-scrollbar .gallery__img-container--portrait {
   margin: 50vh 0 0 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
+  object-fit: contain;
 }
 .light-active {
   display: block;

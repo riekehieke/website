@@ -86,11 +86,12 @@ function init() {
     });
 
     content.addEventListener("click", function (e) {
-      if (!e.target.closest(".lightbox")) return;
+      var lightbox = e.target.closest(".lightbox");
+      if (!lightbox) return;
 
       $("body").classList.toggle("overflow");
       document.scrollingElement.scrollTop = toppiflopp;
-      $(".lightbox").classList.remove("light-active");
+      lightbox.classList.remove("light-active");
     });
   }
 }
