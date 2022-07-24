@@ -21,6 +21,7 @@ return [
     ],
     'diesdasdigital.meta-knight' => [
       'siteTitleAsHomePageTitle' => true,
+      'separator' => ' | '
     ],
     'thumbs' => [
         'driver' => 'im',
