@@ -14,7 +14,11 @@ return [
     'bvdputte.fingerprint.query' => true,
     'languages' => true,
     'languages.detect' => true,
-    'cache' => ['pages' => ['active' => true]],
+    'cache' => [
+        'pages' => [
+            'active' => true
+        ]
+    ],
     'thumbs' => [
         'driver' => 'im',
         'autoOrient' => true,

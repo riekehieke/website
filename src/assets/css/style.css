@@ -144,6 +144,7 @@ body {
 .logo {
   width: 36%;
   min-width: 54px;
+  height: auto;
   padding: 0 1% 1% 0;
 }
 .logo:hover {
