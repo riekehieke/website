@@ -2,6 +2,8 @@ Title: Project
 
 tabs:
   content:
+    label: Inhalt
+    icon: text
     fields:
       projectThumbnail:
         type: files
