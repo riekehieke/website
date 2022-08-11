@@ -90,4 +90,5 @@
     />
 
     <?= js('assets/js/index.js', true) ?>
+    <script async defer data-website-id="9d577005-6d8d-4b3e-ba72-1b473ae6f381" data-domains="riekehelmers.com" src="https://copernicus.joku.co/sentinel.js"></script>
 </head>
