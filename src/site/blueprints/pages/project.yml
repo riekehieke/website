@@ -28,3 +28,14 @@ tabs:
         type: text
         label: Datum
   seotab: seo
+  files:
+    label: Alle Dateien
+    icon: folder
+    sections:
+      files:
+        label: Alle Dateien
+        layout: cardlets
+        sortable: false
+        limit: 40
+        search: true
+        info: "{{ file.niceSize }} • {{ file.width }}x{{ file.height }}"
