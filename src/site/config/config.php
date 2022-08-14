@@ -25,6 +25,7 @@ return [
     ],
     'thumbs' => [
         'driver' => 'im',
+        'interlace' => true,
         'srcsets' => [
             'default' => [
                 '600w'  => ['width' => 600],
@@ -33,6 +34,13 @@ return [
                 '1800w' => ['width' => 1800],
                 '2400w' => ['width' => 2400],
                 '3000w' => ['width' => 3000]
+            ],
+            'thumb' => [
+                '300w'  => ['width' => 300],
+                '600w'  => ['width' => 600],
+                '900w'  => ['width' => 900],
+                '1200w' => ['width' => 1200],
+                '1800w' => ['width' => 1800]
             ],
             'crop' => [
                 '600w'  => ['width' => 600, 'height' => 400, 'crop' => 'center'],
@@ -50,6 +58,13 @@ return [
                 '2400w' => ['width' => 2400, 'format' => 'avif'],
                 '3000w' => ['width' => 3000, 'format' => 'avif']
             ],
+            'thumb-avif' => [
+                '300w'  => ['width' => 300, 'format' => 'avif'],
+                '600w'  => ['width' => 600, 'format' => 'avif'],
+                '900w'  => ['width' => 900, 'format' => 'avif'],
+                '1200w' => ['width' => 1200, 'format' => 'avif'],
+                '1800w' => ['width' => 1800, 'format' => 'avif']
+            ],
             'crop-avif' => [
                 '600w'  => ['width' => 600, 'height' => 400, 'crop' => 'center', 'format' => 'avif'],
                 '900w'  => ['width' => 900, 'height' => 600, 'crop' => 'center', 'format' => 'avif'],
@@ -65,6 +80,13 @@ return [
                 '1800w' => ['width' => 1800, 'format' => 'webp'],
                 '2400w' => ['width' => 2400, 'format' => 'webp'],
                 '3000w' => ['width' => 3000, 'format' => 'webp']
+            ],
+            'thumb-webp' => [
+                '300w'  => ['width' => 300, 'format' => 'webp'],
+                '600w'  => ['width' => 600, 'format' => 'webp'],
+                '900w'  => ['width' => 900, 'format' => 'webp'],
+                '1200w' => ['width' => 1200, 'format' => 'webp'],
+                '1800w' => ['width' => 1800, 'format' => 'webp']
             ],
             'crop-webp' => [
                 '600w'  => ['width' => 600, 'height' => 400, 'crop' => 'center', 'format' => 'webp'],

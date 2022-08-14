@@ -9,10 +9,14 @@ tabs:
         type: files
         multiple: false
         label: Thumbnail
+        uploads:
+          maxwidth: 3000
       gallery:
         type: files
         multiple: true
         label: Galerie
+        uploads:
+          maxwidth: 3000
       video:
         type: url
         multiple: false

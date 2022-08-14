@@ -14,12 +14,12 @@ $projects = $projectPage ? $projectPage->children()->listed() : pages([]);
           <picture>
             <source
               sizes="(min-width: 768px) <?= r($project->indexOf(), '30vw', '60vw')?>, 100vw"
-              srcset="<?= $image->srcset('avif') ?>"
+              srcset="<?= $image->srcset('thumb-avif') ?>"
               type="image/avif"
             >
             <source
               sizes="(min-width: 768px) <?= r($project->indexOf(), '30vw', '60vw')?>, 100vw"
-              srcset="<?= $image->srcset('webp') ?>"
+              srcset="<?= $image->srcset('thumb-webp') ?>"
               type="image/webp"
             >
             <img
@@ -31,7 +31,7 @@ $projects = $projectPage ? $projectPage->children()->listed() : pages([]);
               <?= r($project->indexOf(), 'loading="lazy"') ?>
               decoding="async"
               sizes="(min-width: 768px) <?= r($project->indexOf(), '30vw', '60vw')?>, 100vw"
-              srcset="<?= $image->srcset() ?>"
+              srcset="<?= $image->srcset('thumb') ?>"
             />
           </picture>
         <?php endif ?>
