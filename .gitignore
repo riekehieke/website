@@ -1,6 +1,6 @@
 # System files
 # ------------
-
+.php-cs-fixer.cache
 Icon
 .DS_Store
 
