@@ -2,9 +2,7 @@ Title: Workshop 'Modern UI'
 
 ----
 
-Projectthumbnail:
-
-- p_mui.jpg
+Projectthumbnail: - p_mui.jpg
 
 ----
 
@@ -27,3 +25,7 @@ Text: [{"content":{"text":"<p>In der zweiten H\u00e4lfte des Jahres 2019 habe ic
 ----
 
 Date: – 2019-2020
+
+----
+
+Uuid: 52ON5lWfdcPK6OVs

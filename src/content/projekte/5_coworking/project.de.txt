@@ -2,9 +2,7 @@ Title: Visuelle Identität & Website 'Co-Working Wolle'
 
 ----
 
-Projectthumbnail:
-
-- p_coworking.jpg
+Projectthumbnail: - p_coworking.jpg
 
 ----
 
@@ -28,3 +26,7 @@ Text: [{"content":{"text":"<p>Visuelle Identit\u00e4t f\u00fcr den Co-Working Sp
 ----
 
 Date: – Dezember 2019
+
+----
+
+Uuid: yjBvFQKAnTTmN1ks

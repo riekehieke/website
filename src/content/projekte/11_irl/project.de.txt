@@ -2,9 +2,7 @@ Title: Fotografie-Projekt 'Im richtigen Licht'
 
 ----
 
-Projectthumbnail:
-
-- p_irl.jpg
+Projectthumbnail: - p_irl.jpg
 
 ----
 
@@ -35,3 +33,7 @@ Text: [{"content":{"text":"<p>Zusammen mit meinen Kommilitonen Marvin Homann und
 ----
 
 Date: – Februar 2020
+
+----
+
+Uuid: 1fx4lnZwiVD07RkU

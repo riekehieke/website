@@ -10,9 +10,14 @@ Projectthumbnail:
 
 Gallery:
 
-- screenshot-2020-12-04-113810.png
-- screenshot-2020-12-04-113856.png
-- screenshot-2020-12-04-114226.png
+- >
+  bildschirmfoto-2022-07-24-um-11.15.51.png
+- >
+  bildschirmfoto-2022-07-24-um-11.16.01.png
+- >
+  bildschirmfoto-2022-07-24-um-11.18.47.png
+- >
+  bildschirmfoto-2022-07-24-um-11.18.22.png
 
 ----
 

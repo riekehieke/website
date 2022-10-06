@@ -2,9 +2,7 @@ Title: Magazin 'sleak'
 
 ----
 
-Projectthumbnail:
-
-- p_sleak.jpg
+Projectthumbnail: - p_sleak.jpg
 
 ----
 
@@ -30,3 +28,7 @@ Text: [{"content":{"text":"<p>sleak ist ein Magazin f\u00fcr design- und medieni
 ----
 
 Date: – Januar 2019
+
+----
+
+Uuid: QGTdGCOp944MkSwL

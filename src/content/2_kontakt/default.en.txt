@@ -1,8 +1,7 @@
 Title: Contact
+
 ----
-
 slug: contact
-
 ----
 
 Text: [{"content":{"level":"h1","text":"Contact"},"id":"e62898e3-f3ec-4e38-ae9d-ed900ad8b8b8","isHidden":false,"type":"heading"},{"content":{"text":"<p>If you want to know more about me or my work or want to contact me for a project, please send me an e-mail at mail@riekehelmers.com or simply click <a href=\"mailto:mail@riekehelmers.com\">here<\/a>.<\/p>"},"id":"278f44c5-8e7b-4bac-b8ac-4d36f86a93d9","isHidden":false,"type":"text"},{"content":{"text":"<p>For inquiries concerning webdevelopment projects, you can also contact me and Jonas Kuske at mail@helmerskuske.team or by clicking <a href=\"mailto:mail@helmerskuske.team\">here<\/a>.<\/p>"},"id":"cfe22e41-f811-4f34-aae1-ddbb846733b2","isHidden":false,"type":"text"}]

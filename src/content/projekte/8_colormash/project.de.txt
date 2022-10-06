@@ -2,17 +2,20 @@ Title: Spiel 'Colormash'
 
 ----
 
-Projectthumbnail:
-
-- colormash.png
+Projectthumbnail: - image.jpg
 
 ----
 
 Gallery:
 
-- screenshot-2020-12-04-113810.png
-- screenshot-2020-12-04-113856.png
-- screenshot-2020-12-04-114226.png
+- >
+  bildschirmfoto-2022-07-24-um-11.15.51.png
+- >
+  bildschirmfoto-2022-07-24-um-11.16.01.png
+- >
+  bildschirmfoto-2022-07-24-um-11.18.47.png
+- >
+  bildschirmfoto-2022-07-24-um-11.18.22.png
 
 ----
 
@@ -25,3 +28,135 @@ Text: [{"content":{"text":"<p>Colormash ist ein von Max M. Schneider, <a href=\"
 ----
 
 Date: – August 2019
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 
+
+----
+
+Uuid: 53Jc7SXthE74qXRY

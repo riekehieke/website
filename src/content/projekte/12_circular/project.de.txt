@@ -2,9 +2,7 @@ Title: Alphabet 'Circular'
 
 ----
 
-Projectthumbnail:
-
-- p_circular.jpg
+Projectthumbnail: - p_circular.jpg
 
 ----
 
@@ -26,3 +24,7 @@ Text: [{"content":{"text":"<p>Circular, eine Schrift, die nur aus geometrischen 
 ----
 
 Date: – Februar 2017
+
+----
+
+Uuid: QoaKyR84xYCjV8oL

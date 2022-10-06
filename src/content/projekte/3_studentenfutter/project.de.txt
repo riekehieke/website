@@ -2,9 +2,7 @@ Title: Crossmediales Kochbuch 'studentenfutter'
 
 ----
 
-Projectthumbnail:
-
-- thumb.jpg
+Projectthumbnail: - thumb.jpg
 
 ----
 
@@ -31,3 +29,7 @@ Text: [{"content":{"text":"<p>Im Rahmen meiner Bachelorarbeit habe ich ein cross
 ----
 
 Date: – Juni 2020
+
+----
+
+Uuid: OUXCIn1Re3f0GN3P

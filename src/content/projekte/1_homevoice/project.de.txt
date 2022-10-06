@@ -2,25 +2,23 @@ Title: Moderne Hausverwaltungs-Software 'homevoice'
 
 ----
 
-Projectthumbnail:
-
-- thumbnail_hv-neu.jpg
+Projectthumbnail: - thumbnail_hv-smol.jpg
 
 ----
 
 Gallery:
 
-- hv1.png
-- hv2-2.png
-- hv4.png
-- hv4.5.png
-- hv3.png
-- hv5.png
-- hv6.png
-- hv7.png
-- hv8.png
-- hv9.png
-- hv10.png
+- hv1smol.png
+- hv2smol-new.png
+- hv4smol.png
+- hv4.5smol.png
+- hv3smol.png
+- hv5smol.png
+- hv6smol.png
+- hv7smol.png
+- hv8smol.png
+- hv9smol.png
+- hv10smol.png
 
 ----
 
@@ -33,3 +31,135 @@ Text: [{"content":{"text":"<p>F\u00fcr knapp 2 Jahre habe ich als Interaction De
 ----
 
 Date: – august 2020 bis juli 2022
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 
+
+----
+
+Uuid: WqOyDMsf3ZAL5wph
