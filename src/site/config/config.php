@@ -10,7 +10,8 @@
 return [
     'url' => ['https://riekehelmers.com', 'http://localhost:8080'],
     'updates' => [
-        'kirby' => 'security'
+        'kirby' => true,
+        'plugins' => true
     ],
     'production' => true,
     'debug' => false,
