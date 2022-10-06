@@ -9,6 +9,9 @@
  */
 return [
     'url' => ['https://riekehelmers.com', 'http://localhost:8080'],
+    'updates' => [
+        'kirby' => 'security'
+    ],
     'production' => true,
     'debug' => false,
     'bvdputte.fingerprint.query' => true,
