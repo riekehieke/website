@@ -15,7 +15,7 @@ return [
     ],
     'production' => true,
     'debug' => false,
-    'bvdputte.fingerprint.query' => true,
+    'bvdputte.fingerprint.parameter' => true,
     'languages' => true,
     'languages.detect' => true,
     'cache' => [
