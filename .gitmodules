@@ -3,7 +3,8 @@
 	url = https://github.com/getkirby/kirby.git
 [submodule "src/site/plugins/kirby-meta-knight"]
 	path = src/site/plugins/kirby-meta-knight
-	url = https://github.com/diesdasdigital/kirby-meta-knight.git
+	url = https://github.com/jonaskuske/kirby-meta-knight.git
+	branch = fix/thorough-previews
 [submodule "src/site/plugins/kirby-fingerprint"]
 	path = src/site/plugins/kirby-fingerprint
 	url = https://github.com/bvdputte/kirby-fingerprint.git
